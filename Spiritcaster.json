@@ -1,0 +1,747 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "SpiritcasterHB",
+        "abbreviation": "SPC",
+        "full": "Spiritcaster Homebrew",
+        "authors": [
+          "Homebrew"
+        ],
+        "convertedBy": [
+          "ChatGPT"
+        ]
+      }
+    ]
+  },
+  "class": [
+    {
+      "name": "Spiritcaster",
+      "source": "SpiritcasterHB",
+      "page": 1,
+      "hd": {
+        "number": 1,
+        "faces": 10
+      },
+      "proficiency": [
+        "str",
+        "int"
+      ],
+      "startingProficiencies": {
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "arcana",
+                "history",
+                "insight",
+                "investigation",
+                "medicine",
+                "perception",
+                "persuasion",
+                "religion",
+                "survival"
+              ],
+              "count": 3
+            }
+          }
+        ],
+        "weapons": [
+          "simple",
+          "martial"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shields"
+        ]
+      },
+      "startingEquipment": [
+        {
+          "_": "a martial weapon or b two simple weapons",
+          "containsValue": "martial weapon"
+        },
+        {
+          "_": "a shield or b another martial weapon",
+          "containsValue": "shield"
+        },
+        {
+          "item": "scale mail"
+        },
+        {
+          "item": "light crossbow"
+        },
+        {
+          "item": "crossbow bolt|20"
+        },
+        {
+          "item": "explorer's pack"
+        },
+        {
+          "value": 0,
+          "displayName": "a spiritual focus"
+        },
+        {
+          "value": 0,
+          "displayName": "a journal containing your notes on spirits"
+        }
+      ],
+      "classFeatures": [
+        "Spirit Gifts|Spiritcaster|SpiritcasterHB|1",
+        "Spellcasting|Spiritcaster|SpiritcasterHB|1",
+        "Weapon Mastery|Spiritcaster|SpiritcasterHB|1",
+        "Fighting Style|Spiritcaster|SpiritcasterHB|2",
+        "Spiritual Awareness|Spiritcaster|SpiritcasterHB|2",
+        "Spirit Path|Spiritcaster|SpiritcasterHB|3",
+        {
+          "classFeature": "Spirit Path Feature|Spiritcaster|SpiritcasterHB|3",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Spiritcaster|SpiritcasterHB|4",
+        "Extra Attack|Spiritcaster|SpiritcasterHB|5",
+        "Spiritual Armor|Spiritcaster|SpiritcasterHB|6",
+        {
+          "classFeature": "Spirit Path Feature|Spiritcaster|SpiritcasterHB|7",
+          "gainSubclassFeature": true
+        },
+        "Spectral Inquiry|Spiritcaster|SpiritcasterHB|9",
+        "Ascetic Discipline|Spiritcaster|SpiritcasterHB|10",
+        {
+          "classFeature": "Spirit Path Feature|Spiritcaster|SpiritcasterHB|11",
+          "gainSubclassFeature": true
+        },
+        "Echo Step|Spiritcaster|SpiritcasterHB|13",
+        "Soulbreaking Strikes|Spiritcaster|SpiritcasterHB|14",
+        {
+          "classFeature": "Spirit Path Feature|Spiritcaster|SpiritcasterHB|15",
+          "gainSubclassFeature": true
+        },
+        "Ethereal Step|Spiritcaster|SpiritcasterHB|17",
+        "Spirit Mastery|Spiritcaster|SpiritcasterHB|18",
+        "Epic Boon|Spiritcaster|SpiritcasterHB|19",
+        "Avatar of the Spirits|Spiritcaster|SpiritcasterHB|20"
+      ],
+      "classTableGroups": [
+        {
+          "title": "The Spiritcaster",
+          "colLabels": [
+            "Level",
+            "PB",
+            "Class Features",
+            "Gifts",
+            "Gift Spell Level"
+          ],
+          "rows": [
+            [
+              1,
+              "+2",
+              "Spirit Gifts, Spellcasting, Weapon Mastery",
+              2,
+              "1st"
+            ],
+            [
+              2,
+              "+2",
+              "Fighting Style, Spiritual Awareness",
+              2,
+              "1st"
+            ],
+            [
+              3,
+              "+2",
+              "Spirit Path, Gift Types",
+              2,
+              "1st"
+            ],
+            [
+              4,
+              "+2",
+              "Ability Score Improvement",
+              2,
+              "1st"
+            ],
+            [
+              5,
+              "+3",
+              "Extra Attack, Gift Spell Level Improvement",
+              3,
+              "2nd"
+            ],
+            [
+              6,
+              "+3",
+              "Spiritual Armor",
+              3,
+              "2nd"
+            ],
+            [
+              7,
+              "+3",
+              "Spirit Path Feature",
+              3,
+              "2nd"
+            ],
+            [
+              8,
+              "+3",
+              "Ability Score Improvement",
+              3,
+              "2nd"
+            ],
+            [
+              9,
+              "+4",
+              "Spectral Inquiry, Gift Spell Level Improvement",
+              4,
+              "3rd"
+            ],
+            [
+              10,
+              "+4",
+              "Ascetic Discipline",
+              4,
+              "3rd"
+            ],
+            [
+              11,
+              "+4",
+              "Spirit Path Feature",
+              4,
+              "3rd"
+            ],
+            [
+              12,
+              "+4",
+              "Ability Score Improvement",
+              4,
+              "3rd"
+            ],
+            [
+              13,
+              "+5",
+              "Echo Step, Gift Spell Level Improvement",
+              5,
+              "4th"
+            ],
+            [
+              14,
+              "+5",
+              "Soulbreaking Strikes",
+              5,
+              "4th"
+            ],
+            [
+              15,
+              "+5",
+              "Spirit Path Feature",
+              5,
+              "4th"
+            ],
+            [
+              16,
+              "+5",
+              "Ability Score Improvement",
+              5,
+              "4th"
+            ],
+            [
+              17,
+              "+6",
+              "Ethereal Step, Gift Spell Level Improvement",
+              6,
+              "5th"
+            ],
+            [
+              18,
+              "+6",
+              "Spirit Mastery",
+              6,
+              "5th"
+            ],
+            [
+              19,
+              "+6",
+              "Epic Boon",
+              6,
+              "5th"
+            ],
+            [
+              20,
+              "+6",
+              "Avatar of the Spirits",
+              6,
+              "5th"
+            ]
+          ]
+        }
+      ],
+      "classSpells": [
+        "Antilife Shell",
+        "Arcane Eye",
+        "Arcane Vigor|XPHB",
+        "Blink",
+        "Blur",
+        "Clairvoyance",
+        "Comprehend Languages",
+        "Crown of Madness",
+        "Death Ward",
+        "Detect Evil and Good",
+        "Dissonant Whispers",
+        "Fear",
+        "Aid",
+        "Alarm",
+        "Command",
+        "Commune",
+        "Enthrall",
+        "Faerie Fire",
+        "Destructive Wave",
+        "Freedom of Movement",
+        "Gaseous Form",
+        "Geas",
+        "Guardian of Faith",
+        "Heroism",
+        "Hypnotic Pattern",
+        "Identify",
+        "Knock",
+        "Legend Lore",
+        "Locate Creature",
+        "Locate Animals or Plants",
+        "Locate Object",
+        "Magic Mouth",
+        "Mind Spike",
+        "Phantasmal Force",
+        "Phantasmal Killer",
+        "See Invisibility",
+        "Seeming",
+        "Silent Image",
+        "Spirit Guardians",
+        "Spiritual Weapon",
+        "Summon Undead",
+        "Major Image",
+        "Mislead",
+        "Speak with Dead",
+        "Suggestion",
+        "Fog Cloud",
+        "Hold Person",
+		"Healing Spirit|XGE",
+		"Borrowed Knowledge|SCC",
+		"Cause Fear|XGE",
+		"Wardaway|FRHoF",
+		"Tasha's Mind Whip|TCE",
+		"Antagonize|BMT",
+		"Enemies Abound|XGE",
+		"Spirit Shroud|TCE",
+		"Raulothim's Psychic Lance|FTD",
+		"Spirit of Death|BMT",
+		"Enervation|XGE",
+		"Negative Energy Flood|XGE",
+		"Synaptic State|XGE"
+      ],
+      "spellcastingAbility": "int",
+      "fluff": {
+        "entries": [
+          {
+            "type": "section",
+            "name": "Spiritcaster",
+            "entries": [
+              "A spiritcaster is an intermediary between the living world and the unseen. Through study, meditation, and communion, spiritcasters learn to establish temporary bonds with spiritual entities. These spirits lend their strength to mortals, granting supernatural gifts that can turn an ordinary warrior into a formidable combatant or allow a scholar to perceive things hidden from mortal senses.",
+              "Yet every bond carries a price.",
+              "A spiritcaster can sever one of these bonds, releasing the spirit's accumulated power as a spell. When a spiritcaster does so, the creature who carried the gift loses its blessing until the next day.",
+              "A spiritcaster therefore constantly weighs two forms of power against one another: <b>the enduring strength of their spiritual bonds, or the immediate power of their magic.</b>"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Spirit Gifts",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 1,
+      "entries": [
+        "Your defining ability is your capacity to establish temporary bonds with spirits.",
+        "When you finish a Long Rest, you choose a number of <b>Spirit Gifts</b> equal to your Proficiency Bonus. You assign each Gift to yourself or to a willing member of your adventuring party.",
+        "A creature can bear only one of your Gifts at a time.",
+        "A Gift can be assigned only when you finish a Long Rest. Once assigned, a Gift cannot be moved to another creature, replaced with another Gift, or reassigned until you finish another Long Rest.",
+        "A Gift lasts until you finish your next Long Rest, unless it is severed.",
+        "A Spirit Gift cannot be assigned to a summoned creature, familiar, mount, Beast, or other creature that is not a member of your adventuring party.",
+        "Each Gift provides a passive benefit to its bearer.",
+        {
+          "type": "entries",
+          "name": "Severing a Gift",
+          "entries": [
+            "As a <b>Magic action</b>, you can sever one of your active Spirit Gifts. The bearer must be within 30 feet of you, and you must be able to see the bearer. You can also sever a Gift you bear yourself.",
+            "When you sever a Gift, its passive benefit immediately ends and the Gift is unavailable until you finish a Long Rest.",
+            "At the same time, you cast the spell associated with that Gift. The spell requires no spell slot, but otherwise follows the normal rules for casting the spell, including its components, concentration, targets, and duration.",
+            "If the spell normally requires an action, the Magic action used to sever the Gift is also the action used to cast the spell."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Spiritual Sacrifice",
+          "entries": [
+            "A severed Gift cannot be restored during the same adventuring day. The Spiritcaster must decide whether a Gift's passive benefit is more valuable than the magic that lies within it."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 1,
+      "entries": [
+        "You have learned to channel spiritual energy into spells.",
+        {
+          "type": "entries",
+          "name": "Gift Spells",
+          "entries": [
+            "Rather than preparing spells normally, you select your Spirit Gifts after every Long Rest. Each Gift has one associated spell, and severing that Gift allows you to cast its associated spell.",
+            "You cannot cast a Spirit Gift spell unless you currently bear or have assigned that Gift.",
+            "The maximum level of your Gift spells is shown in the Spiritcaster Features table."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Spellcasting Ability",
+          "entries": [
+            "Intelligence is your spellcasting ability for your Spiritcaster spells.",
+            "You use your Intelligence whenever a Spiritcaster spell refers to your spellcasting ability. You also use your Intelligence modifier when setting the saving throw DC for a Spiritcaster spell you cast and when making an attack roll with one.",
+            "<b>Spell save DC</b> = 8 + your Proficiency Bonus + your Intelligence modifier",
+            "<b>Spell attack modifier</b> = your Proficiency Bonus + your Intelligence modifier"
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Spellcasting Focus",
+          "entries": [
+            "You can use an arcane focus, a spiritual focus, or a weapon with which you have proficiency as a Spellcasting Focus for your Spiritcaster spells."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weapon Mastery",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 1,
+      "entries": [
+        "Your training with weapons allows you to use the Mastery properties of two kinds of weapons with which you have proficiency.",
+        "Whenever you finish a Long Rest, you can change the kinds of weapons you chose."
+      ]
+    },
+    {
+      "name": "Fighting Style",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 2,
+      "entries": [
+        "You gain a Fighting Style feat of your choice for which you qualify.",
+        "You can't choose the same Fighting Style more than once, even if you later gain another Fighting Style feature."
+      ]
+    },
+    {
+      "name": "Spiritual Awareness",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 2,
+      "entries": [
+        "Your study of spirits has sharpened your ability to notice disturbances between the material and spiritual worlds.",
+        "You gain proficiency in <b>Arcana</b> or <b>Investigation</b>. If you already have proficiency in both, you instead gain Expertise in one of them.",
+        "In addition, you can perform a 1-minute examination of a creature, object, or location and determine whether it bears a lingering spiritual influence.",
+        "The DM determines what information is available, but you might learn whether the target has:",
+        {
+          "type": "list",
+          "items": [
+            "Been the site of a recent death.",
+            "Been affected by a spirit or extraplanar entity.",
+            "Been the target of possession or a similar supernatural influence.",
+            "Been used as a spiritual focus.",
+            "Been associated with a significant supernatural event."
+          ]
+        },
+        "This feature does not automatically reveal the identity or intentions of a spirit."
+      ]
+    },
+    {
+      "name": "Spirit Path",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 3,
+      "entries": [
+        "You choose a path that determines the kind of relationship you cultivate with the spirit world.",
+        "Choose one of the following Spirit Paths:",
+        {
+          "type": "list",
+          "items": [
+            "<b>Path of the Ascetic</b>, which treats the body as a vessel for spiritual force.",
+            "<b>Path of the Medium</b>, which specializes in communication, divination, and negotiation with spirits.",
+            "<b>Path of the Warden</b>, which protects allies through spiritual bonds."
+          ]
+        },
+        "Your Spirit Path grants features at 3rd, 7th, 11th, and 15th level."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 4,
+      "entries": [
+        "You gain the Ability Score Improvement feat or another feat for which you qualify.",
+        "You gain this feature again at 8th, 12th, and 16th level."
+      ]
+    },
+    {
+      "name": "Extra Attack",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 5,
+      "entries": [
+        "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "Spiritual Armor",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 6,
+      "entries": [
+        "Your spirit can reinforce your body against harm.",
+        "When you take damage from an attack or other damaging effect, you can take a Reaction to reduce the damage by an amount equal to your Intelligence modifier + your Proficiency Bonus.",
+        "You can use this Reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Spectral Inquiry",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 9,
+      "entries": [
+        "You have learned how to seek information from the dead and from spirits that linger in the world.",
+        "When you spend 10 minutes meditating on a specific question, you can attempt to contact a spirit that might know the answer.",
+        "Make an Intelligence (Arcana), Intelligence (History), or Intelligence (Religion) check against a DC determined by the DM.",
+        "On a success, you receive a cryptic indication of where or from whom useful information might be obtained.",
+        "The spirit does not necessarily answer the question itself.",
+        "On a failure, you receive no useful information.",
+        "Once you successfully use this feature, you can't use it again until you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Ascetic Discipline",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 10,
+      "entries": [
+        "Your mastery of the spiritual self has made ordinary physical needs less significant.",
+        {
+          "type": "list",
+          "items": [
+            "You have Advantage on saving throws against the Poisoned condition.",
+            "You have Resistance to Poison damage.",
+            "You need only half the normal amount of food and water.",
+            "You require only 6 hours to gain the benefits of a Long Rest, provided you spend the remaining time performing light activity such as meditation, reading, or keeping watch."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Echo Step",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 13,
+      "entries": [
+        "You have learned to briefly slip between the Material Plane and the spirit world.",
+        "As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see.",
+        "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Soulbreaking Strikes",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 14,
+      "entries": [
+        "Your attacks can disrupt the spiritual cohesion of your enemies.",
+        "Once per turn when you hit a creature with a weapon attack, you can force it to make a Wisdom saving throw against your Spiritcaster spell save DC.",
+        "On a failed save, the target becomes <b>Spirit-Broken</b> until the start of your next turn.",
+        {
+          "type": "entries",
+          "name": "Spirit-Broken",
+          "entries": [
+            "Its Speed is reduced by 10 feet.",
+            "It can't take Reactions.",
+            "The next attack roll made against it has Advantage."
+          ]
+        },
+        "A creature that succeeds on the saving throw is immune to this feature until the start of your next turn."
+      ]
+    },
+    {
+      "name": "Ethereal Step",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 17,
+      "entries": [
+        "You can momentarily abandon your physical form.",
+        "When you are hit by an attack, you can take a Reaction to become partially incorporeal until the end of the current turn.",
+        "The triggering attack deals <b>half damage</b> to you.",
+        "Until the end of the turn, you can move through creatures and objects as if they were Difficult Terrain.",
+        "If you end your turn inside a creature or object, you are moved to the nearest unoccupied space and take Force damage equal to twice your Spiritcaster level.",
+        "Once you use this feature, you can't use it again until you finish a Short or Long Rest."
+      ]
+    },
+    {
+      "name": "Spirit Mastery",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 18,
+      "entries": [
+        "Your bonds with the spirit world have become extraordinarily resilient.",
+        "When you sever a Spirit Gift, you can choose to retain that Gift's passive benefit until the end of your current turn.",
+        "In addition, while you are within 10 feet of a creature carrying one of your active Spirit Gifts, you have Advantage on Constitution saving throws you make to maintain Concentration."
+      ]
+    },
+    {
+      "name": "Epic Boon",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 19,
+      "entries": [
+        "You gain an Epic Boon feat or another feat for which you qualify."
+      ]
+    },
+    {
+      "name": "Avatar of the Spirits",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 20,
+      "entries": [
+        "You have become a living conduit between the material world and the spirit realm.",
+        "Whenever you roll Initiative, you can restore one Spirit Gift that you previously severed during the current adventuring day.",
+        "The restored Gift returns to the creature that originally bore it, and its passive benefit immediately resumes.",
+        "Once you restore a Gift using this feature, you can't do so again until you finish a Long Rest.",
+        "In addition, while you have at least one active Spirit Gift, you gain a <b>+2 bonus to your Intelligence score</b>, to a maximum of 22."
+      ]
+    },
+    {
+      "name": "Gift Types Known",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 1,
+      "entries": [
+        "Your Gifts are manifestations of the spirits you have learned to commune with.",
+        "A Spiritcaster does not automatically know every Gift. Your Spiritcaster level determines how many Gift types you know.",
+        "At the end of a Long Rest, you choose which known Gifts to assign.",
+        "Each Gift has exactly one associated spell.",
+        "<b>Severing a Gift casts that Gift's associated spell at the highest Gift Spell Level you can use.</b>",
+        {
+          "type": "table",
+          "caption": "Gift Types Known",
+          "colLabels": [
+            "Spiritcaster Level",
+            "Gift Types Known"
+          ],
+          "rows": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              9,
+              6
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              13,
+              8
+            ],
+            [
+              15,
+              9
+            ],
+            [
+              17,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spirit Path Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 3,
+      "entries": [
+        "Your Spirit Path grants you a feature at this level."
+      ]
+    },
+    {
+      "name": "Spirit Path Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 7,
+      "entries": [
+        "Your Spirit Path grants you a feature at this level."
+      ]
+    },
+    {
+      "name": "Spirit Path Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 11,
+      "entries": [
+        "Your Spirit Path grants you a feature at this level."
+      ]
+    },
+    {
+      "name": "Spirit Path Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "level": 15,
+      "entries": [
+        "Your Spirit Path grants you a feature at this level."
+      ]
+    }
+  ]
+}
