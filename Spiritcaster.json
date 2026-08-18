@@ -327,9 +327,9 @@
 		"Steel Wind Strike|XPHB",
 		"Remove Curse|XPHB",
 		"Pulse Wave|EGW",
-		"Stellar Bodies|HCS",
 		"Zephyr Strike|XGE",
 		"Guardian of Nature|XGE",
+		"Stellar Bodies|HCS",
 		"Skill Empowerment|XGE"		  
       ],
       "spellcastingAbility": "int",
