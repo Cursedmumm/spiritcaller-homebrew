@@ -325,13 +325,12 @@
 		"Scrying",
 		"Death Armor",
 		"Steel Wind Strike",
-		"Remove Curse",
-		"Pulse Wave",
-		"Stellar Bodies",
-		"Zephyr Strike",
-		"Guardian of Nature",
-		"Skill Empowerment"
-		  
+		"Remove Curse|XPHB",
+		"Pulse Wave|EGW",
+		"Stellar Bodies|HWCS",
+		"Zephyr Strike|XGE",
+		"Guardian of Nature|XGE",
+		"Skill Empowerment|XGE"		  
       ],
       "spellcastingAbility": "int",
       "fluff": {
