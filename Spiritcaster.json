@@ -791,23 +791,24 @@
         {
           "prepared": {
             "3": [
-              "silent image",
-              "phantasmal force"
+              "command",
+              "silent image"
             ],
             "5": [
-              "major image",
-              "phantasmal killer"
+              "crown of madness",
+              "phantasmal force" 
             ],
             "9": [
-              "mislead",
-              "command"
+              "catnap|xge",
+              "Hypnotic Pattern"
             ],
             "13": [
-              "crown of madness",
-              "catnap|xge"
+              "compulsion",
+              "phantasmal killer"
+              
             ],
             "17": [
-              "compulsion",
+              "Mislead",
               "modify memory"
             ]
           }
@@ -843,24 +844,25 @@
         {
           "prepared": {
             "3": [
-              "identify",
-              "mind spike|xphb"
+              "dissonant whispers",
+              "identify"
             ],
             "5": [
-              "tongues",
-              "arcane eye|xphb"
+              "mind spike|xphb",
+              "tasha's mind whip|tce"
             ],
             "9": [
-              "scrying",
-              "dissonant whispers"
+              "antagonize|bmt",
+              "tongues"                         
             ],
             "13": [
-              "tasha's mind whip|tce",
-              "antagonize|bmt"
+              "arcane eye|xphb",
+              "raulothim's psychic lance|ftd"           
             ],
-            "17": [
-              "raulothim's psychic lance|ftd",
+            "17": [   
+              "scrying",
               "synaptic static|xphb"
+             
             ]
           }
         }
@@ -1074,23 +1076,23 @@
           "rows": [
             [
               "3rd",
-              "{@spell Silent Image}, {@spell Phantasmal Force}"
+              "{@spell Command}, {@spell Silent Image} "
             ],
             [
               "5th",
-              "{@spell Major Image}, {@spell Phantasmal Killer}"
+              "{@spell Crown of Madness}, {@spell Phantasmal Force}"
             ],
             [
               "9th",
-              "{@spell Mislead}, {@spell Command}"
+              "{@spell Catnap|XGE} , {@spell Hypnotic Pattern}"
             ],
             [
               "13th",
-              "{@spell Crown of Madness}, {@spell Catnap|XGE}"
+              "{@spell Compulsion},  {@spell Phantasmal Killer}"
             ],
             [
               "17th",
-              "{@spell Compulsion}, {@spell Modify Memory}"
+              "{@spell Mislead}, {@spell Modify Memory}"
             ]
           ]
         }
@@ -1116,23 +1118,23 @@
           "rows": [
             [
               "3rd",
-              "{@spell Identify}, {@spell Mind Spike|XPHB}"
+              "{@spell Identify}, {@spell Dissonant Whispers} "
             ],
             [
               "5th",
-              "{@spell Tongues}, {@spell Arcane Eye|XPHB}"
+              "{@spell Mind Spike|XPHB} , {@spell Tasha's Mind Whip|TCE} "
             ],
             [
               "9th",
-              "{@spell Scrying}, {@spell Dissonant Whispers}"
+              " {@spell Antagonize|BMT},{@spell Tongues} "
             ],
             [
               "13th",
-              "{@spell Tasha's Mind Whip|TCE}, {@spell Antagonize|BMT}"
+              " {@spell Arcane Eye|XPHB}, {@spell Raulothim's Psychic Lance|FTD}"
             ],
             [
               "17th",
-              "{@spell Raulothim's Psychic Lance|FTD}, {@spell Synaptic Static|XPHB}"
+              " {@spell Scrying}, {@spell Synaptic Static|XPHB}"
             ]
           ]
         }
