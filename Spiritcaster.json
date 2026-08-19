@@ -275,63 +275,33 @@
           ]
         }
       ],
-      "classSpells": [
-        "Antilife Shell",
-        "Arcane Eye|XPHB",
-        "Arcane Vigor|XPHB",
-        "Blink",
-        "Blur",
-        "Clairvoyance",
-        "Comprehend Languages",
-        "Crown of Madness",
-        "Dissonant Whispers",
-        "Fear",
-        "Command",
-        "Faerie Fire",
-        "Destructive Wave",
-        "Freedom of Movement",
-        "Guardian of Faith",
-        "Identify",
-        "Knock",
-        "Legend Lore",
-        "Locate Creature",
-        "Mind Spike|XPHB",
-        "Phantasmal Force",
-        "Phantasmal Killer",
-        "Seeming",
-        "Silent Image",
-        "Spirit Guardians",
-        "Spiritual Weapon",
-        "Major Image",
-        "Mislead",
-        "Fog Cloud",
-		"Healing Spirit|XGE",
-		"Borrowed Knowledge|SCC",
-		"Cause Fear|XGE",
-		"Wardaway|FRHoF",
-		"Tasha's Mind Whip|TCE",
-		"Antagonize|BMT",
-		"Spirit Shroud|TCE",
-		"Raulothim's Psychic Lance|FTD",
-		"Spirit of Death|BMT",
-		"Negative Energy Flood|XGE",
-		"Synaptic Static|XPHB",
-		"Catnap|XGE",
-	    "Compulsion",
-		"Modify Memory",
-		"Color Spray",
-		"Greater Invisibility",
-		"Tongues",
-		"Scrying",
-		"Death Armor|FRHoF",
-		"Steel Wind Strike|XPHB",
-		"Remove Curse|XPHB",
-		"Pulse Wave|EGW",
-		"Zephyr Strike|XGE",
-		"Guardian of Nature|XGE",
-		"Stellar Bodies|HCS",
-		"Skill Empowerment|XGE"		  
-      ],
+     "classSpells": [
+  "Antilife Shell",
+  "Arcane Vigor|XPHB",
+  "Blink",
+  "Faerie Fire",
+  "Destructive Wave",
+  "Freedom of Movement",
+  "Guardian of Faith",
+  "Knock",
+  "Spirit Guardians",
+  "Spiritual Weapon",
+  "Fog Cloud",
+  "Healing Spirit|XGE",
+  "Cause Fear|XGE",
+  "Wardaway|FRHoF",
+  "Spirit Shroud|TCE",
+  "Spirit of Death|BMT",
+  "Negative Energy Flood|XGE",
+  "Death Armor|FRHoF",
+  "Steel Wind Strike|XPHB",
+  "Remove Curse|XPHB",
+  "Pulse Wave|EGW",
+  "Zephyr Strike|XGE",
+  "Guardian of Nature|XGE",
+  "Stellar Bodies|HCS",
+  "Skill Empowerment|XGE"
+],
       "spellcastingAbility": "int",
       "fluff": {
         "entries": [
@@ -738,5 +708,334 @@
         "Your Spirit Path grants you a feature at this level."
       ]
     }
+  ],
+	  "classFeature": [
+    ...
+  ],
+
+  "subclass": [
+    {
+      "name": "Path of the Ascetic",
+      "shortName": "Ascetic",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+
+      "subclassFeatures": [
+        "Path of the Ascetic|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|3",
+        "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|7",
+        "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|11",
+        "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|15"
+      ],
+
+      "subclassSpells": [
+        "Color Spray",
+        "Comprehend Languages",
+        "Blur",
+        "Borrowed Knowledge|SCC",
+        "Fear",
+        "Clairvoyance",
+        "Greater Invisibility",
+        "Locate Creature",
+        "Seeming",
+        "Legend Lore"
+      ],
+
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "Color Spray",
+              "Comprehend Languages"
+            ],
+            "5": [
+              "Blur",
+              "Borrowed Knowledge|SCC"
+            ],
+            "9": [
+              "Fear",
+              "Clairvoyance"
+            ],
+            "13": [
+              "Greater Invisibility",
+              "Locate Creature"
+            ],
+            "17": [
+              "Seeming",
+              "Legend Lore"
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Path of the Medium",
+      "shortName": "Medium",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+
+      "subclassFeatures": [
+        "Path of the Medium|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|3",
+        "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|7",
+        "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|11",
+        "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|15"
+      ],
+
+      "subclassSpells": [
+        "Silent Image",
+        "Phantasmal Force",
+        "Major Image",
+        "Phantasmal Killer",
+        "Mislead",
+        "Command",
+        "Crown of Madness",
+        "Catnap|XGE",
+        "Compulsion",
+        "Modify Memory"
+      ],
+
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "Silent Image",
+              "Phantasmal Force"
+            ],
+            "5": [
+              "Major Image",
+              "Phantasmal Killer"
+            ],
+            "9": [
+              "Mislead",
+              "Command"
+            ],
+            "13": [
+              "Crown of Madness",
+              "Catnap|XGE"
+            ],
+            "17": [
+              "Compulsion",
+              "Modify Memory"
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Path of the Warden",
+      "shortName": "Warden",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+
+      "subclassFeatures": [
+        "Path of the Warden|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|3",
+        "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|7",
+        "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|11",
+        "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|15"
+      ],
+
+      "subclassSpells": [
+        "Identify",
+        "Mind Spike|XPHB",
+        "Tongues",
+        "Arcane Eye|XPHB",
+        "Scrying",
+        "Dissonant Whispers",
+        "Tasha's Mind Whip|TCE",
+        "Antagonize|BMT",
+        "Raulothim's Psychic Lance|FTD",
+        "Synaptic Static|XPHB"
+      ],
+
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "Identify",
+              "Mind Spike|XPHB"
+            ],
+            "5": [
+              "Tongues",
+              "Arcane Eye|XPHB"
+            ],
+            "9": [
+              "Scrying",
+              "Dissonant Whispers"
+            ],
+            "13": [
+              "Tasha's Mind Whip|TCE",
+              "Antagonize|BMT"
+            ],
+            "17": [
+              "Raulothim's Psychic Lance|FTD",
+              "Synaptic Static|XPHB"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+
+  "subclassFeature": [
+    {
+      "name": "Path of the Ascetic",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Ascetic",
+      "subclassSource": "SpiritcasterHB",
+      "level": 3,
+      "entries": [
+        "You choose the Path of the Ascetic, treating the body as a vessel for spiritual force."
+      ]
+    },
+
+    {
+      "name": "Path of the Ascetic Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Ascetic",
+      "subclassSource": "SpiritcasterHB",
+      "level": 7,
+      "entries": [
+        "Your Path of the Ascetic grants you a feature at this level."
+      ]
+    },
+
+    {
+      "name": "Path of the Ascetic Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Ascetic",
+      "subclassSource": "SpiritcasterHB",
+      "level": 11,
+      "entries": [
+        "Your Path of the Ascetic grants you a feature at this level."
+      ]
+    },
+
+    {
+      "name": "Path of the Ascetic Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Ascetic",
+      "subclassSource": "SpiritcasterHB",
+      "level": 15,
+      "entries": [
+        "Your Path of the Ascetic grants you a feature at this level."
+      ]
+    },
+
+    {
+      "name": "Path of the Medium",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Medium",
+      "subclassSource": "SpiritcasterHB",
+      "level": 3,
+      "entries": [
+        "You choose the Path of the Medium, specializing in communication, divination, and negotiation with spirits."
+      ]
+    },
+
+    {
+      "name": "Path of the Medium Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Medium",
+      "subclassSource": "SpiritcasterHB",
+      "level": 7,
+      "entries": [
+        "Your Path of the Medium grants you a feature at this level."
+      ]
+    },
+
+    {
+      "name": "Path of the Medium Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Medium",
+      "subclassSource": "SpiritcasterHB",
+      "level": 11,
+      "entries": [
+        "Your Path of the Medium grants you a feature at this level."
+      ]
+    },
+
+    {
+      "name": "Path of the Medium Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Medium",
+      "subclassSource": "SpiritcasterHB",
+      "level": 15,
+      "entries": [
+        "Your Path of the Medium grants you a feature at this level."
+      ]
+    },
+
+    {
+      "name": "Path of the Warden",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Warden",
+      "subclassSource": "SpiritcasterHB",
+      "level": 3,
+      "entries": [
+        "You choose the Path of the Warden, protecting allies through spiritual bonds."
+      ]
+    },
+
+    {
+      "name": "Path of the Warden Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Warden",
+      "subclassSource": "SpiritcasterHB",
+      "level": 7,
+      "entries": [
+        "Your Path of the Warden grants you a feature at this level."
+      ]
+    },
+
+    {
+      "name": "Path of the Warden Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Warden",
+      "subclassSource": "SpiritcasterHB",
+      "level": 11,
+      "entries": [
+        "Your Path of the Warden grants you a feature at this level."
+      ]
+    },
+
+    {
+      "name": "Path of the Warden Feature",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Warden",
+      "subclassSource": "SpiritcasterHB",
+      "level": 15,
+      "entries": [
+        "Your Path of the Warden grants you a feature at this level."
+      ]
+    }
   ]
+}
 }
