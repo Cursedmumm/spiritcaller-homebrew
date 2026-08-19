@@ -275,33 +275,33 @@
           ]
         }
       ],
-     "classSpells": [
-  "Antilife Shell",
-  "Arcane Vigor|XPHB",
-  "Blink",
-  "Faerie Fire",
-  "Destructive Wave",
-  "Freedom of Movement",
-  "Guardian of Faith",
-  "Knock",
-  "Spirit Guardians",
-  "Spiritual Weapon",
-  "Fog Cloud",
-  "Healing Spirit|XGE",
-  "Cause Fear|XGE",
-  "Wardaway|FRHoF",
-  "Spirit Shroud|TCE",
-  "Spirit of Death|BMT",
-  "Negative Energy Flood|XGE",
-  "Death Armor|FRHoF",
-  "Steel Wind Strike|XPHB",
-  "Remove Curse|XPHB",
-  "Pulse Wave|EGW",
-  "Zephyr Strike|XGE",
-  "Guardian of Nature|XGE",
-  "Stellar Bodies|HCS",
-  "Skill Empowerment|XGE"
-],
+      "classSpells": [
+        "Antilife Shell",
+        "Arcane Vigor|XPHB",
+        "Blink",
+        "Faerie Fire",
+        "Destructive Wave",
+        "Freedom of Movement",
+        "Guardian of Faith",
+        "Knock",
+        "Spirit Guardians",
+        "Spiritual Weapon",
+        "Fog Cloud",
+        "Healing Spirit|XGE",
+        "Cause Fear|XGE",
+        "Wardaway|FRHoF",
+        "Spirit Shroud|TCE",
+        "Spirit of Death|BMT",
+        "Negative Energy Flood|XGE",
+        "Death Armor|FRHoF",
+        "Steel Wind Strike|XPHB",
+        "Remove Curse|XPHB",
+        "Pulse Wave|EGW",
+        "Zephyr Strike|XGE",
+        "Guardian of Nature|XGE",
+        "Stellar Bodies|HCS",
+        "Skill Empowerment|XGE"
+      ],
       "spellcastingAbility": "int",
       "fluff": {
         "entries": [
@@ -716,14 +716,12 @@
       "source": "SpiritcasterHB",
       "className": "Spiritcaster",
       "classSource": "SpiritcasterHB",
-
       "subclassFeatures": [
         "Path of the Ascetic|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|3",
         "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|7",
         "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|11",
         "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|15"
       ],
-
       "subclassSpells": [
         "Color Spray",
         "Comprehend Languages",
@@ -736,7 +734,6 @@
         "Seeming",
         "Legend Lore"
       ],
-
       "additionalSpells": [
         {
           "prepared": {
@@ -764,21 +761,18 @@
         }
       ]
     },
-
     {
       "name": "Path of the Medium",
       "shortName": "Medium",
       "source": "SpiritcasterHB",
       "className": "Spiritcaster",
       "classSource": "SpiritcasterHB",
-
       "subclassFeatures": [
         "Path of the Medium|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|3",
         "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|7",
         "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|11",
         "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|15"
       ],
-
       "subclassSpells": [
         "Silent Image",
         "Phantasmal Force",
@@ -791,7 +785,6 @@
         "Compulsion",
         "Modify Memory"
       ],
-
       "additionalSpells": [
         {
           "prepared": {
@@ -819,21 +812,18 @@
         }
       ]
     },
-
     {
       "name": "Path of the Warden",
       "shortName": "Warden",
       "source": "SpiritcasterHB",
       "className": "Spiritcaster",
       "classSource": "SpiritcasterHB",
-
       "subclassFeatures": [
         "Path of the Warden|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|3",
         "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|7",
         "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|11",
         "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|15"
       ],
-
       "subclassSpells": [
         "Identify",
         "Mind Spike|XPHB",
@@ -846,7 +836,6 @@
         "Raulothim's Psychic Lance|FTD",
         "Synaptic Static|XPHB"
       ],
-
       "additionalSpells": [
         {
           "prepared": {
@@ -875,7 +864,6 @@
       ]
     }
   ],
-
   "subclassFeature": [
     {
       "name": "Path of the Ascetic",
@@ -889,7 +877,6 @@
         "You choose the Path of the Ascetic, treating the body as a vessel for spiritual force."
       ]
     },
-
     {
       "name": "Path of the Ascetic Feature",
       "source": "SpiritcasterHB",
@@ -902,7 +889,6 @@
         "Your Path of the Ascetic grants you a feature at this level."
       ]
     },
-
     {
       "name": "Path of the Ascetic Feature",
       "source": "SpiritcasterHB",
@@ -915,7 +901,6 @@
         "Your Path of the Ascetic grants you a feature at this level."
       ]
     },
-
     {
       "name": "Path of the Ascetic Feature",
       "source": "SpiritcasterHB",
@@ -928,7 +913,6 @@
         "Your Path of the Ascetic grants you a feature at this level."
       ]
     },
-
     {
       "name": "Path of the Medium",
       "source": "SpiritcasterHB",
@@ -941,7 +925,6 @@
         "You choose the Path of the Medium, specializing in communication, divination, and negotiation with spirits."
       ]
     },
-
     {
       "name": "Path of the Medium Feature",
       "source": "SpiritcasterHB",
@@ -954,7 +937,6 @@
         "Your Path of the Medium grants you a feature at this level."
       ]
     },
-
     {
       "name": "Path of the Medium Feature",
       "source": "SpiritcasterHB",
@@ -967,7 +949,6 @@
         "Your Path of the Medium grants you a feature at this level."
       ]
     },
-
     {
       "name": "Path of the Medium Feature",
       "source": "SpiritcasterHB",
@@ -980,7 +961,6 @@
         "Your Path of the Medium grants you a feature at this level."
       ]
     },
-
     {
       "name": "Path of the Warden",
       "source": "SpiritcasterHB",
@@ -993,7 +973,6 @@
         "You choose the Path of the Warden, protecting allies through spiritual bonds."
       ]
     },
-
     {
       "name": "Path of the Warden Feature",
       "source": "SpiritcasterHB",
@@ -1006,7 +985,6 @@
         "Your Path of the Warden grants you a feature at this level."
       ]
     },
-
     {
       "name": "Path of the Warden Feature",
       "source": "SpiritcasterHB",
@@ -1019,7 +997,6 @@
         "Your Path of the Warden grants you a feature at this level."
       ]
     },
-
     {
       "name": "Path of the Warden Feature",
       "source": "SpiritcasterHB",
@@ -1033,5 +1010,4 @@
       ]
     }
   ]
-}
 }
