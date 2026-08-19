@@ -718,6 +718,7 @@
       "classSource": "SpiritcasterHB",
       "subclassFeatures": [
         "Path of the Ascetic|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|3",
+        "Path of the Ascetic Spells|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|3",
         "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|7",
         "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|11",
         "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|15"
@@ -738,24 +739,24 @@
         {
           "prepared": {
             "3": [
-              "Color Spray",
-              "Comprehend Languages"
+              "color spray",
+              "comprehend languages"
             ],
             "5": [
-              "Blur",
-              "Borrowed Knowledge|SCC"
+              "blur",
+              "borrowed knowledge|scc"
             ],
             "9": [
-              "Fear",
-              "Clairvoyance"
+              "fear",
+              "clairvoyance"
             ],
             "13": [
-              "Greater Invisibility",
-              "Locate Creature"
+              "greater invisibility",
+              "locate creature"
             ],
             "17": [
-              "Seeming",
-              "Legend Lore"
+              "seeming",
+              "legend lore"
             ]
           }
         }
@@ -769,6 +770,7 @@
       "classSource": "SpiritcasterHB",
       "subclassFeatures": [
         "Path of the Medium|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|3",
+        "Path of the Medium Spells|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|3",
         "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|7",
         "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|11",
         "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|15"
@@ -789,24 +791,24 @@
         {
           "prepared": {
             "3": [
-              "Silent Image",
-              "Phantasmal Force"
+              "silent image",
+              "phantasmal force"
             ],
             "5": [
-              "Major Image",
-              "Phantasmal Killer"
+              "major image",
+              "phantasmal killer"
             ],
             "9": [
-              "Mislead",
-              "Command"
+              "mislead",
+              "command"
             ],
             "13": [
-              "Crown of Madness",
-              "Catnap|XGE"
+              "crown of madness",
+              "catnap|xge"
             ],
             "17": [
-              "Compulsion",
-              "Modify Memory"
+              "compulsion",
+              "modify memory"
             ]
           }
         }
@@ -820,6 +822,7 @@
       "classSource": "SpiritcasterHB",
       "subclassFeatures": [
         "Path of the Warden|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|3",
+        "Path of the Warden Spells|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|3",
         "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|7",
         "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|11",
         "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|15"
@@ -840,24 +843,24 @@
         {
           "prepared": {
             "3": [
-              "Identify",
-              "Mind Spike|XPHB"
+              "identify",
+              "mind spike|xphb"
             ],
             "5": [
-              "Tongues",
-              "Arcane Eye|XPHB"
+              "tongues",
+              "arcane eye|xphb"
             ],
             "9": [
-              "Scrying",
-              "Dissonant Whispers"
+              "scrying",
+              "dissonant whispers"
             ],
             "13": [
-              "Tasha's Mind Whip|TCE",
-              "Antagonize|BMT"
+              "tasha's mind whip|tce",
+              "antagonize|bmt"
             ],
             "17": [
-              "Raulothim's Psychic Lance|FTD",
-              "Synaptic Static|XPHB"
+              "raulothim's psychic lance|ftd",
+              "synaptic static|xphb"
             ]
           }
         }
@@ -1007,6 +1010,132 @@
       "level": 15,
       "entries": [
         "Your Path of the Warden grants you a feature at this level."
+      ]
+    },
+    {
+      "name": "Path of the Ascetic Spells",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Ascetic",
+      "subclassSource": "SpiritcasterHB",
+      "level": 3,
+      "entries": [
+        "Your spiritual discipline grants you additional spells. When you reach a Spiritcaster level specified in the Path of the Ascetic Spells table, you thereafter always have the listed spells prepared.",
+        {
+          "type": "table",
+          "caption": "Path of the Ascetic Spells",
+          "colLabels": [
+            "Spiritcaster Level",
+            "Spells"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell Color Spray}, {@spell Comprehend Languages}"
+            ],
+            [
+              "5th",
+              "{@spell Blur}, {@spell Borrowed Knowledge|SCC}"
+            ],
+            [
+              "9th",
+              "{@spell Fear}, {@spell Clairvoyance}"
+            ],
+            [
+              "13th",
+              "{@spell Greater Invisibility}, {@spell Locate Creature}"
+            ],
+            [
+              "17th",
+              "{@spell Seeming}, {@spell Legend Lore}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Path of the Medium Spells",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Medium",
+      "subclassSource": "SpiritcasterHB",
+      "level": 3,
+      "entries": [
+        "Your connection to spirits grants you additional spells. When you reach a Spiritcaster level specified in the Path of the Medium Spells table, you thereafter always have the listed spells prepared.",
+        {
+          "type": "table",
+          "caption": "Path of the Medium Spells",
+          "colLabels": [
+            "Spiritcaster Level",
+            "Spells"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell Silent Image}, {@spell Phantasmal Force}"
+            ],
+            [
+              "5th",
+              "{@spell Major Image}, {@spell Phantasmal Killer}"
+            ],
+            [
+              "9th",
+              "{@spell Mislead}, {@spell Command}"
+            ],
+            [
+              "13th",
+              "{@spell Crown of Madness}, {@spell Catnap|XGE}"
+            ],
+            [
+              "17th",
+              "{@spell Compulsion}, {@spell Modify Memory}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Path of the Warden Spells",
+      "source": "SpiritcasterHB",
+      "className": "Spiritcaster",
+      "classSource": "SpiritcasterHB",
+      "subclassShortName": "Warden",
+      "subclassSource": "SpiritcasterHB",
+      "level": 3,
+      "entries": [
+        "Your spiritual bonds grant you additional spells. When you reach a Spiritcaster level specified in the Path of the Warden Spells table, you thereafter always have the listed spells prepared.",
+        {
+          "type": "table",
+          "caption": "Path of the Warden Spells",
+          "colLabels": [
+            "Spiritcaster Level",
+            "Spells"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell Identify}, {@spell Mind Spike|XPHB}"
+            ],
+            [
+              "5th",
+              "{@spell Tongues}, {@spell Arcane Eye|XPHB}"
+            ],
+            [
+              "9th",
+              "{@spell Scrying}, {@spell Dissonant Whispers}"
+            ],
+            [
+              "13th",
+              "{@spell Tasha's Mind Whip|TCE}, {@spell Antagonize|BMT}"
+            ],
+            [
+              "17th",
+              "{@spell Raulothim's Psychic Lance|FTD}, {@spell Synaptic Static|XPHB}"
+            ]
+          ]
+        }
       ]
     }
   ]
