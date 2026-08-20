@@ -783,7 +783,7 @@
         "Dream",
         "Cause Fear|XGE",
         "Death armor|FRHoF",
-        "Shroud of spirits|TCE",
+        "Spirit Shroud|TCE",
         "Shadow of Moil|XGE",
         "Negative energy Flood|XGE"
       ],
@@ -800,7 +800,7 @@
             ],
             "9": [
               "Fear",
-              "Shroud of spirits|TCE"
+              "Spirit Shroud|TCE"
             ],
             "13": [
               "phantasmal killer",
@@ -1083,7 +1083,7 @@
             ],
             [
               "9th",
-              "{@spell Fear} , {@spell Shroud of spirits|TCE}"
+              "{@spell Fear} , {@spell Spirit Shroud|TCE}"
             ],
             [
               "13th",
