@@ -300,7 +300,12 @@
         "Zephyr Strike|XGE",
         "Guardian of Nature|XGE",
         "Stellar Bodies|HCS",
-        "Skill Empowerment|XGE"
+        "Skill Empowerment|XGE",
+        "Identify",
+        "Borrowed Knowledge|SCC",
+        "Clairvoyance",
+        "Locate Creature",
+        "Scrying"
       ],
       "spellcastingAbility": "int",
       "fluff": {
@@ -715,39 +720,41 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
         "Path of the Ascetic Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|15"
       ],
       "subclassSpells": [
-        "Color Spray",
-        "Comprehend Languages",
-        "Blur",
-        "Borrowed Knowledge|SCC",
-        "Fear",
-        "Clairvoyance",
+        "Disguise Self",
+        "Invisibility",
+        "Hypnotic Pattern",
         "Greater Invisibility",
-        "Locate Creature",
         "Seeming",
-        "Legend Lore"
+        "Clairvoyance",
+        "Dissonant Whispers",        
+        "Tasha's Mind Whip|TCE",
+        "Antagonize|BMT",
+        "Raulothim's Psychic Lance|FTD",
+        "Synaptic Static|XPHB"
       ],
       "additionalSpells": [
         {
           "prepared": {
             "3": [
-              "color spray",
-              "comprehend languages"
+              "Disguise Self",
+              "Dissonant Whispers"
             ],
             "5": [
-              "blur",
-              "borrowed knowledge|scc"
+              "Invisibility",
+              "Tasha's Mind Whip|TCE"
             ],
             "9": [
-              "fear",
-              "clairvoyance"
+              "Antagonize|BMT",
+              "Hypnotic Pattern"
+              
             ],
             "13": [
-              "greater invisibility",
-              "locate creature"
+              "Greater Invisibility",
+              "Raulothim's Psychic Lance|FTD"
             ],
             "17": [
-              "seeming",
-              "legend lore"
+              "Clairvoyance",
+              "Synaptic Static|XPHB"
             ]
           }
         }
@@ -767,40 +774,39 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
         "Path of the Medium Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|15"
       ],
       "subclassSpells": [
-        "Silent Image",
+        "Illusory Script",
         "Phantasmal Force",
-        "Major Image",
+        "Fear",
         "Phantasmal Killer",
-        "Mislead",
-        "Command",
-        "Crown of Madness",
-        "Catnap|XGE",
-        "Compulsion",
-        "Modify Memory"
+        "Dream",
+        "Cause Fear|XGE",
+        "Death armor|FRHoF",
+        "Shroud of spirits|TCE",
+        "Shadow of Moil|XGE",
+        "Negative energy Flood|XGE"
       ],
       "additionalSpells": [
         {
           "prepared": {
             "3": [
-              "command",
-              "silent image"
+              "Cause Fear|XGE",
+              "Illusory Script"
             ],
             "5": [
-              "crown of madness",
+              "Death armor|FRHoF",
               "phantasmal force" 
             ],
             "9": [
-              "catnap|xge",
-              "Hypnotic Pattern"
+              "Fear",
+              "Shroud of spirits|TCE"
             ],
             "13": [
-              "compulsion",
-              "phantasmal killer"
-              
+              "phantasmal killer",
+              "Shadow of Moil|XGE"
             ],
             "17": [
-              "Mislead",
-              "modify memory"
+              "Dream",
+              "Negative energy Flood|XGE"
             ]
           }
         }
@@ -820,39 +826,40 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
         "Path of the Warden Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|15"
       ],
       "subclassSpells": [
-        "Identify",
-        "Mind Spike|XPHB",
-        "Tongues",
-        "Arcane Eye|XPHB",
-        "Scrying",
-        "Dissonant Whispers",
-        "Tasha's Mind Whip|TCE",
-        "Antagonize|BMT",
-        "Raulothim's Psychic Lance|FTD",
-        "Synaptic Static|XPHB"
+        "Command",
+        "Crown of Madness",
+        "Catnap|XGE",
+        "Compulsion",
+        "Modify Memory",
+        "Inflict Wounds",
+        "Wither and Bloom|SCC",
+        "Speak with Dead",
+        "Spirit of the Death|BMT",
+        "Reincarnate"
+
       ],
       "additionalSpells": [
         {
           "prepared": {
             "3": [
-              "dissonant whispers",
-              "identify"
+              "Command",
+              "Inflict Wounds"
             ],
             "5": [
-              "mind spike|xphb",
-              "tasha's mind whip|tce"
+              "Crown of Madness",
+              "Wither and Bloom|SCC"
             ],
             "9": [
-              "antagonize|bmt",
-              "tongues"                         
+              "Catnap|XGE",
+              "Speak with Dead"                         
             ],
             "13": [
-              "arcane eye|xphb",
-              "raulothim's psychic lance|ftd"           
+              "Compulsion",
+              "Spirit of the Death|BMT"           
             ],
             "17": [   
-              "scrying",
-              "synaptic static|xphb"
+              "Modify Memory",
+              "Reincarnate"
              
             ]
           }
