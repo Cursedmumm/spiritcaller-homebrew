@@ -2,9 +2,9 @@
   "_meta": {
     "sources": [
       {
-        "json": "SpiritcasterHB",
+        "json": "SpiritcallerHB",
         "abbreviation": "SPC",
-        "full": "Spiritcaster Homebrew",
+        "full": "Spiritcaller Homebrew",
         "authors": [
           "Homebrew"
         ],
@@ -16,8 +16,8 @@
   },
   "class": [
     {
-      "name": "Spiritcaster",
-      "source": "SpiritcasterHB",
+      "name": "Spiritcaller",
+      "source": "SpiritcallerHB",
       "page": 1,
       "hd": {
         "number": 1,
@@ -87,43 +87,43 @@
         }
       ],
       "classFeatures": [
-        "Spirit Gifts|Spiritcaster|SpiritcasterHB|1",
-        "Spellcasting|Spiritcaster|SpiritcasterHB|1",
-        "Weapon Mastery|Spiritcaster|SpiritcasterHB|1",
-        "Fighting Style|Spiritcaster|SpiritcasterHB|2",
-        "Spiritual Awareness|Spiritcaster|SpiritcasterHB|2",
-        "Spirit Path|Spiritcaster|SpiritcasterHB|3",
+        "Spirit bonds|Spiritcaller|SpiritcallerHB|1",
+        "Spellcasting|Spiritcaller|SpiritcallerHB|1",
+        "Weapon Mastery|Spiritcaller|SpiritcallerHB|1",
+        "Fighting Style|Spiritcaller|SpiritcallerHB|2",
+        "Spiritual Awareness|Spiritcaller|SpiritcallerHB|2",
+        "Spirit Path|Spiritcaller|SpiritcallerHB|3",
         {
-          "classFeature": "Spirit Path Feature|Spiritcaster|SpiritcasterHB|3",
+          "classFeature": "Spirit Path Feature|Spiritcaller|SpiritcallerHB|3",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|Spiritcaster|SpiritcasterHB|4",
-        "Extra Attack|Spiritcaster|SpiritcasterHB|5",
-        "Spiritual Armor|Spiritcaster|SpiritcasterHB|6",
+        "Ability Score Improvement|Spiritcaller|SpiritcallerHB|4",
+        "Extra Attack|Spiritcaller|SpiritcallerHB|5",
+        "Spiritual Armor|Spiritcaller|SpiritcallerHB|6",
         {
-          "classFeature": "Spirit Path Feature|Spiritcaster|SpiritcasterHB|7",
+          "classFeature": "Spirit Path Feature|Spiritcaller|SpiritcallerHB|7",
           "gainSubclassFeature": true
         },
-        "Spectral Inquiry|Spiritcaster|SpiritcasterHB|9",
-        "Ascetic Discipline|Spiritcaster|SpiritcasterHB|10",
+        "Spectral Inquiry|Spiritcaller|SpiritcallerHB|9",
+        "Ascetic Discipline|Spiritcaller|SpiritcallerHB|10",
         {
-          "classFeature": "Spirit Path Feature|Spiritcaster|SpiritcasterHB|11",
+          "classFeature": "Spirit Path Feature|Spiritcaller|SpiritcallerHB|11",
           "gainSubclassFeature": true
         },
-        "Echo Step|Spiritcaster|SpiritcasterHB|13",
-        "Soulbreaking Strikes|Spiritcaster|SpiritcasterHB|14",
+        "Echo Step|Spiritcaller|SpiritcallerHB|13",
+        "Soulbreaking Strikes|Spiritcaller|SpiritcallerHB|14",
         {
-          "classFeature": "Spirit Path Feature|Spiritcaster|SpiritcasterHB|15",
+          "classFeature": "Spirit Path Feature|Spiritcaller|SpiritcallerHB|15",
           "gainSubclassFeature": true
         },
-        "Ethereal Step|Spiritcaster|SpiritcasterHB|17",
-        "Spirit Mastery|Spiritcaster|SpiritcasterHB|18",
-        "Epic Boon|Spiritcaster|SpiritcasterHB|19",
-        "Avatar of the Spirits|Spiritcaster|SpiritcasterHB|20"
+        "Ethereal Step|Spiritcaller|SpiritcallerHB|17",
+        "Spirit Mastery|Spiritcaller|SpiritcallerHB|18",
+        "Epic Boon|Spiritcaller|SpiritcallerHB|19",
+        "Avatar of the Spirits|Spiritcaller|SpiritcallerHB|20"
       ],
       "classTableGroups": [
         {
-          "title": "The Spiritcaster",
+          "title": "The Spiritcaller",
           "colLabels": [
             "Level",
             "PB",
@@ -135,7 +135,7 @@
             [
               1,
               "+2",
-              "Spirit Gifts, Spellcasting, Weapon Mastery",
+              "Spirit Bonds, Spellcasting, Weapon Mastery",
               2,
               "1st"
             ],
@@ -307,9 +307,9 @@
         "entries": [
           {
             "type": "section",
-            "name": "Spiritcaster",
+            "name": "Spiritcaller",
             "entries": [
-              "<b>A Spiritcaller</b> is a scholar and intermediary of the spirit world, learning to use rituals to attract spirits and persuade them to help. In comparison to other casters their magical energy is not drawn from the living but from the spirits wandering Prosperra. Rather than drawing the magic into themselves, Spiritcallers convince spirits to aid them or their companions providing them with spirit gifts. 
+              "<b>A Spiritcaller</b> is a scholar and intermediary of the spirit world, learning to use rituals to attract spirits and persuade them to help. In comparison to other casters their magical energy is not drawn from the living but from the spirits wandering Prosperra. Rather than drawing the magic into themselves, Spiritcallers convince spirits to aid them or their companions providing them with Spirit bonds. 
 
 A Spiritcaller can sever the connection of the spirit, using some if its binding energy to cast a spell. Certain spirits embody particular types of magical energy, and the process to learn how to attract a specific type of spirit and cast a spell from its energy requires considerable knowledge and practice together with an innate talent.
 
@@ -320,45 +320,35 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
       }
     }
   ],
-  "classFeature": [
+ "classFeature": [
     {
-      "name": "Spirit Gifts",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "name": "Spirit Bonds",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
-        "Your defining ability is your capacity to establish temporary bonds with spirits.",
-        "When you finish a Long Rest, you choose a number of <b>Spirit Gifts</b> equal to your Proficiency Bonus. You assign each Gift to yourself or to a willing member of your adventuring party.",
-        "A creature can bear only one of your Gifts at a time.",
-        "A Gift can be assigned only when you finish a Long Rest. Once assigned, a Gift cannot be moved to another creature, replaced with another Gift, or reassigned until you finish another Long Rest.",
-        "A Gift lasts until you finish your next Long Rest, unless it is severed.",
-        "A Spirit Gift cannot be assigned to a summoned creature, familiar, mount, Beast, or other creature that is not a member of your adventuring party.",
-        "Each Gift provides a passive benefit to its bearer.",
+        "Your connection to the spirits allows you to to establish temporary bonds.",
+        "When you finish a Long Rest, you choose a number of <b>Spirits/b> from the Spirit table equal to your Proficiency Bonus. You assign them to yourself or to a willing member of your adventuring party.",
+        "A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest unless prematurely severed by the Spiritcaller",
+        "A Spirit provides a benefit to the bonded person, each type of spirit confers a different type of benefit and the power of the effect depends on the proficiency bonus of the Spiritcaller. See the Spirit table for an overview",
         {
           "type": "entries",
-          "name": "Severing a Gift",
+          "name": "Breaking the Bond",
           "entries": [
-            "As a <b>Magic action</b>, you can sever one of your active Spirit Gifts. The bearer must be within 30 feet of you, and you must be able to see the bearer. You can also sever a Gift you bear yourself.",
-            "When you sever a Gift, its passive benefit immediately ends and the Gift is unavailable until you finish a Long Rest.",
-            "At the same time, you cast the spell associated with that Gift. The spell requires no spell slot, but otherwise follows the normal rules for casting the spell, including its components, concentration, targets, and duration.",
-            "If the spell normally requires an action, the Magic action used to sever the Gift is also the action used to cast the spell."
-          ]
-        },
-        {
-          "type": "inset",
-          "name": "Spiritual Sacrifice",
-          "entries": [
-            "A severed Gift cannot be restored during the same adventuring day. The Spiritcaster must decide whether a Gift's passive benefit is more valuable than the magic that lies within it."
-          ]
+            "As a <b>Magic action</b>, you can sever one of your active Spirit bonds. The bonded person must be within 30 feet of you, and you must be able to see them. You can also sever a bond you bear yourself.",
+            "When you sever a bond, its passive benefit immediately ends. You can then cast one spell from your spell list that belongs to the school of magic associated with that Spirit. The spell must be of a level equal to or lower than the level of the Spirit, as shown in the Spirit table.",
+            "The spell requires no spell slot. If the spell is of a lower level than the Spirit, the spell takes on the Spirit's level for that casting, as if you had used a spell slot of that level. This applies to any effects of the spell that depend on the level of the spell or the level of the spell slot used to cast it.",
+            "You otherwise follow the normal rules for casting the spell, including its components, Concentration, targets, and duration.",
+            "If the spell has a casting time of an action or a Bonus Action, the Magic action used to sever the bond is used to cast the spell."       ]
         }
       ]
     },
     {
       "name": "Spellcasting",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
         "You have learned to channel spiritual energy into spells.",
@@ -366,17 +356,17 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
           "type": "entries",
           "name": "Gift Spells",
           "entries": [
-            "Rather than preparing spells normally, you select your Spirit Gifts after every Long Rest. Each Gift has one associated spell, and severing that Gift allows you to cast its associated spell.",
-            "You cannot cast a Spirit Gift spell unless you currently bear or have assigned that Gift.",
-            "The maximum level of your Gift spells is shown in the Spiritcaster Features table."
+            "Rather than preparing spells normally, you select your Spirit bonds after every Long Rest. Each Gift has one associated spell, and severing that Gift allows you to cast its associated spell.",
+            "You cannot cast a Spirit bond spell unless you currently bear or have assigned that Gift.",
+            "The maximum level of your Gift spells is shown in the Spiritcaller Features table."
           ]
         },
         {
           "type": "entries",
           "name": "Spellcasting Ability",
           "entries": [
-            "Intelligence is your spellcasting ability for your Spiritcaster spells.",
-            "You use your Intelligence whenever a Spiritcaster spell refers to your spellcasting ability. You also use your Intelligence modifier when setting the saving throw DC for a Spiritcaster spell you cast and when making an attack roll with one.",
+            "Intelligence is your spellcasting ability for your Spiritcaller spells.",
+            "You use your Intelligence whenever a Spiritcaller spell refers to your spellcasting ability. You also use your Intelligence modifier when setting the saving throw DC for a Spiritcaller spell you cast and when making an attack roll with one.",
             "<b>Spell save DC</b> = 8 + your Proficiency Bonus + your Intelligence modifier",
             "<b>Spell attack modifier</b> = your Proficiency Bonus + your Intelligence modifier"
           ]
@@ -385,16 +375,16 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
           "type": "entries",
           "name": "Spellcasting Focus",
           "entries": [
-            "You can use an arcane focus, a spiritual focus, or a weapon with which you have proficiency as a Spellcasting Focus for your Spiritcaster spells."
+            "You can use an arcane focus, a spiritual focus, or a weapon with which you have proficiency as a Spellcasting Focus for your Spiritcaller spells."
           ]
         }
       ]
     },
     {
       "name": "Weapon Mastery",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
         "Your training with weapons allows you to use the Mastery properties of two kinds of weapons with which you have proficiency.",
@@ -403,9 +393,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Fighting Style",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 2,
       "entries": [
         "You gain a Fighting Style feat of your choice for which you qualify.",
@@ -414,9 +404,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Spiritual Awareness",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 2,
       "entries": [
         "Your study of spirits has sharpened your ability to notice disturbances between the material and spiritual worlds.",
@@ -438,9 +428,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Spirit Path",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
         "You choose a path that determines the kind of relationship you cultivate with the spirit world.",
@@ -458,9 +448,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Ability Score Improvement",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 4,
       "entries": [
         "You gain the Ability Score Improvement feat or another feat for which you qualify.",
@@ -469,9 +459,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Extra Attack",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 5,
       "entries": [
         "You can attack twice, instead of once, whenever you take the Attack action on your turn."
@@ -479,9 +469,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Spiritual Armor",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
         "Your spirit can reinforce your body against harm.",
@@ -491,9 +481,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Spectral Inquiry",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 9,
       "entries": [
         "You have learned how to seek information from the dead and from spirits that linger in the world.",
@@ -507,9 +497,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Ascetic Discipline",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
         "Your mastery of the spiritual self has made ordinary physical needs less significant.",
@@ -526,9 +516,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Echo Step",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 13,
       "entries": [
         "You have learned to briefly slip between the Material Plane and the spirit world.",
@@ -538,13 +528,13 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Soulbreaking Strikes",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
         "Your attacks can disrupt the spiritual cohesion of your enemies.",
-        "Once per turn when you hit a creature with a weapon attack, you can force it to make a Wisdom saving throw against your Spiritcaster spell save DC.",
+        "Once per turn when you hit a creature with a weapon attack, you can force it to make a Wisdom saving throw against your Spiritcaller spell save DC.",
         "On a failed save, the target becomes <b>Spirit-Broken</b> until the start of your next turn.",
         {
           "type": "entries",
@@ -560,36 +550,36 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Ethereal Step",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 17,
       "entries": [
         "You can momentarily abandon your physical form.",
         "When you are hit by an attack, you can take a Reaction to become partially incorporeal until the end of the current turn.",
         "The triggering attack deals <b>half damage</b> to you.",
         "Until the end of the turn, you can move through creatures and objects as if they were Difficult Terrain.",
-        "If you end your turn inside a creature or object, you are moved to the nearest unoccupied space and take Force damage equal to twice your Spiritcaster level.",
+        "If you end your turn inside a creature or object, you are moved to the nearest unoccupied space and take Force damage equal to twice your Spiritcaller level.",
         "Once you use this feature, you can't use it again until you finish a Short or Long Rest."
       ]
     },
     {
       "name": "Spirit Mastery",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 18,
       "entries": [
         "Your bonds with the spirit world have become extraordinarily resilient.",
-        "When you sever a Spirit Gift, you can choose to retain that Gift's passive benefit until the end of your current turn.",
-        "In addition, while you are within 10 feet of a creature carrying one of your active Spirit Gifts, you have Advantage on Constitution saving throws you make to maintain Concentration."
+        "When you sever a Spirit bond, you can choose to retain that Gift's passive benefit until the end of your current turn.",
+        "In addition, while you are within 10 feet of a creature carrying one of your active Spirit bonds, you have Advantage on Constitution saving throws you make to maintain Concentration."
       ]
     },
     {
       "name": "Epic Boon",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 19,
       "entries": [
         "You gain an Epic Boon feat or another feat for which you qualify."
@@ -597,27 +587,27 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Avatar of the Spirits",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 20,
       "entries": [
         "You have become a living conduit between the material world and the spirit realm.",
-        "Whenever you roll Initiative, you can restore one Spirit Gift that you previously severed during the current adventuring day.",
+        "Whenever you roll Initiative, you can restore one Spirit bond that you previously severed during the current adventuring day.",
         "The restored Gift returns to the creature that originally bore it, and its passive benefit immediately resumes.",
         "Once you restore a Gift using this feature, you can't do so again until you finish a Long Rest.",
-        "In addition, while you have at least one active Spirit Gift, you gain a <b>+2 bonus to your Intelligence score</b>, to a maximum of 22."
+        "In addition, while you have at least one active Spirit bond, you gain a <b>+2 bonus to your Intelligence score</b>, to a maximum of 22."
       ]
     },
     {
       "name": "Gift Types Known",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
         "Your Gifts are manifestations of the spirits you have learned to commune with.",
-        "A Spiritcaster does not automatically know every Gift. Your Spiritcaster level determines how many Gift types you know.",
+        "A Spiritcaller does not automatically know every Gift. Your Spiritcaller level determines how many Gift types you know.",
         "At the end of a Long Rest, you choose which known Gifts to assign.",
         "Each Gift has exactly one associated spell.",
         "<b>Severing a Gift casts that Gift's associated spell at the highest Gift Spell Level you can use.</b>",
@@ -625,7 +615,7 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
           "type": "table",
           "caption": "Gift Types Known",
           "colLabels": [
-            "Spiritcaster Level",
+            "Spiritcaller Level",
             "Gift Types Known"
           ],
           "rows": [
@@ -671,9 +661,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Spirit Path Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
         "Your Spirit Path grants you a feature at this level."
@@ -681,9 +671,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Spirit Path Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
         "Your Spirit Path grants you a feature at this level."
@@ -691,9 +681,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Spirit Path Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
         "Your Spirit Path grants you a feature at this level."
@@ -701,9 +691,9 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Spirit Path Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
         "Your Spirit Path grants you a feature at this level."
@@ -714,15 +704,15 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     {
       "name": "Path of the Ascetic",
       "shortName": "Ascetic",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "Path of the Ascetic|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|3",
-        "Path of the Ascetic Spells|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|3",
-        "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|7",
-        "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|11",
-        "Path of the Ascetic Feature|Spiritcaster|SpiritcasterHB|Ascetic|SpiritcasterHB|15"
+        "Path of the Ascetic|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|3",
+        "Path of the Ascetic Spells|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|3",
+        "Path of the Ascetic Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|7",
+        "Path of the Ascetic Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|11",
+        "Path of the Ascetic Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|15"
       ],
       "subclassSpells": [
         "Color Spray",
@@ -766,15 +756,15 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     {
       "name": "Path of the Medium",
       "shortName": "Medium",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "Path of the Medium|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|3",
-        "Path of the Medium Spells|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|3",
-        "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|7",
-        "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|11",
-        "Path of the Medium Feature|Spiritcaster|SpiritcasterHB|Medium|SpiritcasterHB|15"
+        "Path of the Medium|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|3",
+        "Path of the Medium Spells|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|3",
+        "Path of the Medium Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|7",
+        "Path of the Medium Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|11",
+        "Path of the Medium Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|15"
       ],
       "subclassSpells": [
         "Silent Image",
@@ -819,15 +809,15 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     {
       "name": "Path of the Warden",
       "shortName": "Warden",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "Path of the Warden|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|3",
-        "Path of the Warden Spells|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|3",
-        "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|7",
-        "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|11",
-        "Path of the Warden Feature|Spiritcaster|SpiritcasterHB|Warden|SpiritcasterHB|15"
+        "Path of the Warden|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|3",
+        "Path of the Warden Spells|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|3",
+        "Path of the Warden Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|7",
+        "Path of the Warden Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|11",
+        "Path of the Warden Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|15"
       ],
       "subclassSpells": [
         "Identify",
@@ -873,11 +863,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
   "subclassFeature": [
     {
       "name": "Path of the Ascetic",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Ascetic",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
         "You choose the Path of the Ascetic, treating the body as a vessel for spiritual force."
@@ -885,11 +875,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Ascetic Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Ascetic",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
         "Your Path of the Ascetic grants you a feature at this level."
@@ -897,11 +887,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Ascetic Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Ascetic",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
         "Your Path of the Ascetic grants you a feature at this level."
@@ -909,11 +899,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Ascetic Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Ascetic",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
         "Your Path of the Ascetic grants you a feature at this level."
@@ -921,11 +911,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Medium",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Medium",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
         "You choose the Path of the Medium, specializing in communication, divination, and negotiation with spirits."
@@ -933,11 +923,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Medium Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Medium",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
         "Your Path of the Medium grants you a feature at this level."
@@ -945,11 +935,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Medium Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Medium",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
         "Your Path of the Medium grants you a feature at this level."
@@ -957,11 +947,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Medium Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Medium",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
         "Your Path of the Medium grants you a feature at this level."
@@ -969,11 +959,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Warden",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Warden",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
         "You choose the Path of the Warden, protecting allies through spiritual bonds."
@@ -981,11 +971,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Warden Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Warden",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
         "Your Path of the Warden grants you a feature at this level."
@@ -993,11 +983,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Warden Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Warden",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
         "Your Path of the Warden grants you a feature at this level."
@@ -1005,11 +995,11 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Warden Feature",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Warden",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
         "Your Path of the Warden grants you a feature at this level."
@@ -1017,19 +1007,19 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Ascetic Spells",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Ascetic",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your spiritual discipline grants you additional spells. When you reach a Spiritcaster level specified in the Path of the Ascetic Spells table, you thereafter always have the listed spells prepared.",
+        "Your spiritual discipline grants you additional spells. When you reach a Spiritcaller level specified in the Path of the Ascetic Spells table, you thereafter always have the listed spells prepared.",
         {
           "type": "table",
           "caption": "Path of the Ascetic Spells",
           "colLabels": [
-            "Spiritcaster Level",
+            "Spiritcaller Level",
             "Spells"
           ],
           "rows": [
@@ -1059,19 +1049,19 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Medium Spells",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Medium",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your connection to spirits grants you additional spells. When you reach a Spiritcaster level specified in the Path of the Medium Spells table, you thereafter always have the listed spells prepared.",
+        "Your connection to spirits grants you additional spells. When you reach a Spiritcaller level specified in the Path of the Medium Spells table, you thereafter always have the listed spells prepared.",
         {
           "type": "table",
           "caption": "Path of the Medium Spells",
           "colLabels": [
-            "Spiritcaster Level",
+            "Spiritcaller Level",
             "Spells"
           ],
           "rows": [
@@ -1101,19 +1091,19 @@ As they gain experience, Spiritcallers can attract increasingly more potent spir
     },
     {
       "name": "Path of the Warden Spells",
-      "source": "SpiritcasterHB",
-      "className": "Spiritcaster",
-      "classSource": "SpiritcasterHB",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
       "subclassShortName": "Warden",
-      "subclassSource": "SpiritcasterHB",
+      "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your spiritual bonds grant you additional spells. When you reach a Spiritcaster level specified in the Path of the Warden Spells table, you thereafter always have the listed spells prepared.",
+        "Your spiritual bonds grant you additional spells. When you reach a Spiritcaller level specified in the Path of the Warden Spells table, you thereafter always have the listed spells prepared.",
         {
           "type": "table",
           "caption": "Path of the Warden Spells",
           "colLabels": [
-            "Spiritcaster Level",
+            "Spiritcaller Level",
             "Spells"
           ],
           "rows": [
