@@ -838,7 +838,6 @@
         "Speak with Dead",
         "Spirit of the Death|BMT",
         "Reincarnate"
-
       ],
       "additionalSpells": [
         {
@@ -1034,23 +1033,23 @@
           "rows": [
             [
               "3rd",
-              "{@spell Color Spray}, {@spell Comprehend Languages}"
+              "{@spell Disguise Self}, {@spell Dissonant Whispers}"
             ],
             [
               "5th",
-              "{@spell Blur}, {@spell Borrowed Knowledge|SCC}"
+              "{@spell Invisibility}, {@spell Tasha's Mind Whip|TCE}"
             ],
             [
               "9th",
-              "{@spell Fear}, {@spell Clairvoyance}"
+              "{@spell Hypnotic Pattern}, {@spell Antagonize|BMT}"
             ],
             [
               "13th",
-              "{@spell Greater Invisibility}, {@spell Locate Creature}"
+              "{@spell Greater Invisibility}, {@spell Raulothim's Psychic Lance|FTD}"
             ],
             [
               "17th",
-              "{@spell Seeming}, {@spell Legend Lore}"
+              "{@spell Seeming}, {@spell Synaptic Static|XPHB}"
             ]
           ]
         }
@@ -1076,23 +1075,23 @@
           "rows": [
             [
               "3rd",
-              "{@spell Command}, {@spell Silent Image} "
+              "{@spell Cause Fear|XGE}, {@spell Illusory Script} "
             ],
             [
               "5th",
-              "{@spell Crown of Madness}, {@spell Phantasmal Force}"
+              "{@spell Death armor|FRHoF}, {@spell Phantasmal Force}"
             ],
             [
               "9th",
-              "{@spell Catnap|XGE} , {@spell Hypnotic Pattern}"
+              "{@spell Fear} , {@spell Shroud of spirits|TCE}"
             ],
             [
               "13th",
-              "{@spell Compulsion},  {@spell Phantasmal Killer}"
+              "{@spell Phantasmal Killer}, {@spell Shadow of Moil|XGE}"
             ],
             [
               "17th",
-              "{@spell Mislead}, {@spell Modify Memory}"
+              "{@spell Dream}, {@spell Negative energy Flood|XGE}"
             ]
           ]
         }
@@ -1118,23 +1117,23 @@
           "rows": [
             [
               "3rd",
-              "{@spell Identify}, {@spell Dissonant Whispers} "
+              "{@spell Command}, {@spell Inflict Wounds}"
             ],
             [
               "5th",
-              "{@spell Mind Spike|XPHB} , {@spell Tasha's Mind Whip|TCE} "
+              "{@spell Crown of Madness} , {@spell Wither and Bloom|SCC}"
             ],
             [
               "9th",
-              " {@spell Antagonize|BMT},{@spell Tongues} "
+              " {@Catnap|XGE}, {@spell Speak with Dead}"
             ],
             [
               "13th",
-              " {@spell Arcane Eye|XPHB}, {@spell Raulothim's Psychic Lance|FTD}"
+              "{@spell Compulsion}, {@spell Spirit of the Death|BMT}"
             ],
             [
               "17th",
-              " {@spell Scrying}, {@spell Synaptic Static|XPHB}"
+              "{@spell Modify Memory}, {@spell Reincarnate}"
             ]
           ]
         }
