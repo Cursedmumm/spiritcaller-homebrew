@@ -316,10 +316,11 @@
             "entries": [
               "<b>A Spiritcaller</b> is a scholar and intermediary of the spirit world, learning to use rituals to attract spirits and persuade them to help.",
               "In comparison to other casters their magical energy is not drawn from the living but from the spirits wandering Prosperra.",
-              "Rather than drawing the magic into themselves, Spiritcallers convince spirits to aid them or their companions providing them with Spirit bonds. ",
-              "A Spiritcaller can sever the connection of the spirit, using some if its binding energy to cast a spell.",
+              "Rather than drawing the magic into themselves, Spiritcallers convince spirits to aid them or their companions, bonding them for a short time. ",
+              "A Spiritcaller can also sever this connection, using some of the binding energy to cast a spell.",
               "Certain spirits embody particular types of magical energy, and the process to learn how to attract a specific type of spirit and cast a spell from its energy requires considerable knowledge and practice together with an innate talent.",
-              "As they gain experience, Spiritcallers can attract increasingly more potent spirits, transforming more of their energy into the casting of powerful spells. With their Spirit Path further specializes this knowledge, teaching them to cultivate relationships with particular kinds of spirits. "
+              "As they gain experience, Spiritcallers can attract increasingly more potent spirits which can be used to cast more powerful spells.",
+              "With their Spirit Path further specializes this knowledge, teaching them to cultivate relationships with particular kinds of spirits. "
             ]
           }
         ]
@@ -335,7 +336,7 @@
       "level": 1,
       "entries": [
         "Your connection to the spirits allows you to to establish temporary bonds.",
-        "When you finish a Long Rest, you choose a number of <b>Spirits/b> from the Spirit table equal to your Proficiency Bonus. You assign them to yourself or to a willing member of your adventuring party.",
+        "When you finish a Long Rest, you choose a number of <b>Spirits</b> from the Spirit table equal to your Proficiency Bonus. You assign them to yourself or to a willing member of your adventuring party.",
         "A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest unless prematurely severed by the Spiritcaller",
         "A Spirit provides a benefit to the bonded person, each type of spirit confers a different type of benefit and the power of the effect depends on the proficiency bonus of the Spiritcaller. See the Spirit table for an overview",
         {
