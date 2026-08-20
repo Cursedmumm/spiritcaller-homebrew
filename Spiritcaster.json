@@ -309,10 +309,11 @@
             "type": "section",
             "name": "Spiritcaster",
             "entries": [
-              "A spiritcaster is an intermediary between the living world and the unseen. Through study, meditation, and communion, spiritcasters learn to establish temporary bonds with spiritual entities. These spirits lend their strength to mortals, granting supernatural gifts that can turn an ordinary warrior into a formidable combatant or allow a scholar to perceive things hidden from mortal senses.",
-              "Yet every bond carries a price.",
-              "A spiritcaster can sever one of these bonds, releasing the spirit's accumulated power as a spell. When a spiritcaster does so, the creature who carried the gift loses its blessing until the next day.",
-              "A spiritcaster therefore constantly weighs two forms of power against one another: <b>the enduring strength of their spiritual bonds, or the immediate power of their magic.</b>"
+              "<b>A Spiritcaller</b> is a scholar and intermediary of the spirit world, learning to use rituals to attract spirits and persuade them to help. In comparison to other casters their magical energy is not drawn from the living but from the spirits wandering Prosperra. Rather than drawing the magic into themselves, Spiritcallers convince spirits to aid them or their companions providing them with spirit gifts. 
+
+A Spiritcaller can sever the connection of the spirit, using some if its binding energy to cast a spell. Certain spirits embody particular types of magical energy, and the process to learn how to attract a specific type of spirit and cast a spell from its energy requires considerable knowledge and practice together with an innate talent.
+
+As they gain experience, Spiritcallers can attract increasingly more potent spirits, transforming more of their energy into the casting of powerful spells. With their Spirit Path further specializes this knowledge, teaching them to cultivate relationships with particular kinds of spirits. "
             ]
           }
         ]
