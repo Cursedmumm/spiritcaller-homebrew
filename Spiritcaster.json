@@ -727,7 +727,7 @@
         "Tasha's Mind Whip|TCE",
         "Antagonize|BMT",
         "Raulothim's Psychic Lance|FTD",
-        "Synaptic Static|XPHB"
+        "Modify Memory"
       ],
       "additionalSpells": [
         {
@@ -751,7 +751,7 @@
             ],
             "17": [
               "Clairvoyance",
-              "Synaptic Static|XPHB"
+              "Modify Memory"
             ]
           }
         }
@@ -1044,7 +1044,7 @@
             ],
             [
               "17th",
-              "{@spell Seeming}, {@spell Synaptic Static|XPHB}"
+              "{@spell Seeming}, {@spell Modify Memory}"
             ]
           ]
         }
