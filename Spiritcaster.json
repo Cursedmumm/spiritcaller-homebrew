@@ -288,12 +288,7 @@
         "Spiritual Weapon",
         "Fog Cloud",
         "Healing Spirit|XGE",
-        "Cause Fear|XGE",
         "Wardaway|FRHoF",
-        "Spirit Shroud|TCE",
-        "Spirit of Death|BMT",
-        "Negative Energy Flood|XGE",
-        "Death Armor|FRHoF",
         "Steel Wind Strike|XPHB",
         "Remove Curse|XPHB",
         "Pulse Wave|EGW",
@@ -785,7 +780,7 @@
         "Death armor|FRHoF",
         "Spirit Shroud|TCE",
         "Shadow of Moil|XGE",
-        "Negative energy Flood|XGE"
+        "Spirit Lantern|XGE"
       ],
       "additionalSpells": [
         {
@@ -808,7 +803,7 @@
             ],
             "17": [
               "Dream",
-              "Negative energy Flood|XGE"
+              "Spirit Lantern|XGE"
             ]
           }
         }
@@ -832,7 +827,7 @@
         "Crown of Madness",
         "Catnap|XGE",
         "Compulsion",
-        "Modify Memory",
+        "Dominate Person",
         "Inflict Wounds",
         "Wither and Bloom|SCC",
         "Speak with Dead",
@@ -859,7 +854,7 @@
               "Spirit of the Death|BMT"           
             ],
             "17": [   
-              "Modify Memory",
+              "Dominate Person",
               "Reincarnate"
              
             ]
@@ -1091,7 +1086,7 @@
             ],
             [
               "17th",
-              "{@spell Dream}, {@spell Negative energy Flood|XGE}"
+              "{@spell Dream}, {@spell Spirit Lantern|XGE}"
             ]
           ]
         }
@@ -1133,7 +1128,7 @@
             ],
             [
               "17th",
-              "{@spell Modify Memory}, {@spell Reincarnate}"
+              "{@spell Dominate Person}, {@spell Reincarnate}"
             ]
           ]
         }
