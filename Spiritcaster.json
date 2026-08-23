@@ -355,9 +355,7 @@
           "entries": [
             "You can use an arcane focus, a spiritual focus, or a weapon with which you have proficiency as a Spellcasting Focus for your Spiritcaller spells."
           ]
-        }
-      ]
-    },
+        },
     {
       "name": "Weapon Mastery",
       "source": "SpiritcallerHB",
