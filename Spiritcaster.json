@@ -309,6 +309,7 @@
         "A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest unless prematurely severed by the Spiritcaller",
         "A Spirit provides a benefit to the bonded person, each type of spirit confers a different type of benefit and the power of the effect depends on the proficiency bonus of the Spiritcaller. See the Spirit table for an overview"
       ]
+    },
         {
           "type": "entries",
           "name": "Breaking the Bond",
@@ -319,9 +320,7 @@
             "You otherwise follow the normal rules for casting the spell, including its components, Concentration, targets, and duration.",
             "If the spell has a casting time of an action or a Bonus Action, the Magic action used to sever the bond is used to cast the spell."   
           ]
-        }
-      
-    },
+        },
     {
       "name": "Spellcasting",
       "source": "SpiritcallerHB",
