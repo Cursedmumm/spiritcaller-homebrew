@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 2"
+          "Lukas 3"
         ]
       }
     ]
@@ -54,12 +54,16 @@
           "medium"
         ]
       },
-"startingEquipment": [
-  {
-    "_": "a leather armor, 2 daggers, shortsword, shortbow, 20 arrows, quiver, thieves' tools, burglar's pack, and 8 GP or b 100 GP",
-    "containsValue": "leather armor"
-  }
-],
+"Equipment": {
+  "content": [
+    "You start with the following equipment, in addition to the equipment granted by your background:",
+    [
+         "(*a*) leather armor, 2 daggers, shortsword, shortbow, 20 arrows, quiver, thieves' tools, burglar's pack, and 8 GP or (*b*) 100 GP"
+            ]
+ ]
+
+},           
+       
       "classFeatures": [
         "Spirit Bonds|Spiritcaller|SpiritcallerHB|1",
         "Spellcasting|Spiritcaller|SpiritcallerHB|1",
