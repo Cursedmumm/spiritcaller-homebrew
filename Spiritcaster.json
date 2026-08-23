@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 4"
+          "Lukas 5"
         ]
       }
     ]
@@ -55,47 +55,9 @@
         ]
       },
 "startingEquipment": {
-				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item greataxe|phb} or (b) any {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=sand}.",
-					"(a) two {@item handaxe|phb|handaxes} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}.",
-					"An {@item explorer's pack|phb}.",
-					"Four {@item javelin|phb|javelins}."
-				],
-				"goldAlternative": "{@dice 2d4*10|2d4 x 10|Starting Gold}",
-				"defaultData": [
-					{
-						"a": [
-							"greataxe|phb"
-						],
-						"b": [
-							{
-								"equipmentType": "weaponMartialMelee"
-							}
-						]
-					},
-					{
-						"a": [
-							{
-								"item": "handaxe|phb",
-								"quantity": 2
-							}
-						],
-						"b": [
-							{
-								"equipmentType": "weaponSimple"
-							}
-						]
-					},
-					{
-						"_": [
-							"explorer's pack|phb",
-							{
-								"item": "javelin|phb",
-								"quantity": 4
-							}
-						]
-					}
+					"Choose A or B: (A) a {@item pistol|phb}, {@item shortsword|phb}, leather armor, A Disguise Kit and Scholar's Pack;",
+					"or (B) 100 GP"
 				]
 			},           
        
