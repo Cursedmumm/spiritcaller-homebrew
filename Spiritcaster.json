@@ -1,3 +1,4 @@
+
 {
   "_meta": {
     "sources": [
@@ -47,45 +48,19 @@
           }
         ],
         "weapons": [
-          "simple",
-          "martial"
+          "Simple weapons and Martial weapons that have the Ranged property"
         ],
         "armor": [
           "light",
-          "medium",
-          "shields"
+          "medium"
         ]
       },
-      "startingEquipment": [
-        {
-          "_": "a martial weapon or b two simple weapons",
-          "containsValue": "martial weapon"
-        },
-        {
-          "_": "a shield or b another martial weapon",
-          "containsValue": "shield"
-        },
-        {
-          "item": "scale mail"
-        },
-        {
-          "item": "light crossbow"
-        },
-        {
-          "item": "crossbow bolt|20"
-        },
-        {
-          "item": "explorer's pack"
-        },
-        {
-          "value": 0,
-          "displayName": "a spiritual focus"
-        },
-        {
-          "value": 0,
-          "displayName": "a journal containing your notes on spirits"
-        }
-      ],
+"startingEquipment": [
+  {
+    "_": "a leather armor, 2 daggers, shortsword, shortbow, 20 arrows, quiver, thieves' tools, burglar's pack, and 8 GP or b 100 GP",
+    "containsValue": "leather armor"
+  }
+],
       "classFeatures": [
         "Spirit bonds|Spiritcaller|SpiritcallerHB|1",
         "Spellcasting|Spiritcaller|SpiritcallerHB|1",
@@ -128,8 +103,8 @@
             "Level",
             "PB",
             "Class Features",
-            "Gifts",
-            "Gift Spell Level"
+            "Bonds",
+            "Sever the bond Spell Level"
           ],
           "rows": [
             [
@@ -309,13 +284,12 @@
             "type": "section",
             "name": "Spiritcaller",
             "entries": [
-              "<b>A Spiritcaller</b> is a scholar and intermediary of the spirit world, learning to use rituals to attract spirits and persuade them to help.",
-              "In comparison to other casters their magical energy is not drawn from the living but from the spirits wandering Prosperra.",
+              "<b>Spiritcallers</b> are a new phenomena in Prosperra. People born with an innate connection to the spirit world are not new but the amount of spirits around has never been higher.",
+              "This has led to the development of a new kind of magic, powered by the the spirits wandering Prosperra.",
               "Rather than drawing the magic into themselves, Spiritcallers convince spirits to aid them or their companions, bonding them for a short time. ",
               "A Spiritcaller can also sever this connection, using some of the binding energy to cast a spell.",
-              "Certain spirits embody particular types of magical energy, and the process to learn how to attract a specific type of spirit and cast a spell from its energy requires considerable knowledge and practice together with an innate talent.",
-              "As they gain experience, Spiritcallers can attract increasingly more potent spirits which can be used to cast more powerful spells.",
-              "With their Spirit Path further specializes this knowledge, teaching them to cultivate relationships with particular kinds of spirits. "
+              "In contrast to the respected Wraithwielders, Spiritcallers are more on the fringes of society and in some places even actively persecuted.",
+              "As they struggle to find acceptance, Spiritcallers have begun to follow different paths, specializing in the many ways their bond with spirits can be used."
             ]
           }
         ]
@@ -353,14 +327,15 @@
       "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
-        "You have learned to channel spiritual energy into spells.",
+        "You have learned to channel spiritual binding energy into spells.", 
+        "Certain spirits embody particular types of magical energy, and the process to learn how to attract a specific type of spirit and cast a spell from its energy requires considerable knowledge and practice.",
+         "As you gain experience, you can attract increasingly more potent spirits which can be used to cast more powerful spells."
         {
           "type": "entries",
           "name": "Gift Spells",
           "entries": [
-            "Rather than preparing spells normally, you select your Spirit bonds after every Long Rest. Each Gift has one associated spell, and severing that Gift allows you to cast its associated spell.",
-            "You cannot cast a Spirit bond spell unless you currently bear or have assigned that Gift.",
-            "The maximum level of your Gift spells is shown in the Spiritcaller Features table."
+            "Rather than preparing spells normally, you select your Spirit bonds after every Long Rest. Each bond is associated with a type of magic, and severing the bond allows you to cast it a spell of that school of magic.",
+            "The amount and type of spirit bonds you can form is shown in the Spiritcaller Features table."
           ]
         },
         {
@@ -389,7 +364,7 @@
       "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
-        "Your training with weapons allows you to use the Mastery properties of two kinds of weapons with which you have proficiency.",
+        "Your training with weapons allows you to use the Mastery properties of two kinds of weapons with which you have proficiency such as a Light crossbow or a Pistol.",
         "Whenever you finish a Long Rest, you can change the kinds of weapons you chose."
       ]
     },
@@ -498,20 +473,17 @@
       ]
     },
     {
-      "name": "Ascetic Discipline",
+      "name": "Spiritvision",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your mastery of the spiritual self has made ordinary physical needs less significant.",
+        "Your connection to the spirit world allows you to see the true spiritual energy of all living things.",
         {
           "type": "list",
           "items": [
-            "You have Advantage on saving throws against the Poisoned condition.",
-            "You have Resistance to Poison damage.",
-            "You need only half the normal amount of food and water.",
-            "You require only 6 hours to gain the benefits of a Long Rest, provided you spend the remaining time performing light activity such as meditation, reading, or keeping watch."
+            "As a Magic action, you gain Truesight with a range of 120 feet for 1 hour. Once you use this feature, you can’t use it again until you finish a Long Rest.",
           ]
         }
       ]
