@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 5"
+          "Lukas 6"
         ]
       }
     ]
@@ -53,14 +53,14 @@
           "light",
           "medium"
         ]
-      },
+      
 "startingEquipment": {
 				"default": [
 					"Choose A or B: (A) a {@item pistol|phb}, {@item shortsword|phb}, leather armor, A Disguise Kit and Scholar's Pack;",
 					"or (B) 100 GP"
 				]
 			},           
-       
+       },
       "classFeatures": [
         "Spirit Bonds|Spiritcaller|SpiritcallerHB|1",
         "Spellcasting|Spiritcaller|SpiritcallerHB|1",
