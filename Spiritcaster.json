@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 7"
+          "Lukas 8"
         ]
       }
     ]
@@ -97,159 +97,117 @@
         "Avatar of the Spirits|Spiritcaller|SpiritcallerHB|20"
       ],
       "classTableGroups": [
-        {
-          "title": "The Spiritcaller",
-          "colLabels": [
-            "Level",
-            "PB",
-            "Class Features",
-            "Bonds",
-            "Sever the bond Spell Level"
-          ],
-          "rows": [
-            [
-              1,
-              "+2",
-              "Spirit Bonds, Spellcasting, Weapon Mastery",
-              2,
-              "1st"
-            ],
-            [
-              2,
-              "+2",
-              "Fighting Style, Spiritual Awareness",
-              2,
-              "1st"
-            ],
-            [
-              3,
-              "+2",
-              "Spirit Path, Gift Types",
-              2,
-              "1st"
-            ],
-            [
-              4,
-              "+2",
-              "Ability Score Improvement",
-              2,
-              "1st"
-            ],
-            [
-              5,
-              "+3",
-              "Extra Attack, Gift Spell Level Improvement",
-              3,
-              "2nd"
-            ],
-            [
-              6,
-              "+3",
-              "Spiritual Armor",
-              3,
-              "2nd"
-            ],
-            [
-              7,
-              "+3",
-              "Spirit Path Feature",
-              3,
-              "2nd"
-            ],
-            [
-              8,
-              "+3",
-              "Ability Score Improvement",
-              3,
-              "2nd"
-            ],
-            [
-              9,
-              "+4",
-              "Spectral Inquiry, Gift Spell Level Improvement",
-              4,
-              "3rd"
-            ],
-            [
-              10,
-              "+4",
-              "Ascetic Discipline",
-              4,
-              "3rd"
-            ],
-            [
-              11,
-              "+4",
-              "Spirit Path Feature",
-              4,
-              "3rd"
-            ],
-            [
-              12,
-              "+4",
-              "Ability Score Improvement",
-              4,
-              "3rd"
-            ],
-            [
-              13,
-              "+5",
-              "Echo Step, Gift Spell Level Improvement",
-              5,
-              "4th"
-            ],
-            [
-              14,
-              "+5",
-              "Soulbreaking Strikes",
-              5,
-              "4th"
-            ],
-            [
-              15,
-              "+5",
-              "Spirit Path Feature",
-              5,
-              "4th"
-            ],
-            [
-              16,
-              "+5",
-              "Ability Score Improvement",
-              5,
-              "4th"
-            ],
-            [
-              17,
-              "+6",
-              "Ethereal Step, Gift Spell Level Improvement",
-              6,
-              "5th"
-            ],
-            [
-              18,
-              "+6",
-              "Spirit Mastery",
-              6,
-              "5th"
-            ],
-            [
-              19,
-              "+6",
-              "Epic Boon",
-              6,
-              "5th"
-            ],
-            [
-              20,
-              "+6",
-              "Avatar of the Spirits",
-              6,
-              "5th"
-            ]
-          ]
-        }
+  {
+    "title": "Spirit Magic",
+    "colLabels": [
+      "Type of Spirit Magic",
+      "Amount of Bonds",
+      "Spell Level"
+    ],
+    "rows": [
+      [
+        2,
+        1,
+        "1st"
       ],
+      [
+        2,
+        1,
+        "1st"
+      ],
+      [
+        4,
+        2,
+        "2nd"
+      ],
+      [
+        4,
+        2,
+        "2nd"
+      ],
+      [
+        5,
+        3,
+        "2nd"
+      ],
+      [
+        5,
+        3,
+        "3rd"
+      ],
+      [
+        5,
+        3,
+        "3rd"
+      ],
+      [
+        5,
+        3,
+        "3rd"
+      ],
+      [
+        6,
+        4,
+        "4th"
+      ],
+      [
+        6,
+        4,
+        "4th"
+      ],
+      [
+        6,
+        4,
+        "4th"
+      ],
+      [
+        6,
+        4,
+        "5th"
+      ],
+      [
+        7,
+        5,
+        "5th"
+      ],
+      [
+        7,
+        5,
+        "5th"
+      ],
+      [
+        7,
+        5,
+        "5th"
+      ],
+      [
+        7,
+        5,
+        "5th"
+      ],
+      [
+        7,
+        6,
+        "5th"
+      ],
+      [
+        7,
+        6,
+        "5th"
+      ],
+      [
+        7,
+        6,
+        "5th"
+      ],
+      [
+        7,
+        6,
+        "5th"
+      ]
+    ]
+  }
+],
       "classSpells": [
         "Antilife Shell",
         "Arcane Vigor|XPHB",
