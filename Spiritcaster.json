@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 9"
+          "Lukas 10"
         ]
       }
     ]
@@ -69,26 +69,26 @@
         "Soul Mark|Spiritcaller|SpiritcallerHB|2",
         "Spiritcaller Aptitude|Spiritcaller|SpiritcallerHB|3",
         {
-          "classFeature": "Spirit Path Feature|Spiritcaller|SpiritcallerHB|3",
+          "classFeature": "Spiritcaller Aptitude|Spiritcaller|SpiritcallerHB|3",
           "gainSubclassFeature": true
         },
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|4",
         "Extra Attack|Spiritcaller|SpiritcallerHB|5",
         "Spiritual Armor|Spiritcaller|SpiritcallerHB|6",
         {
-          "classFeature": "Spirit Path Feature|Spiritcaller|SpiritcallerHB|7",
+          "classFeature": "Spiritcaller Aptitude|Spiritcaller|SpiritcallerHB|7",
           "gainSubclassFeature": true
         },
         "Spectral Inquiry|Spiritcaller|SpiritcallerHB|9",
         "Spiritvision|Spiritcaller|SpiritcallerHB|10",
         {
-          "classFeature": "Spirit Path Feature|Spiritcaller|SpiritcallerHB|11",
+          "classFeature": "Spiritcaller Aptitude|Spiritcaller|SpiritcallerHB|11",
           "gainSubclassFeature": true
         },
         "Echo Step|Spiritcaller|SpiritcallerHB|13",
         "Soulbreaking Strikes|Spiritcaller|SpiritcallerHB|14",
         {
-          "classFeature": "Spirit Path Feature|Spiritcaller|SpiritcallerHB|15",
+          "classFeature": "Spiritcaller Aptitude|Spiritcaller|SpiritcallerHB|15",
           "gainSubclassFeature": true
         },
         "Ethereal Step|Spiritcaller|SpiritcallerHB|17",
@@ -631,11 +631,11 @@
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "Path of the Ascetic|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|3",
-        "Path of the Ascetic Spells|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|3",
-        "Path of the Ascetic Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|7",
-        "Path of the Ascetic Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|11",
-        "Path of the Ascetic Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|15"
+        "The Haunt Aptitude|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|3",
+        "The Haunt Aptitude Spells|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|3",
+        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|7",
+        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|11",
+        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|15"
       ],
       "subclassSpells": [
         "Disguise Self",
@@ -679,17 +679,17 @@
       ]
     },
     {
-      "name": "Path of the Medium",
-      "shortName": "Medium",
+      "name": "The Spectre Aptitude",
+      "shortName": "The Spectre",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "Path of the Medium|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|3",
-        "Path of the Medium Spells|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|3",
-        "Path of the Medium Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|7",
-        "Path of the Medium Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|11",
-        "Path of the Medium Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|15"
+        "The Spectre Aptitude|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|3",
+        "The Spectre Aptitude Spells|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|3",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|7",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|11",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|15"
       ],
       "subclassSpells": [
         "Illusory Script",
@@ -731,17 +731,17 @@
       ]
     },
     {
-      "name": "Path of the Warden",
-      "shortName": "Warden",
+      "name": "The Soulmender Aptitude",
+      "shortName": "The Soulmender",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "Path of the Warden|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|3",
-        "Path of the Warden Spells|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|3",
-        "Path of the Warden Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|7",
-        "Path of the Warden Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|11",
-        "Path of the Warden Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|15"
+        "The Soulmender Aptitude|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|3",
+        "The Soulmender Aptitude Spells|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|3",
+        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|7",
+        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|11",
+        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|15"
       ],
       "subclassSpells": [
         "Command",
@@ -786,71 +786,71 @@
   ],
   "subclassFeature": [
     {
-      "name": "Path of the Ascetic",
+      "name": "The Haunt Aptitude",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Ascetic",
+      "subclassShortName": "The Haunt",
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You choose the Path of the Ascetic, treating the body as a vessel for spiritual force."
+        "You choose the Haunt Aptitude, treating the body as a vessel for spiritual force."
       ]
     },
     {
-      "name": "Path of the Ascetic Feature",
+      "name": "The Haunt Aptitude Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Ascetic",
+      "subclassShortName": "The Haunt",
       "subclassSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
-        "Your Path of the Ascetic grants you a feature at this level."
+        "Your Haunt Aptitude grants you a feature at this level."
       ]
     },
     {
-      "name": "Path of the Ascetic Feature",
+      "name": "The Haunt Aptitude Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Ascetic",
+      "subclassShortName": "The Haunt",
       "subclassSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
-        "Your Path of the Ascetic grants you a feature at this level."
+        "Your Haunt Aptitude grants you a feature at this level."
       ]
     },
     {
-      "name": "Path of the Ascetic Feature",
+      "name": "The Haunt Aptitude Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Ascetic",
+      "subclassShortName": "The Haunt",
       "subclassSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
-        "Your Path of the Ascetic grants you a feature at this level."
+        "Your Haunt Aptitude grants you a feature at this level."
       ]
     },
     {
-      "name": "Path of the Medium",
+      "name": "The Spectre Aptitude",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Medium",
+      "subclassShortName": "The Spectre",
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You choose the Path of the Medium, specializing in communication, divination, and negotiation with spirits."
+        "You choose The Spectre Aptitude, specializing in communication, divination, and negotiation with spirits."
       ]
     },
     {
-      "name": "Path of the Medium Feature",
+      "name": "The Spectre Aptitude Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Medium",
+      "subclassShortName": "The Spectre",
       "subclassSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
@@ -858,11 +858,11 @@
       ]
     },
     {
-      "name": "Path of the Medium Feature",
+      "name": "The Spectre Aptitude Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Medium",
+      "subclassShortName": "The Spectre",
       "subclassSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
@@ -870,11 +870,11 @@
       ]
     },
     {
-      "name": "Path of the Medium Feature",
+      "name": "The Spectre Aptitude Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Medium",
+      "subclassShortName": "The Spectre",
       "subclassSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
@@ -882,11 +882,11 @@
       ]
     },
     {
-      "name": "Path of the Warden",
+      "name": "The Soulmender Aptitude",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Warden",
+      "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
@@ -894,11 +894,11 @@
       ]
     },
     {
-      "name": "Path of the Warden Feature",
+      "name": "The Soulmender Aptitude Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Warden",
+      "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
@@ -906,11 +906,11 @@
       ]
     },
     {
-      "name": "Path of the Warden Feature",
+      "name": "The Soulmender Aptitude Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Warden",
+      "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
@@ -918,11 +918,11 @@
       ]
     },
     {
-      "name": "Path of the Warden Feature",
+      "name": "The Soulmender Aptitude Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Warden",
+      "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
@@ -930,18 +930,18 @@
       ]
     },
     {
-      "name": "Path of the Ascetic Spells",
+      "name": "The Haunt Spells",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Ascetic",
+      "subclassShortName": "The Haunt",
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your spiritual discipline grants you additional spells. When you reach a Spiritcaller level specified in the Path of the Ascetic Spells table, you thereafter always have the listed spells prepared.",
+        "Your spiritual discipline grants you additional spells. When you reach a Spiritcaller level specified in the The Haunt Spells table, you thereafter always have the listed spells prepared.",
         {
           "type": "table",
-          "caption": "Path of the Ascetic Spells",
+          "caption": "The Haunt Spells",
           "colLabels": [
             "Spiritcaller Level",
             "Spells"
@@ -972,18 +972,18 @@
       ]
     },
     {
-      "name": "Path of the Medium Spells",
+      "name": "The Spectre Spells",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Medium",
+      "subclassShortName": "The Spectre",
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your connection to spirits grants you additional spells. When you reach a Spiritcaller level specified in the Path of the Medium Spells table, you thereafter always have the listed spells prepared.",
+        "Your connection to spirits grants you additional spells. When you reach a Spiritcaller level specified in the The Spectre Spells table, you thereafter always have the listed spells prepared.",
         {
           "type": "table",
-          "caption": "Path of the Medium Spells",
+          "caption": "The Spectre Spells",
           "colLabels": [
             "Spiritcaller Level",
             "Spells"
@@ -1014,18 +1014,18 @@
       ]
     },
     {
-      "name": "Path of the Warden Spells",
+      "name": "The Soulmender Spells",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "subclassShortName": "Warden",
+      "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your spiritual bonds grant you additional spells. When you reach a Spiritcaller level specified in the Path of the Warden Spells table, you thereafter always have the listed spells prepared.",
+        "Your spiritual bonds grant you additional spells. When you reach a Spiritcaller level specified in the The Soulmender Spells table, you thereafter always have the listed spells prepared.",
         {
           "type": "table",
-          "caption": "Path of the Warden Spells",
+          "caption": "The Soulmender Spells",
           "colLabels": [
             "Spiritcaller Level",
             "Spells"
