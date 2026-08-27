@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 10"
+          "Lukas 11"
         ]
       }
     ]
@@ -53,21 +53,19 @@
           "light",
           "medium"
         ],
-      
-"startingEquipment": {
-				"default": [
-					"Choose A or B: (A) a {@item pistol|phb}, {@item shortsword|phb}, leather armor, A Disguise Kit and Scholar's Pack;",
-					"or (B) 100 GP"
-				]
-			}           
-       },
+        "startingEquipment": {
+          "default": [
+            "Choose A or B: (A) a {@item pistol|phb}, {@item shortsword|phb}, leather armor, A Disguise Kit and Scholar's Pack;",
+            "or (B) 100 GP"
+          ]
+        }
+      },
       "classFeatures": [
         "Spirit Bonds|Spiritcaller|SpiritcallerHB|1",
         "Spellcasting|Spiritcaller|SpiritcallerHB|1",
         "Weapon Mastery|Spiritcaller|SpiritcallerHB|1",
         "Fighting Style|Spiritcaller|SpiritcallerHB|2",
         "Soul Mark|Spiritcaller|SpiritcallerHB|2",
-        "Spiritcaller Aptitude|Spiritcaller|SpiritcallerHB|3",
         {
           "classFeature": "Spiritcaller Aptitude|Spiritcaller|SpiritcallerHB|3",
           "gainSubclassFeature": true
@@ -97,117 +95,117 @@
         "Avatar of the Spirits|Spiritcaller|SpiritcallerHB|20"
       ],
       "classTableGroups": [
-  {
-    "title": "Spirit Magic",
-    "colLabels": [
-      "Type of Spirit Magic known",
-      "Amount of Bonds",
-      "Spell Level"
-    ],
-    "rows": [
-      [
-        2,
-        1,
-        "1st"
+        {
+          "title": "Spirit Magic",
+          "colLabels": [
+            "Type of Spirit Magic known",
+            "Amount of Bonds",
+            "Spell Level"
+          ],
+          "rows": [
+            [
+              2,
+              1,
+              "1st"
+            ],
+            [
+              2,
+              1,
+              "1st"
+            ],
+            [
+              4,
+              2,
+              "2nd"
+            ],
+            [
+              4,
+              2,
+              "2nd"
+            ],
+            [
+              5,
+              3,
+              "2nd"
+            ],
+            [
+              5,
+              3,
+              "3rd"
+            ],
+            [
+              5,
+              3,
+              "3rd"
+            ],
+            [
+              5,
+              3,
+              "3rd"
+            ],
+            [
+              6,
+              4,
+              "4th"
+            ],
+            [
+              6,
+              4,
+              "4th"
+            ],
+            [
+              6,
+              4,
+              "4th"
+            ],
+            [
+              6,
+              4,
+              "5th"
+            ],
+            [
+              7,
+              5,
+              "5th"
+            ],
+            [
+              7,
+              5,
+              "5th"
+            ],
+            [
+              7,
+              5,
+              "5th"
+            ],
+            [
+              7,
+              5,
+              "5th"
+            ],
+            [
+              7,
+              6,
+              "5th"
+            ],
+            [
+              7,
+              6,
+              "5th"
+            ],
+            [
+              7,
+              6,
+              "5th"
+            ],
+            [
+              7,
+              6,
+              "5th"
+            ]
+          ]
+        }
       ],
-      [
-        2,
-        1,
-        "1st"
-      ],
-      [
-        4,
-        2,
-        "2nd"
-      ],
-      [
-        4,
-        2,
-        "2nd"
-      ],
-      [
-        5,
-        3,
-        "2nd"
-      ],
-      [
-        5,
-        3,
-        "3rd"
-      ],
-      [
-        5,
-        3,
-        "3rd"
-      ],
-      [
-        5,
-        3,
-        "3rd"
-      ],
-      [
-        6,
-        4,
-        "4th"
-      ],
-      [
-        6,
-        4,
-        "4th"
-      ],
-      [
-        6,
-        4,
-        "4th"
-      ],
-      [
-        6,
-        4,
-        "5th"
-      ],
-      [
-        7,
-        5,
-        "5th"
-      ],
-      [
-        7,
-        5,
-        "5th"
-      ],
-      [
-        7,
-        5,
-        "5th"
-      ],
-      [
-        7,
-        5,
-        "5th"
-      ],
-      [
-        7,
-        6,
-        "5th"
-      ],
-      [
-        7,
-        6,
-        "5th"
-      ],
-      [
-        7,
-        6,
-        "5th"
-      ],
-      [
-        7,
-        6,
-        "5th"
-      ]
-    ]
-  }
-],
       "classSpells": [
         "Antilife Shell",
         "Arcane Vigor|XPHB",
@@ -251,10 +249,11 @@
             ]
           }
         ]
-      }
+      },
+      "subclassTitle": "Spiritcaller Aptitude"
     }
   ],
- "classFeature": [
+  "classFeature": [
     {
       "name": "Spirit Bonds",
       "source": "SpiritcallerHB",
@@ -338,20 +337,20 @@
         "You can't choose the same Fighting Style more than once, even if you later gain another Fighting Style feature."
       ]
     },
-  {
-  "name": "Soul Mark",
-  "source": "SpiritcallerHB",
-  "className": "Spiritcaller",
-  "classSource": "SpiritcallerHB",
-  "level": 2,
-  "entries": [
-    "Your connection to the spirits allows you to mark the souls of those you harm.",
-    "When you deal damage to a creature that is greater than its Intelligence score, you mark that creature's soul until the end of your next turn.",
-    "Each time you deal damage to a creature while its soul is marked, the mark's duration extends until the end of your next turn and its intensity increases by one.",
-    "As a Bonus Action, you can rend the soul of a creature you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity.",
-	"The creature can't take Reactions until the end of its next turn."
-  ]
-},
+    {
+      "name": "Soul Mark",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "level": 2,
+      "entries": [
+        "Your connection to the spirits allows you to mark the souls of those you harm.",
+        "When you deal damage to a creature that is greater than its Intelligence score, you mark that creature's soul until the end of your next turn.",
+        "Each time you deal damage to a creature while its soul is marked, the mark's duration extends until the end of your next turn and its intensity increases by one.",
+        "As a Bonus Action, you can rend the soul of a creature you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity.",
+        "The creature can't take Reactions until the end of its next turn."
+      ]
+    },
     {
       "name": "Spiritcaller Aptitudes",
       "source": "SpiritcallerHB",
@@ -631,11 +630,11 @@
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "The Haunt Aptitude|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|3",
-        "The Haunt Aptitude Spells|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|3",
-        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|7",
-        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|11",
-        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|Ascetic|SpiritcallerHB|15"
+        "The Haunt Aptitude|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3",
+        "The Haunt Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3",
+        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|7",
+        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|11",
+        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|15"
       ],
       "subclassSpells": [
         "Disguise Self",
@@ -644,7 +643,7 @@
         "Greater Invisibility",
         "Seeming",
         "Clairvoyance",
-        "Dissonant Whispers",        
+        "Dissonant Whispers",
         "Tasha's Mind Whip|TCE",
         "Antagonize|BMT",
         "Raulothim's Psychic Lance|FTD",
@@ -664,7 +663,6 @@
             "9": [
               "Antagonize|BMT",
               "Hypnotic Pattern"
-              
             ],
             "13": [
               "Greater Invisibility",
@@ -685,11 +683,11 @@
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "The Spectre Aptitude|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|3",
-        "The Spectre Aptitude Spells|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|3",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|7",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|11",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|Medium|SpiritcallerHB|15"
+        "The Spectre Aptitude|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
+        "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|7",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|11",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|15"
       ],
       "subclassSpells": [
         "Illusory Script",
@@ -712,7 +710,7 @@
             ],
             "5": [
               "Death armor|FRHoF",
-              "phantasmal force" 
+              "phantasmal force"
             ],
             "9": [
               "Fear",
@@ -737,11 +735,11 @@
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "The Soulmender Aptitude|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|3",
-        "The Soulmender Aptitude Spells|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|3",
-        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|7",
-        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|11",
-        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|Warden|SpiritcallerHB|15"
+        "The Soulmender Aptitude|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3",
+        "The Soulmender Spells|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3",
+        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|7",
+        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|11",
+        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|15"
       ],
       "subclassSpells": [
         "Command",
@@ -768,16 +766,15 @@
             ],
             "9": [
               "Catnap|XGE",
-              "Speak with Dead"                         
+              "Speak with Dead"
             ],
             "13": [
               "Compulsion",
-              "Spirit of the Death|BMT"           
+              "Spirit of the Death|BMT"
             ],
-            "17": [   
+            "17": [
               "Dominate Person",
               "Reincarnate"
-             
             ]
           }
         }
@@ -854,7 +851,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
-        "Your Path of the Medium grants you a feature at this level."
+        "Your Spectre Aptitude grants you a feature at this level."
       ]
     },
     {
@@ -866,7 +863,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
-        "Your Path of the Medium grants you a feature at this level."
+        "Your Spectre Aptitude grants you a feature at this level."
       ]
     },
     {
@@ -878,7 +875,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
-        "Your Path of the Medium grants you a feature at this level."
+        "Your Spectre Aptitude grants you a feature at this level."
       ]
     },
     {
@@ -890,7 +887,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You choose the Path of the Warden, protecting allies through spiritual bonds."
+        "You choose the Soulmender Aptitude, protecting allies through spiritual bonds."
       ]
     },
     {
@@ -902,7 +899,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
-        "Your Path of the Warden grants you a feature at this level."
+        "Your Soulmender Aptitude grants you a feature at this level."
       ]
     },
     {
@@ -914,7 +911,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
-        "Your Path of the Warden grants you a feature at this level."
+        "Your Soulmender Aptitude grants you a feature at this level."
       ]
     },
     {
@@ -926,7 +923,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
-        "Your Path of the Warden grants you a feature at this level."
+        "Your Soulmender Aptitude grants you a feature at this level."
       ]
     },
     {
