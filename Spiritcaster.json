@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 8"
+          "Lukas 9"
         ]
       }
     ]
@@ -66,8 +66,8 @@
         "Spellcasting|Spiritcaller|SpiritcallerHB|1",
         "Weapon Mastery|Spiritcaller|SpiritcallerHB|1",
         "Fighting Style|Spiritcaller|SpiritcallerHB|2",
-        "Spiritual Awareness|Spiritcaller|SpiritcallerHB|2",
-        "Spirit Path|Spiritcaller|SpiritcallerHB|3",
+        "Soul Mark|Spiritcaller|SpiritcallerHB|2",
+        "Spiritcaller Aptitude|Spiritcaller|SpiritcallerHB|3",
         {
           "classFeature": "Spirit Path Feature|Spiritcaller|SpiritcallerHB|3",
           "gainSubclassFeature": true
