@@ -291,7 +291,7 @@
         "As you gain experience, you can attract increasingly more potent spirits which can be used to cast more powerful spells.",
         {
           "type": "entries",
-          "name": "Gift Spells",
+          "name": "Bond Spells",
           "entries": [
             "Rather than preparing spells normally, you select your Spirit bonds after every Long Rest. Each bond is associated with a type of magic, and severing the bond allows you to cast it a spell of that school of magic.",
             "The amount and type of spirit bonds you can form is shown in the Spiritcaller Features table."
@@ -338,48 +338,38 @@
         "You can't choose the same Fighting Style more than once, even if you later gain another Fighting Style feature."
       ]
     },
+  {
+  "name": "Soul Mark",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "level": 2,
+  "entries": [
+    "Your connection to the spirits allows you to mark the souls of those you harm.",
+    "When you deal damage to a creature that is greater than its Intelligence score, you mark that creature's soul until the end of your next turn.",
+    "Each time you deal damage to a creature while its soul is marked, the mark's duration extends until the end of your next turn and its intensity increases by one.",
+    "As a Bonus Action, you can rend the soul of a creature you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity.",
+	"The creature can't take Reactions until the end of its next turn."
+  ]
+},
     {
-      "name": "Spiritual Awareness",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "level": 2,
-      "entries": [
-        "Your study of spirits has sharpened your ability to notice disturbances between the material and spiritual worlds.",
-        "You gain proficiency in <b>Arcana</b> or <b>Investigation</b>. If you already have proficiency in both, you instead gain Expertise in one of them.",
-        "In addition, you can perform a 1-minute examination of a creature, object, or location and determine whether it bears a lingering spiritual influence.",
-        "The DM determines what information is available, but you might learn whether the target has:",
-        {
-          "type": "list",
-          "items": [
-            "Been the site of a recent death.",
-            "Been affected by a spirit or extraplanar entity.",
-            "Been the target of possession or a similar supernatural influence.",
-            "Been used as a spiritual focus.",
-            "Been associated with a significant supernatural event."
-          ]
-        },
-        "This feature does not automatically reveal the identity or intentions of a spirit."
-      ]
-    },
-    {
-      "name": "Spirit Path",
+      "name": "Spiritcaller Aptitudes",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You choose a path that determines the kind of relationship you cultivate with the spirit world.",
-        "Choose one of the following Spirit Paths:",
+        "You choose an aptitude that determines the kind of relationship you cultivate with the spirit world.",
+        "Choose one of the following Aptitudes:",
         {
           "type": "list",
           "items": [
-            "<b>Path of the Ascetic</b>, which treats the body as a vessel for spiritual force.",
-            "<b>Path of the Medium</b>, which specializes in communication, divination, and negotiation with spirits.",
-            "<b>Path of the Warden</b>, which protects allies through spiritual bonds."
+            "<b>A Haunt</b>, an expert in influencing peoples spiritual state by dreams and illusions.",
+            "<b>A Spectre</b>, whose connection to the spirits allows them to become one for a short duration.",
+            "<b>A Soulmender</b>, who understand and can manipulate the death/life divide."
           ]
         },
-        "Your Spirit Path grants features at 3rd, 7th, 11th, and 15th level."
+        "Your Aptitudes grants features at 3rd, 7th, 11th, and 15th level."
       ]
     },
     {
@@ -593,50 +583,50 @@
       ]
     },
     {
-      "name": "Spirit Path Feature",
+      "name": "Spiritcaller Aptitude",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your Spirit Path grants you a feature at this level."
+        "Your chosen aptitude grants you a feature at this level."
       ]
     },
     {
-      "name": "Spirit Path Feature",
+      "name": "Spiritcaller Aptitude",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 7,
       "entries": [
-        "Your Spirit Path grants you a feature at this level."
+        "Your chosen aptitude grants you a feature at this level."
       ]
     },
     {
-      "name": "Spirit Path Feature",
+      "name": "Spiritcaller Aptitude",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 11,
       "entries": [
-        "Your Spirit Path grants you a feature at this level."
+        "Your chosen aptitude grants you a feature at this level."
       ]
     },
     {
-      "name": "Spirit Path Feature",
+      "name": "Spiritcaller Aptitude",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 15,
       "entries": [
-        "Your Spirit Path grants you a feature at this level."
+        "Your chosen aptitude grants you a feature at this level."
       ]
     }
   ],
   "subclass": [
     {
-      "name": "Path of the Ascetic",
-      "shortName": "Ascetic",
+      "name": "The Haunt Aptitude",
+      "shortName": "The Haunt",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
