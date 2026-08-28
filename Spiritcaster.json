@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 15"
+          "Lukas 16"
         ]
       }
     ]
@@ -274,9 +274,9 @@
           "entries": [
             "As a <b>Magic action</b>, you can sever one of your active Spirit bonds. The bonded person must be within 30 feet of you, and you must be able to see them. You can also sever a bond you bear yourself.",
             "When you sever a bond, its passive benefit immediately ends. You can then cast one spell from your spell list that belongs to the school of magic associated with that Spirit. The spell must be of a level equal to or lower than the level of the Spirit, as shown in the Spirit table.",
-            "The spell requires no spell slot. If the spell is of a lower level than the Spirit, the spell takes on the Spirit's level for that casting, as if you had used a spell slot of that level. This applies to any effects of the spell that depend on the level of the spell or the level of the spell slot used to cast it.",
-            "You otherwise follow the normal rules for casting the spell, including its components, Concentration, targets, and duration.",
-            "If the spell has a casting time of an action or a Bonus Action, the Magic action used to sever the bond is used to cast the spell."
+            "The spell requires no spell slot. If the spell is of a lower level than the Spirit, the spell takes on the Spirit's level for that casting, as if you had used a spell slot of that level.",
+            "You otherwise follow the normal rules for casting the spell, including its components, concentration, targets, and duration.",
+            "If the spell has a casting time of a Bonus Action, the Magic action used to sever the bond and cast the spell is also a Bonus Action ."
           ]
         }
       ]
@@ -370,7 +370,7 @@
             "<b>A Soulmender</b>, who understand and can manipulate the death/life divide."
           ]
         },
-        "Your Aptitudes grants features at 3rd, 7th, 11th, and 15th level."
+        "Your Aptitudes grants features at 3rd, 6th, 10th, and 14th level."
       ]
     },
     {
@@ -418,6 +418,18 @@
       ]
     },
         {
+      "name": "Lingering Bond",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "level": 7,
+      "entries": [
+        "Your understanding of spiritual magic allows you to preserve a Spirit bond while drawing upon some of its power.",
+        "When you sever a Spirit bond to cast a spell, you can instead preserve the bond and cast a spell of that type that is of a lower level than the Spirit's level.",
+        "Once you use this feature, you can't use it again until you finish a Short or Long Rest."
+      ]
+    },
+        {
       "name": "Ability Score Improvement",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
@@ -449,7 +461,7 @@
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "level": 10,
+      "level": 11,
       "entries": [
         "Your connection to the spirit world allows you to see the true spiritual energy of all living things.",
         {
@@ -641,7 +653,7 @@
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "level": 7,
+      "level": 6,
       "entries": [
         "Your chosen aptitude grants you a feature at this level."
       ]
@@ -651,7 +663,7 @@
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "level": 11,
+      "level": 10,
       "entries": [
         "Your chosen aptitude grants you a feature at this level."
       ]
@@ -661,7 +673,7 @@
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
-      "level": 15,
+      "level": 14,
       "entries": [
         "Your chosen aptitude grants you a feature at this level."
       ]
@@ -677,9 +689,9 @@
       "subclassFeatures": [
         "The Haunt Aptitude|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3",
         "The Haunt Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3",
-        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|7",
-        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|11",
-        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|15"
+        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|6",
+        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|10",
+        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|14"
       ],
       "subclassSpells": [
         "Disguise Self",
@@ -730,9 +742,9 @@
       "subclassFeatures": [
         "The Spectre Aptitude|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
         "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|7",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|11",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|15"
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
       ],
       "subclassSpells": [
         "Illusory Script",
@@ -782,9 +794,9 @@
       "subclassFeatures": [
         "The Soulmender Aptitude|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3",
         "The Soulmender Spells|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3",
-        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|7",
-        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|11",
-        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|15"
+        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|6",
+        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|10",
+        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|14"
       ],
       "subclassSpells": [
         "Command",
@@ -846,7 +858,7 @@
       "classSource": "SpiritcallerHB",
       "subclassShortName": "The Haunt",
       "subclassSource": "SpiritcallerHB",
-      "level": 7,
+      "level": 6,
       "entries": [
         "Your Haunt Aptitude grants you a feature at this level."
       ]
@@ -858,7 +870,7 @@
       "classSource": "SpiritcallerHB",
       "subclassShortName": "The Haunt",
       "subclassSource": "SpiritcallerHB",
-      "level": 11,
+      "level": 10,
       "entries": [
         "Your Haunt Aptitude grants you a feature at this level."
       ]
@@ -870,7 +882,7 @@
       "classSource": "SpiritcallerHB",
       "subclassShortName": "The Haunt",
       "subclassSource": "SpiritcallerHB",
-      "level": 15,
+      "level": 14,
       "entries": [
         "Your Haunt Aptitude grants you a feature at this level."
       ]
@@ -894,7 +906,7 @@
       "classSource": "SpiritcallerHB",
       "subclassShortName": "The Spectre",
       "subclassSource": "SpiritcallerHB",
-      "level": 7,
+      "level": 6,
       "entries": [
         "Your Spectre Aptitude grants you a feature at this level."
       ]
@@ -906,7 +918,7 @@
       "classSource": "SpiritcallerHB",
       "subclassShortName": "The Spectre",
       "subclassSource": "SpiritcallerHB",
-      "level": 11,
+      "level": 10,
       "entries": [
         "Your Spectre Aptitude grants you a feature at this level."
       ]
@@ -918,7 +930,7 @@
       "classSource": "SpiritcallerHB",
       "subclassShortName": "The Spectre",
       "subclassSource": "SpiritcallerHB",
-      "level": 15,
+      "level": 14,
       "entries": [
         "Your Spectre Aptitude grants you a feature at this level."
       ]
@@ -942,7 +954,7 @@
       "classSource": "SpiritcallerHB",
       "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
-      "level": 7,
+      "level": 6,
       "entries": [
         "Your Soulmender Aptitude grants you a feature at this level."
       ]
@@ -954,7 +966,7 @@
       "classSource": "SpiritcallerHB",
       "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
-      "level": 11,
+      "level": 10,
       "entries": [
         "Your Soulmender Aptitude grants you a feature at this level."
       ]
@@ -966,7 +978,7 @@
       "classSource": "SpiritcallerHB",
       "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
-      "level": 15,
+      "level": 14,
       "entries": [
         "Your Soulmender Aptitude grants you a feature at this level."
       ]
