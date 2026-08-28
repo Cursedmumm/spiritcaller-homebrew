@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 14"
+          "Lukas 15"
         ]
       }
     ]
@@ -77,18 +77,21 @@
           "classFeature": "Spiritcaller Aptitudes|Spiritcaller|SpiritcallerHB|7",
           "gainSubclassFeature": true
         },
+        "Ability Score Improvement|Spiritcaller|SpiritcallerHB|8",
         "Spectral Inquiry|Spiritcaller|SpiritcallerHB|9",
         "Spiritvision|Spiritcaller|SpiritcallerHB|10",
         {
           "classFeature": "Spiritcaller Aptitudes|Spiritcaller|SpiritcallerHB|11",
           "gainSubclassFeature": true
         },
+        "Ability Score Improvement|Spiritcaller|SpiritcallerHB|12",
         "Echo Step|Spiritcaller|SpiritcallerHB|13",
         "Soulbreaking Strikes|Spiritcaller|SpiritcallerHB|14",
         {
           "classFeature": "Spiritcaller Aptitudes|Spiritcaller|SpiritcallerHB|15",
           "gainSubclassFeature": true
         },
+        "Ability Score Improvement|Spiritcaller|SpiritcallerHB|16",
         "Ethereal Step|Spiritcaller|SpiritcallerHB|17",
         "Spirit Mastery|Spiritcaller|SpiritcallerHB|18",
         "Epic Boon|Spiritcaller|SpiritcallerHB|19",
