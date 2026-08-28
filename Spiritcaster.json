@@ -81,11 +81,11 @@
         "Lingering Bond|Spiritcaller|SpiritcallerHB|7",
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|8",
         "Spectral Inquiry|Spiritcaller|SpiritcallerHB|9",
-        "Spiritvision|Spiritcaller|SpiritcallerHB|10",
         {
           "classFeature": "Spiritcaller Aptitudes|Spiritcaller|SpiritcallerHB|10",
           "gainSubclassFeature": true
         },
+        "Spiritvision|Spiritcaller|SpiritcallerHB|11",
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|12",
         "Echo Step|Spiritcaller|SpiritcallerHB|13",
         "Soulbreaking Strikes|Spiritcaller|SpiritcallerHB|14",
