@@ -345,10 +345,9 @@
       "level": 2,
       "entries": [
         "Your connection to the spirits allows you to mark the souls of those you harm.",
-        "When you deal damage to a creature that is greater than its Intelligence score, you mark that creature's soul until the end of your next turn.",
-        "Each time you deal damage to a creature while its soul is marked, the mark's duration extends until the end of your next turn and its intensity increases by one.",
-        "As a Bonus Action, you can rend the soul of a creature you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity.",
-        "In addition when rended a creature can't take Reactions until the end of its next turn."
+        "When you deal damage to a creature that exceeds its Intelligence score, you mark that creature's soul at the end of your turn. The mark remains until it is removed by this feature or the target has taken a long rest.",
+        "Each time you deal damage to a creature whose soul is marked, the mark's intensity increases by 1.",
+        "As a Bonus Action, you can rend the soul of a creature you have markedwithin 30 ft. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity. The creature can't take Reactions until the end of its next turn."
       ]
     },
     {
@@ -392,15 +391,15 @@
         "You can attack twice, instead of once, whenever you take the Attack action on your turn."
       ]
     },
-    {
-      "name": "Quick Shot",
+       {
+      "name": "Soul Tracking",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 5,
       "entries": [
-        "You ignore the Loading property of Ranged Martial weapons.",
-        "If you're holding one of them, you can load a piece of ammunition into it even if you lack a free hand."
+      "Your connection to a creature's soul allows you to sense its presence even when it is beyond your sight. ",
+      "While a creature bears your Soul Mark, you know the direction and distance of the creature from you, provided you are on the same plane of existence.", 
       ]
     },
     {
