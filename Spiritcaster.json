@@ -352,7 +352,7 @@
         "Your connection to the spirits allows you to mark the souls of those you harm.",
         "When you deal damage to a creature that exceeds its Intelligence score, you mark that creature's soul at the end of your turn. The mark remains until it is removed by this feature or the target has taken a long rest.",
         "Each time you deal damage to a creature whose soul is marked, the mark's intensity increases by 1.",
-        "As a Bonus Action, you can rend the soul of a creature you have markedwithin 30 ft. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity. The creature can't take Reactions until the end of its next turn."
+        "As a Bonus Action, you can rend the soul of a creature within 30 ft that you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity. The creature can't take Reactions until the end of its next turn."
       ]
     },
     {
