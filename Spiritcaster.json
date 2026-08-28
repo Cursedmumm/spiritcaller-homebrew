@@ -348,7 +348,7 @@
         "When you deal damage to a creature that is greater than its Intelligence score, you mark that creature's soul until the end of your next turn.",
         "Each time you deal damage to a creature while its soul is marked, the mark's duration extends until the end of your next turn and its intensity increases by one.",
         "As a Bonus Action, you can rend the soul of a creature you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity.",
-        "The creature can't take Reactions until the end of its next turn."
+        "In addition when rended a creature can't take Reactions until the end of its next turn."
       ]
     },
     {
@@ -390,6 +390,17 @@
       "level": 5,
       "entries": [
         "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "Quick Shot",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "level": 5,
+      "entries": [
+        "You ignore the Loading property of Ranged Martial weapons.",
+        "If you're holding one of them, you can load a piece of ammunition into it even if you lack a free hand."
       ]
     },
     {
@@ -522,23 +533,23 @@
       ]
     },
     {
-      "name": "Gift Types Known",
+      "name": "Bond Types Known",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
-        "Your Gifts are manifestations of the spirits you have learned to commune with.",
+        "Your Bonds are manifestations of the spirits you have learned to commune with.",
         "A Spiritcaller does not automatically know every Gift. Your Spiritcaller level determines how many Gift types you know.",
         "At the end of a Long Rest, you choose which known Gifts to assign.",
         "Each Gift has exactly one associated spell.",
         "<b>Severing a Gift casts that Gift's associated spell at the highest Gift Spell Level you can use.</b>",
         {
           "type": "table",
-          "caption": "Gift Types Known",
+          "caption": "Bond Types Known",
           "colLabels": [
             "Spiritcaller Level",
-            "Gift Types Known"
+            "Bond Types Known"
           ],
           "rows": [
             [
