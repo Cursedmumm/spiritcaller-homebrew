@@ -414,6 +414,17 @@
         "You can use this Reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
       ]
     },
+        {
+      "name": "Ability Score Improvement",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "level": 8,
+      "entries": [
+        "You gain the Ability Score Improvement feat or another feat for which you qualify.",
+        "You gain this feature again at 12th, and 16th level."
+      ]
+    },
     {
       "name": "Spectral Inquiry",
       "source": "SpiritcallerHB",
@@ -444,6 +455,17 @@
             "As a Magic action, you gain Truesight with a range of 120 feet for 1 hour. Once you use this feature, you can’t use it again until you finish a Long Rest."
           ]
         }
+      ]
+    },
+        {
+      "name": "Ability Score Improvement",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "level": 12,
+      "entries": [
+        "You gain the Ability Score Improvement feat or another feat for which you qualify.",
+        "You gain this feature again at 16th level."
       ]
     },
     {
@@ -478,6 +500,16 @@
           ]
         },
         "A creature that succeeds on the saving throw is immune to this feature until the start of your next turn."
+      ]
+    },
+        {
+      "name": "Ability Score Improvement",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "level": 16,
+      "entries": [
+        "You gain the Ability Score Improvement feat or another feat for which you qualify."
       ]
     },
     {
