@@ -24,7 +24,7 @@
         "faces": 10
       },
       "proficiency": [
-        "str",
+        "dex",
         "int"
       ],
       "startingProficiencies": {
@@ -32,6 +32,7 @@
           {
             "choose": {
               "from": [
+                "acrobatics",
                 "arcana",
                 "history",
                 "insight",
@@ -39,8 +40,7 @@
                 "medicine",
                 "perception",
                 "persuasion",
-                "religion",
-                "survival"
+                "stealth"
               ],
               "count": 3
             }
@@ -103,90 +103,90 @@
         {
           "title": "Spirit Magic",
           "colLabels": [
-            "Type of Spirit Magic known",
+            "Type of Spirits known*",
             "Amount of Bonds",
-            "Spell Level"
+            "Spirit Level"
           ],
           "rows": [
             [
-              2,
               1,
+              2,
               "1st"
             ],
             [
-              2,
               1,
+              2,
+              "1st"
+            ],
+            [
+              3,
+              2,
+              "1st"
+            ],
+            [
+              3,
+              2,
               "1st"
             ],
             [
               4,
-              2,
-              "2nd"
-            ],
-            [
-              4,
-              2,
-              "2nd"
-            ],
-            [
-              5,
               3,
               "2nd"
             ],
             [
-              5,
+              4,
               3,
+              "2nd"
+            ],
+            [
+              4,
+              3,
+              "2nd"
+            ],
+            [
+              4,
+              3,
+              "2nd"
+            ],
+            [
+              5,
+              4,
               "3rd"
             ],
             [
               5,
-              3,
+              4,
               "3rd"
             ],
             [
               5,
-              3,
+              4,
+              "3rd"
+            ],
+            [
+              5,
+              4,
               "3rd"
             ],
             [
               6,
-              4,
+              5,
               "4th"
             ],
             [
               6,
-              4,
+              5,
               "4th"
             ],
             [
               6,
-              4,
+              5,
               "4th"
             ],
             [
               6,
-              4,
-              "5th"
-            ],
-            [
-              7,
               5,
-              "5th"
-            ],
-            [
-              7,
-              5,
-              "5th"
-            ],
-            [
-              7,
-              5,
-              "5th"
-            ],
-            [
-              7,
-              5,
-              "5th"
+              "4th"
             ],
             [
               7,
@@ -350,7 +350,8 @@
       "level": 2,
       "entries": [
         "Your connection to the spirits allows you to mark the souls of those you harm.",
-        "When you deal damage to a creature that exceeds its Intelligence score, you mark that creature's soul at the end of your turn. The mark remains until it is removed by this feature or the target has taken a long rest.",
+        "When you deal damage to a creature with an attack that exceeds its Intelligence score, you mark that creature's soul at the end of your turn.",
+        "The mark remains until it is removed by this feature or the target has taken a long rest.",
         "Each time you deal damage to a creature whose soul is marked, the mark's intensity increases by 1.",
         "As a Bonus Action, you can rend the soul of a creature within 30 ft that you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity. The creature can't take Reactions until the end of its next turn."
       ]
@@ -647,7 +648,17 @@
       "classSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your chosen aptitude grants you a feature at this level."
+        "You choose an aptitude that determines the kind of relationship you cultivate with the spirit world.",
+        "Choose one of the following Aptitudes:",
+        {
+          "type": "list",
+          "items": [
+            "<b>A Haunt</b>, an expert in influencing peoples spiritual state by dreams and illusions.",
+            "<b>A Spectre</b>, whose connection to the spirits allows them to become one for a short duration.",
+            "<b>A Soulmender</b>, who understand and can manipulate the death/life divide."
+          ]
+        },
+        "Your Aptitudes grants features at 3rd, 6th, 10th, and 14th level."
       ]
     },
     {
@@ -657,7 +668,7 @@
       "classSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your chosen aptitude grants you a feature at this level."
+        "Your chosen Spiritcaller aptitude grants you a feature at this level."
       ]
     },
     {
@@ -667,7 +678,7 @@
       "classSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your chosen aptitude grants you a feature at this level."
+        "Your chosen Spiritcaller aptitude grants you a feature at this level."
       ]
     },
     {
@@ -677,7 +688,7 @@
       "classSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
-        "Your chosen aptitude grants you a feature at this level."
+        "Your chosen Spiritcaller aptitude grants you a feature at this level."
       ]
     }
   ],
@@ -695,7 +706,59 @@
         "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|10",
         "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|14"
       ],
-      "subclassSpells": [
+"subclassSpells": [
+        "Illusory Script",
+        "Phantasmal Force",
+        "Fear",
+        "Phantasmal Killer",
+        "Dream",
+        "Cause Fear|XGE",
+        "Death armor|FRHoF",
+        "Spirit Shroud|TCE",
+        "Shadow of Moil|XGE",
+        "Spirit Lantern|XGE"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "Cause Fear|XGE",
+              "Illusory Script"
+            ],
+            "5": [
+              "Death armor|FRHoF",
+              "phantasmal force"
+            ],
+            "9": [
+              "Fear",
+              "Spirit Shroud|TCE"
+            ],
+            "13": [
+              "phantasmal killer",
+              "Shadow of Moil|XGE"
+            ],
+            "17": [
+              "Dream",
+              "Spirit Lantern|XGE"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "The Spectre Aptitude",
+      "shortName": "The Spectre",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "subclassFeatures": [
+        "The Spectre Aptitude|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
+        "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10",
+        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
+      ],
+            "subclassSpells": [
         "Disguise Self",
         "Invisibility",
         "Hypnotic Pattern",
@@ -730,58 +793,6 @@
             "17": [
               "Clairvoyance",
               "Modify Memory"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "The Spectre Aptitude",
-      "shortName": "The Spectre",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "subclassFeatures": [
-        "The Spectre Aptitude|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
-        "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
-      ],
-      "subclassSpells": [
-        "Illusory Script",
-        "Phantasmal Force",
-        "Fear",
-        "Phantasmal Killer",
-        "Dream",
-        "Cause Fear|XGE",
-        "Death armor|FRHoF",
-        "Spirit Shroud|TCE",
-        "Shadow of Moil|XGE",
-        "Spirit Lantern|XGE"
-      ],
-      "additionalSpells": [
-        {
-          "prepared": {
-            "3": [
-              "Cause Fear|XGE",
-              "Illusory Script"
-            ],
-            "5": [
-              "Death armor|FRHoF",
-              "phantasmal force"
-            ],
-            "9": [
-              "Fear",
-              "Spirit Shroud|TCE"
-            ],
-            "13": [
-              "phantasmal killer",
-              "Shadow of Moil|XGE"
-            ],
-            "17": [
-              "Dream",
-              "Spirit Lantern|XGE"
             ]
           }
         }
@@ -850,7 +861,9 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You choose the Haunt Aptitude, becoming an expert in influencing peoples spiritual state by dreams and illusions."
+        "A Haunt wields spirit magic to invade the minds of others. Through nightmarish spirits and illusions, they prey upon their foes' fears, leaving them haunted and dislong after the spirits have faded.",
+        "Choose one of the following Aptitudes:",
+        "Your Aptitudes grants features at 3rd, 6th, 10th, and 14th level."
       ]
     },
     {
