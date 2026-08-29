@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 18"
+          "Lukas 19"
         ]
       }
     ]
@@ -701,7 +701,6 @@
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
         "The Haunt Aptitude|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3",
-        "The Haunt Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3",
         "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|6",
         "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|10",
         "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|14"
@@ -753,7 +752,6 @@
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
         "The Spectre Aptitude|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
-        "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
         "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
         "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10",
         "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
@@ -806,7 +804,6 @@
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
         "The Soulmender Aptitude|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3",
-        "The Soulmender Spells|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3",
         "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|6",
         "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|10",
         "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|14"
@@ -861,11 +858,33 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "A Haunt wields spirit magic to invade the minds of others. Through nightmares and illusions, they prey upon their foes' fears, leaving them flustered long after the spirits have left.",
-        "When you choose this Aptitude, select one Necromancy and one Enchantment type cantrip from the Spiritcaller spell list.",
-        "As long as you or someone within 30 ft has a spirit bond you can cast them without severing the spirit bond."
-      ]
+    "A Haunt wields spirit magic to invade the minds of others. Through nightmares and illusions, they prey upon their foes' fears, leaving them unsettled long after the spirits have left.",
+
+
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Dreadful Strikes|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
     },
+
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Haunt Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+    }
+  ]
+    },
+{
+  "name": "Dreadful Strikes",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "subclassShortName": "The Haunt",
+  "subclassSource": "SpiritcallerHB",
+  "level": 3,
+  "entries": [
+    "When you choose this Aptitude, select one Necromancy and one Enchantment type cantrip from the Spiritcaller spell list.",
+        "As long as you or someone within 30 ft has a spirit bond you can cast them without severing the spirit bond."
+  ]
+},
     {
       "name": "The Haunt Aptitude Feature",
       "source": "SpiritcallerHB",
