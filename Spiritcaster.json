@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 17"
+          "Lukas 18"
         ]
       }
     ]
@@ -862,8 +862,8 @@
       "level": 3,
       "entries": [
         "A Haunt wields spirit magic to invade the minds of others. Through nightmares and illusions, they prey upon their foes' fears, leaving them flustered long after the spirits have left.",
-        "Choose one of the following Aptitudes:",
-        "Your Aptitudes grants features at 3rd, 6th, 10th, and 14th level."
+        "When you choose this Aptitude, select one Necromancy and one Enchantment type cantrip from the Spiritcaller spell list.",
+        "As long as you or someone within 30 ft has a spirit bond you can cast them without severing the spirit bond."
       ]
     },
     {
