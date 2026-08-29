@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 20"
+          "Lukas 22"
         ]
       }
     ]
@@ -935,12 +935,12 @@
     "Their connection to the spirit world allows them to temporarily shed their physical form and become a spirit, moving through the world as an ethereal presence before returning to their mortal body.",
     {
       "type": "refSubclassFeature",
-      "subclassFeature": "The Spectre Cantrips|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+      "subclassFeature": "The Spectre Cantrips|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
     },
 
     {
       "type": "refSubclassFeature",
-      "subclassFeature": "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+      "subclassFeature": "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
     }
   ]
     },
@@ -1007,12 +1007,12 @@
     "Through strange rituals and communion with spirits, they can mend what is broken, ward off death, and draw upon the powers of the dead to restore the living.",
     {
       "type": "refSubclassFeature",
-      "subclassFeature": "The Soulmender Cantrips|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+      "subclassFeature": "The Soulmender Cantrips|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3"
     },
 
     {
       "type": "refSubclassFeature",
-      "subclassFeature": "The Soulmender Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+      "subclassFeature": "The Soulmender Spells|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3"
     }
   ]
     },
