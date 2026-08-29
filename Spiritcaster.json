@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 19"
+          "Lukas 20"
         ]
       }
     ]
@@ -863,7 +863,7 @@
 
     {
       "type": "refSubclassFeature",
-      "subclassFeature": "Dreadful Strikes|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+      "subclassFeature": "The Haunt Cantrips|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
     },
 
     {
@@ -873,7 +873,7 @@
   ]
     },
 {
-  "name": "Dreadful Strikes",
+  "name": "The Haunt Cantrips",
   "source": "SpiritcallerHB",
   "className": "Spiritcaller",
   "classSource": "SpiritcallerHB",
@@ -881,8 +881,9 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-    "When you choose this Aptitude, select one Necromancy and one Enchantment type cantrip from the Spiritcaller spell list.",
-        "As long as you or someone within 30 ft has a spirit bond you can cast them without severing the spirit bond."
+"When you choose this Aptitude, choose one Necromancy cantrip and one Illusion cantrip from the Spiritcaller spell list.",
+"While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
+"You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
   ]
 },
     {
@@ -930,9 +931,33 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You choose The Spectre Aptitude, whose connection to the spirits allows them to become one for a short duration"
-      ]
+    "A Spectre has learned to blur the boundary between the living and the dead.",
+    "Their connection to the spirit world allows them to temporarily shed their physical form and become a spirit, moving through the world as an ethereal presence before returning to their mortal body.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Spectre Cantrips|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
     },
+
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+    }
+  ]
+    },
+    {
+  "name": "The Spectre Cantrips",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "subclassShortName": "The Spectre",
+  "subclassSource": "SpiritcallerHB",
+  "level": 3,
+  "entries": [
+"When you choose this Aptitude, choose one Enchantment cantrip and one Illusion cantrip from the Spiritcaller spell list.",
+"While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
+"You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
+  ]
+},
     {
       "name": "The Spectre Aptitude Feature",
       "source": "SpiritcallerHB",
@@ -978,8 +1003,32 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You choose the Soulmender Aptitude, who understands and manipulates the death/life divide"
-      ]
+    "A Soulmender understands the delicate bond between body and soul.",
+    "Through strange rituals and communion with spirits, they can mend what is broken, ward off death, and draw upon the powers of the dead to restore the living.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Soulmender Cantrips|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+    },
+
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Soulmender Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+    }
+  ]
+    },
+    {
+  "name": "The Soulmender Cantrips",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "subclassShortName": "The Soulmender",
+  "subclassSource": "SpiritcallerHB",
+  "level": 3,
+  "entries": [
+"When you choose this Aptitude, choose one Enchantment cantrip and one Necromancy cantrip from the Spiritcaller spell list.",
+"While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
+"You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
+  ]
     },
     {
       "name": "The Soulmender Aptitude Feature",
