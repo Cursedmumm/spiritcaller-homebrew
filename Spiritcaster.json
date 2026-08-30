@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 23"
+          "Lukas 24"
         ]
       }
     ]
@@ -683,9 +683,9 @@
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
         "The Haunt Subclass|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3",
-        "The Haunt  Subclass Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|6",
-        "The Haunt  Subclass Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|10",
-        "The Haunt  Subclass Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|14"
+        "The Haunt Subclass Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|6",
+        "The Haunt Subclass Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|10",
+        "The Haunt Subclass Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|14"
       ],
 "subclassSpells": [
         "Illusory Script",
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "name": "The Spectre SubclassFeature",
+      "name": "The Spectre Subclass Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
