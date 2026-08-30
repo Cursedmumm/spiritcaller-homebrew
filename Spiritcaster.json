@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 22"
+          "Lukas 23"
         ]
       }
     ]
@@ -67,7 +67,7 @@
         "Fighting Style|Spiritcaller|SpiritcallerHB|2",
         "Soul Mark|Spiritcaller|SpiritcallerHB|2",
         {
-          "classFeature": "Spiritcaller Aptitudes|Spiritcaller|SpiritcallerHB|3",
+          "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|3",
           "gainSubclassFeature": true
         },
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|4",
@@ -75,14 +75,14 @@
         "Soul Tracking|Spiritcaller|SpiritcallerHB|5",
         "Spiritual Armor|Spiritcaller|SpiritcallerHB|6",
         {
-          "classFeature": "Spiritcaller Aptitudes|Spiritcaller|SpiritcallerHB|6",
+          "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|6",
           "gainSubclassFeature": true
         },
         "Lingering Bond|Spiritcaller|SpiritcallerHB|7",
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|8",
         "Spectral Inquiry|Spiritcaller|SpiritcallerHB|9",
         {
-          "classFeature": "Spiritcaller Aptitudes|Spiritcaller|SpiritcallerHB|10",
+          "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|10",
           "gainSubclassFeature": true
         },
         "Spiritvision|Spiritcaller|SpiritcallerHB|11",
@@ -90,7 +90,7 @@
         "Echo Step|Spiritcaller|SpiritcallerHB|13",
         "Soulbreaking Strikes|Spiritcaller|SpiritcallerHB|14",
         {
-          "classFeature": "Spiritcaller Aptitudes|Spiritcaller|SpiritcallerHB|14",
+          "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|14",
           "gainSubclassFeature": true
         },
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|16",
@@ -255,7 +255,7 @@
           }
         ]
       },
-      "subclassTitle": "Spiritcaller Aptitude"
+      "subclassTitle": "Spiritcaller Subclass"
     }
   ],
   "classFeature": [
@@ -297,8 +297,8 @@
           "type": "entries",
           "name": "Bond Spells",
           "entries": [
-            "Rather than preparing spells normally, you select your Spirit bonds after every Long Rest. Each bond is associated with a type of magic, and severing the bond allows you to cast it a spell of that school of magic.",
-            "The amount and type of spirit bonds you can form is shown in the Spiritcaller Features table."
+            "Rather than preparing spells normally, you select your Spirit bonds after every Long Rest. Each bond is associated with a type of magic, and severing the bond allows you to cast it a spell of that school of magic from the Spiritcaller spell list.",
+            "The amount and type of spirit bonds you can form is shown in the Spiritcaller Spirit magic table."
           ]
         },
         {
@@ -357,23 +357,14 @@
       ]
     },
     {
-      "name": "Spiritcaller Aptitudes",
+      "name": "Spiritcaller Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You choose an aptitude that determines the kind of relationship you cultivate with the spirit world.",
-        "Choose one of the following Aptitudes:",
-        {
-          "type": "list",
-          "items": [
-            "<b>A Haunt</b>, an expert in influencing peoples spiritual state by dreams and illusions.",
-            "<b>A Spectre</b>, whose connection to the spirits allows them to become one for a short duration.",
-            "<b>A Soulmender</b>, who understand and can manipulate the death/life divide."
-          ]
-        },
-        "Your Aptitudes grants features at 3rd, 6th, 10th, and 14th level."
+       "You gain a Spiritcaller Subclass of your choice. A subclass is a specialization that grants you features at certain Spiritcaller levels.",
+       "For the rest of your career, you gain each of your subclass's features that are of your Spiritcaller level or lower."
       ]
     },
     {
@@ -642,68 +633,59 @@
       ]
     },
     {
-      "name": "Spiritcaller Aptitudes",
+      "name": "Spiritcaller Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You choose an aptitude that determines the kind of relationship you cultivate with the spirit world.",
-        "Choose one of the following Aptitudes:",
-        {
-          "type": "list",
-          "items": [
-            "<b>A Haunt</b>, an expert in influencing peoples spiritual state by dreams and illusions.",
-            "<b>A Spectre</b>, whose connection to the spirits allows them to become one for a short duration.",
-            "<b>A Soulmender</b>, who understand and can manipulate the death/life divide."
-          ]
-        },
-        "Your Aptitudes grants features at 3rd, 6th, 10th, and 14th level."
+       "You gain a Spiritcaller Subclass of your choice. A subclass is a specialization that grants you features at certain Spiritcaller levels.",
+       "For the rest of your career, you gain each of your subclass's features that are of your Spiritcaller level or lower."
       ]
     },
     {
-      "name": "Spiritcaller Aptitudes",
+      "name": "Spiritcaller Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your chosen Spiritcaller aptitude grants you a feature at this level."
+        "Your chosen Spiritcaller Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "Spiritcaller Aptitudes",
+      "name": "Spiritcaller Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your chosen Spiritcaller aptitude grants you a feature at this level."
+        "Your chosen Spiritcaller Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "Spiritcaller Aptitudes",
+      "name": "Spiritcaller Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
-        "Your chosen Spiritcaller aptitude grants you a feature at this level."
+        "Your chosen Spiritcaller Subclass grants you a feature at this level."
       ]
     }
   ],
   "subclass": [
     {
-      "name": "The Haunt Aptitude",
+      "name": "The Haunt Subclass",
       "shortName": "The Haunt",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "The Haunt Aptitude|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3",
-        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|6",
-        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|10",
-        "The Haunt Aptitude Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|14"
+        "The Haunt Subclass|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3",
+        "The Haunt  Subclass Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|6",
+        "The Haunt  Subclass Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|10",
+        "The Haunt  Subclass Feature|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|14"
       ],
 "subclassSpells": [
         "Illusory Script",
@@ -745,16 +727,16 @@
       ]
     },
     {
-      "name": "The Spectre Aptitude",
+      "name": "The Spectre Subclass",
       "shortName": "The Spectre",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "The Spectre Aptitude|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10",
-        "The Spectre Aptitude Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
+        "The Spectre Subclass|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
+        "The Spectre Subclass Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
+        "The Spectre Subclass Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10",
+        "The Spectre Subclass Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
       ],
             "subclassSpells": [
         "Disguise Self",
@@ -797,16 +779,16 @@
       ]
     },
     {
-      "name": "The Soulmender Aptitude",
+      "name": "The Soulmender Subclass",
       "shortName": "The Soulmender",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
-        "The Soulmender Aptitude|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3",
-        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|6",
-        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|10",
-        "The Soulmender Aptitude Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|14"
+        "The Soulmender Subclass|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3",
+        "The Soulmender Subclass Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|6",
+        "The Soulmender Subclass Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|10",
+        "The Soulmender Subclass Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|14"
       ],
       "subclassSpells": [
         "Command",
@@ -850,7 +832,7 @@
   ],
   "subclassFeature": [
     {
-      "name": "The Haunt Aptitude",
+      "name": "The Haunt Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -858,18 +840,24 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-    "A Haunt wields spirit magic to invade the minds of others. Through nightmares and illusions, they prey upon their foes' fears, leaving them unsettled long after the spirits have left.",
-
-
+    "A Haunt turns the fear and unease people have towards the spirits of the dead into a weapon, calling upon them to cause nightmares and illusions that prey upon the minds of their targets.",
+    "Some are hired to torment those who refuse the demands of the powerful, while others take justice into their own hands, haunting those who escaped judgment.",
+    "Whatever their cause, a Haunt knows that sometimes the fear of their victims in the afterlife is enough to make the guilty face what they have done.",
     {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Haunt Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+    },
+
+   {
       "type": "refSubclassFeature",
       "subclassFeature": "The Haunt Cantrips|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
     },
 
-    {
+      {
       "type": "refSubclassFeature",
-      "subclassFeature": "The Haunt Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+      "subclassFeature": "Haunting Whispers|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
     }
+
   ]
     },
 {
@@ -881,13 +869,35 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-"When you choose this Aptitude, choose one Necromancy cantrip and one Illusion cantrip from the Spiritcaller spell list.",
+
+"When you choose this Subclass, choose one Necromancy cantrip and one Illusion cantrip from the Spiritcaller spell list.",
 "While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
 "You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
   ]
 },
+{
+  "name": "Haunting Whispers",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "subclassShortName": "The Haunt",
+  "subclassSource": "SpiritcallerHB",
+  "level": 3,
+  "entries": [
+
+"As a Bonus Action, you can torment a creature marked by your Soul Mark with the spirits bound to you. Choose one of the following effects:",
+{
+          "type": "list",
+          "items": [
+            "<b>Dread:</b> The target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or have the Frightened condition until the start of your next turn.",
+            "<b>elusion:</b> Until the start of your next turn, the target has Disadvantage on the next attack roll or ability check it makes."
+          ]
+   }
+  ]
+},
+
     {
-      "name": "The Haunt Aptitude Feature",
+      "name": "The Haunt Subclass Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -895,11 +905,11 @@
       "subclassSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your Haunt Aptitude grants you a feature at this level."
+        "Your Haunt Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "The Haunt Aptitude Feature",
+      "name": "The Haunt Subclass Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -907,11 +917,11 @@
       "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your Haunt Aptitude grants you a feature at this level."
+        "Your Haunt Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "The Haunt Aptitude Feature",
+      "name": "The Haunt Subclass Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -919,11 +929,11 @@
       "subclassSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
-        "Your Haunt Aptitude grants you a feature at this level."
+        "Your Haunt Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "The Spectre Aptitude",
+      "name": "The Spectre Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -953,13 +963,13 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-"When you choose this Aptitude, choose one Enchantment cantrip and one Illusion cantrip from the Spiritcaller spell list.",
+"When you choose this Subclass, choose one Enchantment cantrip and one Illusion cantrip from the Spiritcaller spell list.",
 "While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
 "You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
   ]
 },
     {
-      "name": "The Spectre Aptitude Feature",
+      "name": "The Spectre Subclass Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -967,11 +977,11 @@
       "subclassSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your Spectre Aptitude grants you a feature at this level."
+        "Your Spectre Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "The Spectre Aptitude Feature",
+      "name": "The Spectre Subclass Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -979,11 +989,11 @@
       "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your Spectre Aptitude grants you a feature at this level."
+        "Your Spectre Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "The Spectre Aptitude Feature",
+      "name": "The Spectre SubclassFeature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -991,11 +1001,11 @@
       "subclassSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
-        "Your Spectre Aptitude grants you a feature at this level."
+        "Your Spectre Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "The Soulmender Aptitude",
+      "name": "The Soulmender Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -1025,13 +1035,13 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-"When you choose this Aptitude, choose one Enchantment cantrip and one Necromancy cantrip from the Spiritcaller spell list.",
+"When you choose this Subclass, choose one Enchantment cantrip and one Necromancy cantrip from the Spiritcaller spell list.",
 "While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
 "You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
   ]
     },
     {
-      "name": "The Soulmender Aptitude Feature",
+      "name": "The Soulmender Subclass Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -1039,11 +1049,11 @@
       "subclassSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your Soulmender Aptitude grants you a feature at this level."
+        "Your Soulmender Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "The Soulmender Aptitude Feature",
+      "name": "The Soulmender Subclass Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -1051,11 +1061,11 @@
       "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your Soulmender Aptitude grants you a feature at this level."
+        "Your Soulmender Subclass grants you a feature at this level."
       ]
     },
     {
-      "name": "The Soulmender Aptitude Feature",
+      "name": "The Soulmender Subclass Feature",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -1063,7 +1073,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
-        "Your Soulmender Aptitude grants you a feature at this level."
+        "Your Soulmender Subclass grants you a feature at this level."
       ]
     },
     {
