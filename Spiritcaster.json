@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 25"
+          "Lukas 26"
         ]
       }
     ]
@@ -72,23 +72,20 @@
         },
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|4",
         "Extra Attack|Spiritcaller|SpiritcallerHB|5",
-        "Soul Tracking|Spiritcaller|SpiritcallerHB|5",
-        "Spiritual Armor|Spiritcaller|SpiritcallerHB|6",
         {
           "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|6",
           "gainSubclassFeature": true
         },
         "Lingering Bond|Spiritcaller|SpiritcallerHB|7",
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|8",
-        "Spectral Inquiry|Spiritcaller|SpiritcallerHB|9",
+        "Soul Tracking|Spiritcaller|SpiritcallerHB|9",
         {
           "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|10",
           "gainSubclassFeature": true
         },
         "Spiritvision|Spiritcaller|SpiritcallerHB|11",
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|12",
-        "Echo Step|Spiritcaller|SpiritcallerHB|13",
-        "Soulbreaking Strikes|Spiritcaller|SpiritcallerHB|14",
+  
         {
           "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|14",
           "gainSubclassFeature": true
@@ -672,7 +669,7 @@
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
         "The Spectre Subclass|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
-        "The Spectre Subclass Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
+        "Spiritual Armor|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
         "The Spectre Subclass Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10",
         "The Spectre Subclass Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
       ],
@@ -889,6 +886,10 @@
     {
       "type": "refSubclassFeature",
       "subclassFeature": "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
+    },
+       {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Echo Step|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
     }
   ]
     },
