@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 24"
+          "Lukas 25"
         ]
       }
     ]
@@ -268,7 +268,7 @@
       "entries": [
         "Your connection to the spirits allows you to to establish temporary bonds.",
         "When you finish a Long Rest, you choose a number of <b>Spirits</b> from the Spirit table equal to your Proficiency Bonus. You assign them to yourself or to a willing member of your adventuring party.",
-        "A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest unless prematurely severed by the Spiritcaller",
+        "A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest, unless prematurely severed by the Spiritcaller",
         "A Spirit provides a benefit to the bonded person, each type of spirit confers a different type of benefit and the power of the effect depends on the proficiency bonus of the Spiritcaller. See the Spirit table for an overview",
         {
           "type": "entries",
@@ -388,29 +388,6 @@
         "You can attack twice, instead of once, whenever you take the Attack action on your turn."
       ]
     },
-       {
-      "name": "Soul Tracking",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "level": 5,
-      "entries": [
-      "Your connection to a creature's soul allows you to sense its presence even when it is beyond your sight. ",
-      "While a creature bears your Soul Mark, you know the direction and distance of the creature from you, provided you are on the same plane of existence."
-      ]
-    },
-    {
-      "name": "Spiritual Armor",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "level": 6,
-      "entries": [
-        "Your spirit can reinforce your body against harm.",
-        "When you take damage from an attack or other damaging effect, you can take a Reaction to reduce the damage by an amount equal to your Intelligence modifier + your Proficiency Bonus.",
-        "You can use this Reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
-      ]
-    },
         {
       "name": "Lingering Bond",
       "source": "SpiritcallerHB",
@@ -434,20 +411,15 @@
         "You gain this feature again at 12th, and 16th level."
       ]
     },
-    {
-      "name": "Spectral Inquiry",
+       {
+      "name": "Soul Tracking",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 9,
       "entries": [
-        "You have learned how to seek information from the dead and from spirits that linger in the world.",
-        "When you spend 10 minutes meditating on a specific question, you can attempt to contact a spirit that might know the answer.",
-        "Make an Intelligence (Arcana), Intelligence (History), or Intelligence (Religion) check against a DC determined by the DM.",
-        "On a success, you receive a cryptic indication of where or from whom useful information might be obtained.",
-        "The spirit does not necessarily answer the question itself.",
-        "On a failure, you receive no useful information.",
-        "Once you successfully use this feature, you can't use it again until you finish a Long Rest."
+      "Your connection to a creature's soul allows you to sense its presence even when it is beyond your sight. ",
+      "While a creature bears your Soul Mark, you know the direction and distance of the creature from you, provided you are on the same plane of existence."
       ]
     },
     {
@@ -475,40 +447,6 @@
       "entries": [
         "You gain the Ability Score Improvement feat or another feat for which you qualify.",
         "You gain this feature again at 16th level."
-      ]
-    },
-    {
-      "name": "Echo Step",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "level": 13,
-      "entries": [
-        "You have learned to briefly slip between the Material Plane and the spirit world.",
-        "As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see.",
-        "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
-      ]
-    },
-    {
-      "name": "Soulbreaking Strikes",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "level": 14,
-      "entries": [
-        "Your attacks can disrupt the spiritual cohesion of your enemies.",
-        "Once per turn when you hit a creature with a weapon attack, you can force it to make a Wisdom saving throw against your Spiritcaller spell save DC.",
-        "On a failed save, the target becomes <b>Spirit-Broken</b> until the start of your next turn.",
-        {
-          "type": "entries",
-          "name": "Spirit-Broken",
-          "entries": [
-            "Its Speed is reduced by 10 feet.",
-            "It can't take Reactions.",
-            "The next attack roll made against it has Advantage."
-          ]
-        },
-        "A creature that succeeds on the saving throw is immune to this feature until the start of your next turn."
       ]
     },
         {
@@ -693,34 +631,34 @@
         "Fear",
         "Phantasmal Killer",
         "Dream",
-        "Cause Fear|XGE",
-        "Death armor|FRHoF",
-        "Spirit Shroud|TCE",
-        "Shadow of Moil|XGE",
-        "Spirit Lantern|XGE"
+        "Dissonant Whispers",
+        "Tasha's Mind Whip|TCE",
+        "Antagonize|BMT",
+        "Raulothim's Psychic Lance|FTD",
+        "Modify Memory"
       ],
       "additionalSpells": [
         {
           "prepared": {
             "3": [
-              "Cause Fear|XGE",
+              "Dissonant Whispers",
               "Illusory Script"
             ],
             "5": [
-              "Death armor|FRHoF",
+              "Tasha's Mind Whip|TCE",
               "phantasmal force"
             ],
             "9": [
-              "Fear",
-              "Spirit Shroud|TCE"
+              "Antagonize|BMT",
+              "Fear"
             ],
             "13": [
               "phantasmal killer",
-              "Shadow of Moil|XGE"
+              "Raulothim's Psychic Lance|FTD"
             ],
             "17": [
               "Dream",
-              "Spirit Lantern|XGE"
+              "Modify Memory"
             ]
           }
         }
@@ -744,35 +682,34 @@
         "Hypnotic Pattern",
         "Greater Invisibility",
         "Seeming",
-        "Clairvoyance",
-        "Dissonant Whispers",
-        "Tasha's Mind Whip|TCE",
-        "Antagonize|BMT",
-        "Raulothim's Psychic Lance|FTD",
-        "Modify Memory"
+        "Cause Fear|XGE",
+        "Death armor|FRHoF",
+        "Spirit Shroud|TCE",
+        "Shadow of Moil|XGE",
+        "Spirit Lantern|XGE"
       ],
       "additionalSpells": [
         {
           "prepared": {
             "3": [
-              "Disguise Self",
-              "Dissonant Whispers"
+              "Cause Fear|XGE",
+              "Disguise Self"
             ],
             "5": [
               "Invisibility",
-              "Tasha's Mind Whip|TCE"
+              "Death armor|FRHoF"
             ],
             "9": [
-              "Antagonize|BMT",
-              "Hypnotic Pattern"
+              "Hypnotic Pattern",
+              "Spirit Shroud|TCE"
             ],
             "13": [
               "Greater Invisibility",
-              "Raulothim's Psychic Lance|FTD"
+              "Shadow of Moil|XGE"
             ],
             "17": [
-              "Clairvoyance",
-              "Modify Memory"
+              "Seeming",
+              "Spirit Lantern|XGE"
             ]
           }
         }
@@ -870,9 +807,9 @@
   "level": 3,
   "entries": [
 
-"When you choose this Subclass, choose one Necromancy cantrip and one Illusion cantrip from the Spiritcaller spell list.",
+"When you choose this Subclass, choose one Enchantment cantrip and one Illusion cantrip from the Spiritcaller spell list.",
 "While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
-"You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
+"You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be an Enchantment or Illusion cantrip."
   ]
 },
 {
@@ -885,14 +822,15 @@
   "level": 3,
   "entries": [
 
-"As a Bonus Action, you can torment a creature marked by your Soul Mark with the spirits bound to you. Choose one of the following effects:",
+"As a Bonus Action, you can torment a creature marked by your Soul Mark. Choose one of the following effects:",
 {
           "type": "list",
           "items": [
-            "<b>Dread:</b> The target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or have the Frightened condition until the start of your next turn.",
-            "<b>elusion:</b> Until the start of your next turn, the target has Disadvantage on the next attack roll or ability check it makes."
+            "<b>Dread:</b> The target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or have the Frightened condition for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+            "<b>Delusion:</b> The target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or it must use its next action on its turn to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if no creature is within its reach."
           ]
-   }
+   },
+  "You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
   ]
 },
 
@@ -963,13 +901,29 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-"When you choose this Subclass, choose one Enchantment cantrip and one Illusion cantrip from the Spiritcaller spell list.",
+"When you choose this Subclass, choose one Illusion and one Necromancy cantrip from the Spiritcaller spell list.",
 "While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
-"You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
+"You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be an Illusion or Necromancy cantrip."
   ]
 },
-    {
-      "name": "The Spectre Subclass Feature",
+{
+  "name": "Echo Step",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "subclassShortName": "The Spectre",
+  "subclassSource": "SpiritcallerHB",
+      "level": 3,
+      "entries": [
+        "You have learned to briefly slip between the Material Plane and the spirit world.",
+        "As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see.",
+        "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+      ]
+    },
+
+
+        {
+      "name": "Spiritual Armor",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -977,7 +931,9 @@
       "subclassSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your Spectre Subclass grants you a feature at this level."
+        "Your spirit can reinforce your body against harm.",
+        "When you take damage from an attack or other damaging effect, you can take a Reaction to reduce the damage by an amount equal to your Intelligence modifier + your Proficiency Bonus.",
+        "You can use this Reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
       ]
     },
     {
