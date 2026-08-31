@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 26"
+          "Lukas 27"
         ]
       }
     ]
@@ -1053,15 +1053,15 @@
           "rows": [
             [
               "3rd",
-              "{@spell Disguise Self}, {@spell Dissonant Whispers}"
+              "{@spell Dissonant Whispers}, {@spell Illusory Script}"
             ],
             [
               "5th",
-              "{@spell Invisibility}, {@spell Tasha's Mind Whip|TCE}"
+              "{@spell Phantasmal Force}, {@spell Tasha's Mind Whip|TCE}"
             ],
             [
               "9th",
-              "{@spell Hypnotic Pattern}, {@spell Antagonize|BMT}"
+              "{@spell Antagonize|BMT}, {@spell Fear}"
             ],
             [
               "13th",
@@ -1069,7 +1069,7 @@
             ],
             [
               "17th",
-              "{@spell Seeming}, {@spell Modify Memory}"
+              "{@spell Dream}, {@spell Modify Memory}"
             ]
           ]
         }
@@ -1095,15 +1095,15 @@
           "rows": [
             [
               "3rd",
-              "{@spell Cause Fear|XGE}, {@spell Illusory Script} "
+              "{@spell Cause Fear|XGE}, {@spell Disguise Self} "
             ],
             [
               "5th",
-              "{@spell Death armor|FRHoF}, {@spell Phantasmal Force}"
+              "{@spell Death armor|FRHoF}, {@spell Invisibility}"
             ],
             [
               "9th",
-              "{@spell Fear} , {@spell Spirit Shroud|TCE}"
+              "{@spell Hypnotic Pattern} , {@spell Spirit Shroud|TCE}"
             ],
             [
               "13th",
@@ -1111,7 +1111,7 @@
             ],
             [
               "17th",
-              "{@spell Dream}, {@spell Spirit Lantern|XGE}"
+              "{@spell Seeming}, {@spell Spirit Lantern|XGE}"
             ]
           ]
         }
