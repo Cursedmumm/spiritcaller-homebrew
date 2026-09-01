@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 28"
+          "Lukas 29"
         ]
       }
     ]
@@ -263,10 +263,10 @@
       "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
-        "Your connection to the spirits allows you to to establish temporary bonds.",
-        "When you finish a Long Rest, you choose a number of <b>Spirits</b> from the Spirit table equal to your Proficiency Bonus. You assign them to yourself or to a willing member of your adventuring party.",
-        "A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest, unless prematurely severed by the Spiritcaller",
-        "A Spirit provides a benefit to the bonded person, each type of spirit confers a different type of benefit and the power of the effect depends on the proficiency bonus of the Spiritcaller. See the Spirit table for an overview",
+        "Your connection to the spirits allows you to to establish temporary bonds that provide benefits to those who are bonded.",
+        "When you finish a Long Rest, you select <b>Spirits</b> from the table below equal to your proficiency bonus. Each type of spirit grants a different type of benefit scaling with your Spiritcaller level, see the Spirit Magic table above.",
+        "You assign them to yourself or to a willing member of your adventuring party. A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest, unless prematurely severed by the Spiritcaller"
+        ,
         {
           "type": "entries",
           "name": "Breaking the Bond",
@@ -275,7 +275,7 @@
             "When you sever a bond, its passive benefit immediately ends. You can then cast one spell from your spell list that belongs to the school of magic associated with that Spirit. The spell must be of a level equal to or lower than the level of the Spirit, as shown in the Spirit table.",
             "The spell requires no spell slot. If the spell is of a lower level than the Spirit, the spell takes on the Spirit's level for that casting, as if you had used a spell slot of that level.",
             "You otherwise follow the normal rules for casting the spell, including its components, concentration, targets, and duration.",
-            "If the spell has a casting time of a Bonus Action, the Magic action used to sever the bond and cast the spell is also a Bonus Action ."
+            "If the spell has a casting time of a Bonus Action, you can take a Bonus Action to sever the bond and cast the spell instead."
           ]
         },
         {
@@ -283,40 +283,49 @@
           "caption": "Spirit Types Table",
           "colLabels": [
             "Spirit Type",
-            "Effect"
+            "Effect",
+            "Spirit Level 1/2/3/4/5"
           ],
           "rows": [
         [
-          "Abjuration",
-          "The spirit shields you from harm, granting you ..."
+          "Abjuration - Protective Spirit",
+          "This spirit shields you from harm; Once per round reduce the amount of nonmagical physical damage taken by: ",
+          "1 / 2 / 3 / 4 / 5"
         ],
         [
-          "Conjuration",
-          "The spirit allows you to ..."
+          "Conjuration - Wayfarer Spirit",
+          "This spirit allows you to move with them; Once per combat as a Bonus Action you benefit from the effects of the Etherealness spell while moving: ",
+          "10 ft/ 15 ft/ 20 ft/ 25 ft/ 30 ft"
         ],
         [
-          "Divination",
-          "The spirit grants you ..."
+          "Divination - Prescient Spirit",
+          "This spirit gives you glimpses of the future; When you roll Initiative, you gain a bonus to the roll equal to: ",
+          "+1 / +2 / +3 / +4 / +5"
         ],
         [
-          "Enchantment",
-          "The spirit influences the minds of others, allowing you to ..."
+          "Enchantment - Beguiling Spirit",
+          "This spirit influences the minds of others; Once per combat, when you deal damage to a creature, it has Disadvantage on the next attack roll it makes before the end of its next turn unless it succeeds on a Wisdom saving throw with the following modifier: ",
+          "-1 / -2 / -3 / -4 / -5 "
         ],
         [
-          "Evocation",
-          "The spirit empowers your attacks, allowing you to ..."
+          "Evocation - Empowering Spirit",
+          "This spirit empowers your magical attacks; Once per combat, when you deal damage with a spell, you can deal extra damage to one target of the spell equal to: ",
+          "d4 / d6 / d8 / d10 / d12"
         ],
         [
-          "Illusion",
-          "The spirit cloaks you in ..."
+          "Illusion - Veiling Spirit",
+          "This spirit helps you confuse your opponents; At the start of each combat you gain an illusory duplicate. When a creature hits you with an attack roll, a d6. The attack misses and the illusion dissappears if the roll is equal to or lower than: ",
+          " 1 / 2 / 3 / 4 / 5"
         ],
         [
-          "Necromancy",
-          "The spirit manipulates the boundary between life and death, allowing you to ..."
+          "Necromancy - Withering Spirit",
+          "This spirit drains the vitality of your adversaries; Once per combat, when a creature within 5 feet of you takes damage from you, its AC is reduced until the start of your next turn by: ",
+          "-1 / -2 / -3 / -4 / -5 "
         ],
         [
-          "Transmutation",
-          "The spirit alters your body, allowing you to ..."
+          "Transmutation - Altering Spirit",
+          "This spirit alters your body; you gain resistance to the damage types corresponding to your Spirit's level and all lower levels: ",
+          " Necrotic / Poison / Acid / Cold / Fire "
         ]
       ]
       
