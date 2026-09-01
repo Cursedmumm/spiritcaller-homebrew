@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 27"
+          "Lukas 28"
         ]
       }
     ]
@@ -277,7 +277,51 @@
             "You otherwise follow the normal rules for casting the spell, including its components, concentration, targets, and duration.",
             "If the spell has a casting time of a Bonus Action, the Magic action used to sever the bond and cast the spell is also a Bonus Action ."
           ]
-        }
+        },
+        {
+          "type": "table",
+          "caption": "Spirit Types Table",
+          "colLabels": [
+            "Spirit Type",
+            "Effect"
+          ],
+          "rows": [
+        [
+          "Abjuration",
+          "The spirit shields you from harm, granting you ..."
+        ],
+        [
+          "Conjuration",
+          "The spirit allows you to ..."
+        ],
+        [
+          "Divination",
+          "The spirit grants you ..."
+        ],
+        [
+          "Enchantment",
+          "The spirit influences the minds of others, allowing you to ..."
+        ],
+        [
+          "Evocation",
+          "The spirit empowers your attacks, allowing you to ..."
+        ],
+        [
+          "Illusion",
+          "The spirit cloaks you in ..."
+        ],
+        [
+          "Necromancy",
+          "The spirit manipulates the boundary between life and death, allowing you to ..."
+        ],
+        [
+          "Transmutation",
+          "The spirit alters your body, allowing you to ..."
+        ]
+      ]
+      
+    }
+  
       ]
     },
     {
