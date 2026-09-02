@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 31"
+          "Lukas 32"
         ]
       }
     ]
@@ -284,11 +284,11 @@
           "colLabels": [
             "Spirit Type",
             "Effect per Spirit",
-            "Lvl 1",
-            "Lvl 2",
-            "Lvl 3",
-            "Lvl 4",
-            "Lvl 5"
+            "Lvl1",
+            "Lvl2",
+            "Lvl3",
+            "Lvl4",
+            "Lvl5"
           ],
           "rows": [
         [
@@ -303,11 +303,11 @@
         [
           "Conjuration - Wayfarer Spirit",
           "This spirit allows you to move with them; Once per combat as a Bonus Action you benefit from the effects of the Etherealness spell while moving:",
-            "10 ft",
-            "15 ft",
-            "20 ft",
-            "25 ft",
-            "30 ft"
+            "10ft",
+            "15ft",
+            "20ft",
+            "25ft",
+            "30ft"
         ],
         [
           "Divination - Prescient Spirit",
