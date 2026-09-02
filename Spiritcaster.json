@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 35"
+          "Lukas 36"
         ]
       }
     ]
@@ -1039,7 +1039,7 @@
       ]
     },
 {
-      "name": "The Spectre Subclass Feature",
+      "name": "The Spectre Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -1049,7 +1049,7 @@
       "entries": [
         {
       "type": "refSubclassFeature",
-      "subclassFeature": "Spiritual Armor|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
+      "subclassFeature": "Spiritual Armor|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6"
     }
       ]
     },
@@ -1069,7 +1069,7 @@
       ]
     },
     {
-      "name": "The Spectre Subclass Feature",
+      "name": "The Spectre Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -1098,7 +1098,7 @@
       ]
     },
     {
-      "name": "The Spectre Subclass Feature",
+      "name": "The Spectre Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
