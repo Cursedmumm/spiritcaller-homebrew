@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 32"
+          "Lukas 33"
         ]
       }
     ]
@@ -78,7 +78,6 @@
         },
         "Lingering Bond|Spiritcaller|SpiritcallerHB|7",
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|8",
-        "Soul Tracking|Spiritcaller|SpiritcallerHB|9",
         {
           "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|10",
           "gainSubclassFeature": true
@@ -290,6 +289,15 @@
             "Lvl4",
             "Lvl5"
           ],
+          "colStyles": [
+          "col-2",
+          "col-5",
+          "col-1 text-center",
+          "col-1 text-center",
+          "col-1 text-center",
+          "col-1 text-center",
+          "col-1 text-center"
+        ],
           "rows": [
         [
           "Abjuration - Protective Spirit",
@@ -495,17 +503,7 @@
         "You gain this feature again at 12th, and 16th level."
       ]
     },
-       {
-      "name": "Soul Tracking",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "level": 9,
-      "entries": [
-      "Your connection to a creature's soul allows you to sense its presence even when it is beyond your sight. ",
-      "While a creature bears your Soul Mark, you know the direction and distance of the creature from you, provided you are on the same plane of existence."
-      ]
-    },
+       
     {
       "name": "Spiritvision",
       "source": "SpiritcallerHB",
@@ -939,7 +937,22 @@
       "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your Haunt Subclass grants you a feature at this level."
+             {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Soul Tracking|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|10"
+    }
+      ]
+    },
+    {
+      "name": "Soul Tracking",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "subclassShortName": "The Haunt",
+      "subclassSource": "SpiritcallerHB",
+      "level": 10,
+      "entries": [
+      "Your connection to a creature's soul allows you to sense its presence even when it is beyond your sight. While a creature bears your Soul Mark, you know the direction and distance of the creature from you, provided you are on the same plane of existence."
       ]
     },
     {
