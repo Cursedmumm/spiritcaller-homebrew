@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 30"
+          "Lukas 31"
         ]
       }
     ]
@@ -283,45 +283,88 @@
           "caption": "Spirit Types Table",
           "colLabels": [
             "Spirit Type",
-            "Effect per Spirit Level 1/2/3/4/5"
+            "Effect per Spirit",
+            "Lvl 1",
+            "Lvl 2",
+            "Lvl 3",
+            "Lvl 4",
+            "Lvl 5"
           ],
           "rows": [
         [
           "Abjuration - Protective Spirit",
-          "This spirit shields you from harm; Once per round reduce the amount of nonmagical physical damage taken by: 1 / 2 / 3 / 4 / 5"
+          "This spirit shields you from harm; Once per round reduce the amount of nonmagical physical damage taken by:",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
         ],
         [
           "Conjuration - Wayfarer Spirit",
-          "This spirit allows you to move with them; Once per combat as a Bonus Action you benefit from the effects of the Etherealness spell while moving: 10 ft/ 15 ft/ 20 ft/ 25 ft/ 30 ft"
+          "This spirit allows you to move with them; Once per combat as a Bonus Action you benefit from the effects of the Etherealness spell while moving:",
+            "10 ft",
+            "15 ft",
+            "20 ft",
+            "25 ft",
+            "30 ft"
         ],
         [
           "Divination - Prescient Spirit",
-          "This spirit gives you glimpses of the future; When you roll Initiative, you gain a bonus to the roll equal to: +1 / +2 / +3 / +4 / +5"
+          "This spirit gives you glimpses of the future; When you roll Initiative, you gain a bonus to the roll equal to:",
+            "+1",
+            "+2",
+            "+3",
+            "+4",
+            "+5"
         ],
         [
           "Enchantment - Beguiling Spirit",
-          "This spirit influences the minds of others; Once per combat, when you deal damage to a creature, it has Disadvantage on the next attack roll it makes before the end of its next turn unless it succeeds on a Wisdom saving throw with the following modifier: -1 / -2 / -3 / -4 / -5 "
+          "This spirit influences the minds of others; Once per combat, when you deal damage to a creature, it has Disadvantage on the next attack roll it makes before the end of its next turn unless it succeeds on a Wisdom saving throw with the following modifier:",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5"
         ],
         [
           "Evocation - Empowering Spirit",
-          "This spirit empowers your magical attacks; Once per combat, when you deal damage with a spell, you can deal extra damage to one target of the spell equal to: d4 / d6 / d8 / d10 / d12"
+          "This spirit empowers your magical attacks; Once per combat, when you deal damage with a spell, you can deal extra damage to one target of the spell equal to:",
+            "d4",
+            "d6",
+            "d8",
+            "d10",
+            "d12"
         ],
         [
-          "Illusion -   Veiling Spirit",
-          "This spirit helps you confuse your opponents; At the start of each combat you gain an illusory duplicate. When a creature hits you with an attack roll, a d6. The attack misses and the illusion dissappears if the roll is equal to or lower than: 1 / 2 / 3 / 4 / 5"
+          "Illusion - Veiling Spirit",
+          "This spirit helps you confuse your opponents; At the start of each combat you gain an illusory duplicate. When a creature hits you with an attack roll, a d6. The attack misses and the illusion dissappears if the roll is equal to or lower than:",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
         ],
         [
           "Necromancy - Withering Spirit",
-          "This spirit drains the vitality of your adversaries; Once per combat, when a creature within 5 feet of you takes damage from you, its AC is reduced until the start of your next turn by: -1 / -2 / -3 / -4 / -5 "
+          "This spirit drains the vitality of your adversaries; Once per combat, when a creature within 5 feet of you takes damage from you, its AC is reduced until the start of your next turn by:",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5"
         ],
         [
           "Transmutation - Altering Spirit",
-          "This spirit alters your body; you gain resistance to the damage types corresponding to your Spirit's level and all lower levels: Necrotic / Poison / Acid / Cold / Fire "
+          "This spirit alters your body; you gain resistance to the damage types corresponding to your Spirit's level and all lower levels:",
+            "Necrotic",
+            "Poison",
+            "Acid",
+            "Cold",
+            "Fire"
         ]
       ]
-      
     }
-  
       ]
     },
     {
