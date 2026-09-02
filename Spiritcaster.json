@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 36"
+          "Lukas 37"
         ]
       }
     ]
@@ -77,14 +77,16 @@
           "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|6",
           "gainSubclassFeature": true
         },
-        "Lingering Bond|Spiritcaller|SpiritcallerHB|7",
+        "Resonant Rend|Spiritcaller|SpiritcallerHB|7",
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|8",
+        "Lingering Bond|Spiritcaller|SpiritcallerHB|9",
         {
           "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|10",
           "gainSubclassFeature": true
         },
         "Spiritvision|Spiritcaller|SpiritcallerHB|11",
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|12",
+        "Spirit Bond Mastery|Spiritcaller|SpiritcallerHB|13",
   
         {
           "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|14",
@@ -92,11 +94,39 @@
         },
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|16",
         "Improved Soulrend|Spiritcaller|SpiritcallerHB|17",
-        "Spirit Bond Mastery|Spiritcaller|SpiritcallerHB|18",
         "Epic Boon|Spiritcaller|SpiritcallerHB|19",
         "Avatar of the Spirits|Spiritcaller|SpiritcallerHB|20"
       ],
+      
       "classTableGroups": [
+          {
+    "title": "Soulrend Damage",
+    "colLabels": [
+      "Soulrend Damage"
+    ],
+    "rows": [
+      ["2d6"],
+      ["2d6"],
+      ["2d6"],
+      ["2d6"],
+      ["2d6"],
+      ["2d8"],
+      ["2d8"],
+      ["2d8"],
+      ["2d8"],
+      ["2d8"],
+      ["2d10"],
+      ["2d10"],
+      ["2d10"],
+      ["2d10"],
+      ["2d10"],
+      ["2d12"],
+      ["2d12"],
+      ["2d12"],
+      ["2d12"],
+      ["2d12"]
+    ]
+  },
         {
           "title": "Spirit Magic",
           "colLabels": [
@@ -265,19 +295,9 @@
       "entries": [
         "Your connection to the spirits allows you to to establish temporary bonds that provide benefits to those who are bonded.",
         "When you finish a Long Rest, you select <b>Spirits</b> from the table below equal to your proficiency bonus. Each type of spirit grants a different type of benefit scaling with your Spiritcaller level, see the Spirit Magic table above.",
-        "You assign them to yourself or to a willing member of your adventuring party. A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest, unless prematurely severed by the Spiritcaller"
-        ,
-        {
-          "type": "entries",
-          "name": "Breaking the Bond",
-          "entries": [
-            "As a <b>Magic action</b>, you can sever one of your active Spirit bonds. The bonded person must be within 30 feet of you, and you must be able to see them. You can also sever a bond you bear yourself.",
-            "When you sever a bond, its passive benefit immediately ends. You can then cast one spell from your spell list that belongs to the school of magic associated with that Spirit. The spell must be of a level equal to or lower than the level of the Spirit, as shown in the Spirit table.",
-            "The spell requires no spell slot. If the spell is of a lower level than the Spirit, the spell takes on the Spirit's level for that casting, as if you had used a spell slot of that level.",
-            "You otherwise follow the normal rules for casting the spell, including its components, concentration, targets, and duration.",
-            "If the spell has a casting time of a Bonus Action, you can take a Bonus Action to sever the bond and cast the spell instead."
-          ]
-        },
+        "You assign them to yourself or to a willing member of your adventuring party. A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest, unless prematurely severed by the Spiritcaller",
+        " ",
+        
         {
           "type": "table",
           "caption": "Spirit Types Table",
@@ -396,6 +416,17 @@
         },
         {
           "type": "entries",
+          "name": "Breaking the Bond",
+          "entries": [
+            "As a <b>Magic action</b>, you can sever one of your active Spirit bonds. The bonded person must be within 30 feet of you, and you must be able to see them. You can also sever a bond you bear yourself.",
+            "When you sever a bond, its passive benefit immediately ends. You can then cast one spell from your spell list that belongs to the school of magic associated with that Spirit. The spell must be of a level equal to or lower than the level of the Spirit, as shown in the Spirit table.",
+            "The spell requires no spell slot. If the spell is of a lower level than the Spirit, the spell takes on the Spirit's level for that casting, as if you had used a spell slot of that level.",
+            "You otherwise follow the normal rules for casting the spell, including its components, concentration, targets, and duration.",
+            "If the spell has a casting time of a Bonus Action, you can take a Bonus Action to sever the bond and cast the spell instead."
+          ]
+        },
+        {
+          "type": "entries",
           "name": "Spellcasting Ability",
           "entries": [
             "Intelligence is your spellcasting ability for your Spiritcaller spells.",
@@ -449,7 +480,8 @@
         {
           "type": "list",
           "items": [
-            "<b>Soulrend:</b>  As a Bonus Action, you can rend the soul of a creature within 30 ft that you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity. The creature can't take Reactions until the end of its next turn."
+            "<b>Soulrend:</b>  As a Bonus Action, you can rend the soul of a creature within 30 ft that you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity. The creature can't take Reactions until the end of its next turn.",
+            "At Higher Levels. Your Soulrend damage die changes when you reach certain Spiritcaller levels, as shown in the Souldrend Die column of the Spiritcaller Features table. The die becomes a d8 at level 6, a d10 at level 11, and a d12 at level 16."
           ]
    }
   ]
@@ -499,18 +531,17 @@
         "The spirit knows only what it knew in life, as determined by the DM. Each additional question asked while the spirit remains tethered has a 30% chance of causing the Spirit to transform into a Wraith; roll on the Wraith's Revenge table when this transformation occurs."
       ]
     },
-        {
-      "name": "Lingering Bond",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "level": 7,
-      "entries": [
-        "Your understanding of spiritual magic allows you to preserve a Spirit bond while drawing upon some of its power.",
-        "When you sever a Spirit bond to cast a spell, you can instead preserve the bond and cast a spell of that type that is of a lower level than the Spirit's level.",
-        "Once you use this feature, you can't use it again until you finish a Short or Long Rest."
-      ]
-    },
+    {
+  "name": "Resonant Rend",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "level": 7,
+  "entries": [
+    "When you use Soulrend; the spiritual wounds you inflict resonate between those you rend. You roll one additional Soulrend damage die for each creature you rend beyond the first."
+  ]
+},
+        
         {
       "name": "Ability Score Improvement",
       "source": "SpiritcallerHB",
@@ -522,7 +553,18 @@
         "You gain this feature again at 12th, and 16th level."
       ]
     },
-       
+       {
+      "name": "Lingering Bond",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "level": 9,
+      "entries": [
+        "Your understanding of spiritual magic allows you to preserve a Spirit bond while drawing upon some of its power.",
+        "When you sever a Spirit bond to cast a spell, you can instead preserve the bond and cast a spell of that type that is of a lower level than the Spirit's level.",
+        "Once you use this feature, you can't use it again until you finish a Short or Long Rest."
+      ]
+    },
     {
       "name": "Spiritvision",
       "source": "SpiritcallerHB",
@@ -531,12 +573,7 @@
       "level": 11,
       "entries": [
         "Your connection to the spirit world allows you to see the true spiritual energy of all living things.",
-        {
-          "type": "list",
-          "items": [
-            "As a Magic action, you gain Truesight with a range of 120 feet for 1 hour. Once you use this feature, you can’t use it again until you finish a Long Rest."
-          ]
-        }
+        "As a Magic action, you gain Truesight with a range of 120 feet for 1 hour. Once you use this feature, you can’t use it again until you finish a Long Rest."
       ]
     },
         {
@@ -548,6 +585,18 @@
       "entries": [
         "You gain the Ability Score Improvement feat or another feat for which you qualify.",
         "You gain this feature again at 16th level."
+      ]
+    },
+    {
+      "name": "Spirit Bond Mastery",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "level": 13,
+      "entries": [
+        "Your bonds with the spirit world have become more flexible.",
+        "You can now assign multiple bonds to yourself or to a willing member of your adventuring party. Each of the bonds must be with a different type of spirit.",
+        "In addition, while you are within 15 feet of a creature carrying one of your active Spirit bonds, you have Advantage on Constitution saving throws you make to maintain Concentration."
       ]
     },
         {
@@ -572,18 +621,7 @@
       "If you use Soulrend on the same target again, it gains a cumulative +2 bonus to the saving throw for each time this effect has affected it this combat."
       ]
     },
-    {
-      "name": "Spirit Bond Mastery",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "level": 18,
-      "entries": [
-        "Your bonds with the spirit world have become more flexible.",
-        "You can now assign multiple bonds to yourself or to a willing member of your adventuring party. Each of the bonds must be with a different type of spirit.",
-        "In addition, while you are within 15 feet of a creature carrying one of your active Spirit bonds, you have Advantage on Constitution saving throws you make to maintain Concentration."
-      ]
-    },
+
     {
       "name": "Epic Boon",
       "source": "SpiritcallerHB",
