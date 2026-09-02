@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 34"
+          "Lukas 35"
         ]
       }
     ]
@@ -72,6 +72,7 @@
         },
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|4",
         "Extra Attack|Spiritcaller|SpiritcallerHB|5",
+        "Binding Presence|Spiritcaller|SpiritcallerHB|5",
         {
           "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|6",
           "gainSubclassFeature": true
@@ -90,8 +91,8 @@
           "gainSubclassFeature": true
         },
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|16",
-        "Ethereal Step|Spiritcaller|SpiritcallerHB|17",
-        "Spirit Mastery|Spiritcaller|SpiritcallerHB|18",
+        "Improved Soulrend|Spiritcaller|SpiritcallerHB|17",
+        "Spirit Bond Mastery|Spiritcaller|SpiritcallerHB|18",
         "Epic Boon|Spiritcaller|SpiritcallerHB|19",
         "Avatar of the Spirits|Spiritcaller|SpiritcallerHB|20"
       ],
@@ -290,13 +291,13 @@
             "Lvl5"
           ],
           "colStyles": [
-          "col-2",
+          "col-1.5",
           "col-7.5",
           "col-0.5 text-center",
           "col-0.5 text-center",
           "col-0.5 text-center",
-          "col-0.5 text-center",
-          "col-0.5 text-center"
+          "col-0.75 text-center",
+          "col-0.75 text-center"
         ],
           "rows": [
         [
@@ -445,8 +446,14 @@
         "When you deal damage to a creature with an attack that exceeds its Intelligence score, you mark that creature's soul at the end of your turn.",
         "The mark remains until it is removed by this feature or the target has taken a long rest.",
         "Each time you deal damage to a creature whose soul is marked, the mark's intensity increases by 1.",
-        "As a Bonus Action, you can rend the soul of a creature within 30 ft that you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity. The creature can't take Reactions until the end of its next turn."
-      ]
+        {
+          "type": "list",
+          "items": [
+            "<b>Soulrend:</b>  As a Bonus Action, you can rend the soul of a creature within 30 ft that you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity. The creature can't take Reactions until the end of its next turn."
+          ]
+   }
+  ]
+        
     },
     {
       "name": "Spiritcaller Subclass",
@@ -478,6 +485,18 @@
       "level": 5,
       "entries": [
         "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "Binding Presence",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "level": 5,
+      "entries": [
+        "When a life ends in your presence, you're able to keep the spirit tethered to its body.",
+        "You can can ask the spirit associated with the body one question. It's under no obligation to be truthful, and it answers as concisely as possible, eager to leave its body behind.",
+        "The spirit knows only what it knew in life, as determined by the DM. Each additional question asked while the spirit remains tethered has a 30% chance of causing the Spirit to transform into a Wraith; roll on the Wraith's Revenge table when this transformation occurs."
       ]
     },
         {
@@ -542,30 +561,27 @@
       ]
     },
     {
-      "name": "Ethereal Step",
+      "name": "Improved Soulrend",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 17,
       "entries": [
-        "You can momentarily abandon your physical form.",
-        "When you are hit by an attack, you can take a Reaction to become partially incorporeal until the end of the current turn.",
-        "The triggering attack deals <b>half damage</b> to you.",
-        "Until the end of the turn, you can move through creatures and objects as if they were Difficult Terrain.",
-        "If you end your turn inside a creature or object, you are moved to the nearest unoccupied space and take Force damage equal to twice your Spiritcaller level.",
-        "Once you use this feature, you can't use it again until you finish a Short or Long Rest."
+      "Your ability to rend a creature's spirit can disrupt its connection to the source of their magic.",
+      "When you use your Soulrend ability, the target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or be unable to cast spells until the end of your next turn.",
+      "If you use Soulrend on the same target again, it gains a cumulative +2 bonus to the saving throw for each time this effect has affected it this combat."
       ]
     },
     {
-      "name": "Spirit Mastery",
+      "name": "Spirit Bond Mastery",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
       "level": 18,
       "entries": [
-        "Your bonds with the spirit world have become extraordinarily resilient.",
-        "When you sever a Spirit bond, you can choose to retain that Gift's passive benefit until the end of your current turn.",
-        "In addition, while you are within 10 feet of a creature carrying one of your active Spirit bonds, you have Advantage on Constitution saving throws you make to maintain Concentration."
+        "Your bonds with the spirit world have become more flexible.",
+        "You can now assign multiple bonds to yourself or to a willing member of your adventuring party. Each of the bonds must be with a different type of spirit.",
+        "In addition, while you are within 15 feet of a creature carrying one of your active Spirit bonds, you have Advantage on Constitution saving throws you make to maintain Concentration."
       ]
     },
     {
@@ -587,8 +603,8 @@
       "entries": [
         "You have become a living conduit between the material world and the spirit realm.",
         "Whenever you roll Initiative, you can restore one Spirit bond that you previously severed during the current adventuring day.",
-        "The restored Gift returns to the creature that originally bore it, and its passive benefit immediately resumes.",
-        "Once you restore a Gift using this feature, you can't do so again until you finish a Long Rest.",
+        "The restored Bond returns to the creature that originally bore it, and its passive benefit immediately resumes.",
+        "Once you restore a Bond using this feature, you can't do so again until you finish a Short Rest.",
         "In addition, while you have at least one active Spirit bond, you gain a <b>+2 bonus to your Intelligence score</b>, to a maximum of 22."
       ]
     },
@@ -754,21 +770,21 @@
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
         "The Spectre Subclass|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3",
-        "Spiritual Armor|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
-        "The Spectre Subclass Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10",
-        "The Spectre Subclass Feature|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
+        "The Spectre Subclass|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|6",
+        "The Spectre Subclass|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10",
+        "The Spectre Subclass|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
       ],
             "subclassSpells": [
         "Disguise Self",
         "Invisibility",
         "Hypnotic Pattern",
-        "Greater Invisibility",
+        "Distorted Distance|AU",
         "Seeming",
         "Cause Fear|XGE",
         "Death armor|FRHoF",
         "Spirit Shroud|TCE",
         "Shadow of Moil|XGE",
-        "Spirit Lantern|XGE"
+        "Spirit Lantern|AU"
       ],
       "additionalSpells": [
         {
@@ -786,12 +802,12 @@
               "Spirit Shroud|TCE"
             ],
             "13": [
-              "Greater Invisibility",
+              "Distorted Distance|AU",
               "Shadow of Moil|XGE"
             ],
             "17": [
               "Seeming",
-              "Spirit Lantern|XGE"
+              "Spirit Lantern|AU"
             ]
           }
         }
@@ -805,18 +821,18 @@
       "classSource": "SpiritcallerHB",
       "subclassFeatures": [
         "The Soulmender Subclass|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3",
-        "The Soulmender Subclass Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|6",
-        "The Soulmender Subclass Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|10",
-        "The Soulmender Subclass Feature|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|14"
+        "The Soulmender Subclass|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|6",
+        "The Soulmender Subclass|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|10",
+        "The Soulmender Subclass|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|14"
       ],
       "subclassSpells": [
         "Command",
         "Crown of Madness",
-        "Catnap|XGE",
+        "Catnap|AU",
         "Compulsion",
         "Dominate Person",
         "Inflict Wounds",
-        "Wither and Bloom|SCC",
+        "Wither and Bloom|AU",
         "Speak with Dead",
         "Spirit of the Death|BMT",
         "Reincarnate"
@@ -830,10 +846,10 @@
             ],
             "5": [
               "Crown of Madness",
-              "Wither and Bloom|SCC"
+              "Wither and Bloom|AU"
             ],
             "9": [
-              "Catnap|XGE",
+              "Catnap|AU",
               "Speak with Dead"
             ],
             "13": [
@@ -978,24 +994,26 @@
       "level": 3,
       "entries": [
     "A Spectre has learned to blur the boundary between the living and the dead.",
-    "Their connection to the spirit world allows them to temporarily shed their physical form and become a spirit, moving through the world as an ethereal presence before returning to their mortal body.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "The Spectre Cantrips|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
-    },
-
+    "Their connection to the spirit world allows them to bypass barriers and obstacles that would stop the living. Many Spectres are therefore hired as assassins, thieves, and spies, using their unnatural abilities to slip past guards and penetrate even the most secure locations.",
+    "Others turn their gifts toward less sinister pursuits, exploring forgotten ruins and places too dangerous for ordinary adventurers.",
+    "Whether they seek fortune, knowledge, or danger, a Spectre is never truly bound by the barriers of the mortal world.",
     {
       "type": "refSubclassFeature",
       "subclassFeature": "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
     },
+        {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Bonus Proficiencies|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
+    },
+
        {
       "type": "refSubclassFeature",
-      "subclassFeature": "Echo Step|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
+      "subclassFeature": "Spirit Stabs|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
     }
   ]
     },
     {
-  "name": "The Spectre Cantrips",
+  "name": "Bonus Proficiencies",
   "source": "SpiritcallerHB",
   "className": "Spiritcaller",
   "classSource": "SpiritcallerHB",
@@ -1003,13 +1021,12 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-"When you choose this Subclass, choose one Illusion and one Necromancy cantrip from the Spiritcaller spell list.",
-"While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
-"You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be an Illusion or Necromancy cantrip."
+      "When you choose to become a Spectre at 3rd level, you gain proficiency with shields and martial weapons with the Finesse property."
   ]
 },
+
 {
-  "name": "Echo Step",
+  "name": "Spirit Stabs",
   "source": "SpiritcallerHB",
   "className": "Spiritcaller",
   "classSource": "SpiritcallerHB",
@@ -1017,12 +1034,25 @@
   "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "You have learned to briefly slip between the Material Plane and the spirit world.",
-        "As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see.",
-        "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+        "Your bonded spirit strikes alongside you.",
+        "While you are bonded to a Spirit, once per turn when you hit with a Melee attack, you can deal extra damage equal to your Intelligence modifier."
       ]
     },
-
+{
+      "name": "The Spectre Subclass Feature",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "subclassShortName": "The Spectre",
+      "subclassSource": "SpiritcallerHB",
+      "level": 6,
+      "entries": [
+        {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Spiritual Armor|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
+    }
+      ]
+    },
 
         {
       "name": "Spiritual Armor",
@@ -1047,7 +1077,24 @@
       "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your Spectre Subclass grants you a feature at this level."
+       {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Echo Step|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|10"
+    }
+      ]
+    },
+    {
+  "name": "Echo Step",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "subclassShortName": "The Spectre",
+  "subclassSource": "SpiritcallerHB",
+      "level": 10,
+      "entries": [
+        "You have learned to briefly slip between the Material Plane and the spirit world.",
+        "As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see.",
+        "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
       ]
     },
     {
@@ -1059,9 +1106,28 @@
       "subclassSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
-        "Your Spectre Subclass grants you a feature at this level."
+      {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Spectral Form|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|14"
+    }
       ]
     },
+    {
+  "name": "Spectral Form",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "subclassShortName": "The Spectre",
+  "subclassSource": "SpiritcallerHB",
+  "level": 14,
+  "entries": [
+    "You have learned to fully shed your physical form and become a spirit.",
+    "As a Bonus Action, you enter your Spectral Form for 1 minute. While in this form, you gain a Fly Speed equal to your Speed and have Resistance to nonmagical Bludgeoning, Piercing, and Slashing damage.",
+    "While in Spectral Form, you can move through creatures and objects as if they were Difficult Terrain. When you move through a creature, that creature takes Force damage equal to your Intelligence modifier. A creature can take this damage only once per turn.",
+    "If you end your turn inside a creature or an object, you take 5 Force damage and are moved to the nearest unoccupied space.",
+    "Once you use this feature, you can't use it again until you finish a Long Rest."
+  ]
+},
     {
       "name": "The Soulmender Subclass",
       "source": "SpiritcallerHB",
@@ -1099,7 +1165,7 @@
   ]
     },
     {
-      "name": "The Soulmender Subclass Feature",
+      "name": "The Soulmender Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -1111,7 +1177,7 @@
       ]
     },
     {
-      "name": "The Soulmender Subclass Feature",
+      "name": "The Soulmender Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -1123,7 +1189,7 @@
       ]
     },
     {
-      "name": "The Soulmender Subclass Feature",
+      "name": "The Soulmender Subclass",
       "source": "SpiritcallerHB",
       "className": "Spiritcaller",
       "classSource": "SpiritcallerHB",
@@ -1143,7 +1209,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your spiritual discipline grants you additional spells. When you reach a Spiritcaller level specified in the The Haunt Spells table, you thereafter always have the listed spells prepared.",
+        "Your spiritual discipline grants you additional spells. When you reach a Spiritcaller level specified in the The Haunt Spells table, you add the listed spells to your Spiritcaller spell list.",
         {
           "type": "table",
           "caption": "The Haunt Spells",
@@ -1166,7 +1232,7 @@
             ],
             [
               "13th",
-              "{@spell Greater Invisibility}, {@spell Raulothim's Psychic Lance|FTD}"
+              "{@spell Distorted Distance|AU}, {@spell Raulothim's Psychic Lance|FTD}"
             ],
             [
               "17th",
@@ -1185,7 +1251,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your connection to spirits grants you additional spells. When you reach a Spiritcaller level specified in the The Spectre Spells table, you thereafter always have the listed spells prepared.",
+        "Your connection to spirits grants you additional spells. When you reach a Spiritcaller level specified in the The Spectre Spells table, you add the listed spells to your Spiritcaller spell list.",
         {
           "type": "table",
           "caption": "The Spectre Spells",
@@ -1212,7 +1278,7 @@
             ],
             [
               "17th",
-              "{@spell Seeming}, {@spell Spirit Lantern|XGE}"
+              "{@spell Seeming}, {@spell Spirit Lantern|AU}"
             ]
           ]
         }
@@ -1227,7 +1293,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your spiritual bonds grant you additional spells. When you reach a Spiritcaller level specified in the The Soulmender Spells table, you thereafter always have the listed spells prepared.",
+        "Your spiritual bonds grant you additional spells. When you reach a Spiritcaller level specified in the The Soulmender Spells table, you add the listed spells to your Spiritcaller spell list.",
         {
           "type": "table",
           "caption": "The Soulmender Spells",
@@ -1242,11 +1308,11 @@
             ],
             [
               "5th",
-              "{@spell Crown of Madness} , {@spell Wither and Bloom|SCC}"
+              "{@spell Crown of Madness} , {@spell Wither and Bloom|AU}"
             ],
             [
               "9th",
-              " {@spell Catnap|XGE}, {@spell Speak with Dead}"
+              " {@spell Catnap|AU}, {@spell Speak with Dead}"
             ],
             [
               "13th",
