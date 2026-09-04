@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 38"
+          "Lukas 40"
         ]
       }
     ]
@@ -271,9 +271,10 @@
             "type": "section",
             "name": "Spiritcaller",
             "entries": [
+             
               "<b>Spiritcallers</b> are a new phenomena in Prosperra. People born with an innate connection to the spirit world aren't anything new but since the departure of Veles, spirits no longer find their way to Zendan and the beyond. This has led to the development of a new kind of magic, powered by the spirits wandering Prosperra. Rather than drawing magic from the spirits into themselves, Spiritcallers convince spirits to aid them or their companions by bonding them for a short time.", 
               "A Spiritcaller can also sever this connection, using some of the binding energy to cast a spell. In contrast to Wraithwielders, Spiritcallers are more on the fringes of society as messing with spirits is seen as a dangerous practice that disrupts the natural order between the living and the dead. As they struggle to find acceptance, Spiritcallers have begun to follow different paths, specializing in the many ways their bond with spirits can be used."
-           ]
+            ]
           }
         ]
       },
@@ -288,16 +289,18 @@
       "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
-        "Your connection to the spirits allows you to to establish temporary bonds that provide benefits to those who are bonded.",
-        "When you finish a Long Rest, you select <b>Spirits</b> from the table below equal to your proficiency bonus. Each type of spirit grants a different type of benefit scaling with your Spiritcaller level, see the Spirit Magic table above.",
+        "Your connection to the spirits allows you to request their aid, establishing temporary bonds that provide benefits.",
+        "When you finish a Long Rest, you select <b>Spirits</b> from the table below equal to your proficiency bonus. Each type of spirit grants a benefit that scales with your Spiritcaller level, see the Spirit Magic table above.",
         "You assign them to yourself or to a willing member of your adventuring party. A person can be bonded to only one Spirit at a time, the bond lasting until their next Long rest, unless prematurely severed by the Spiritcaller",
-        " ",
+        "  ",
+        "  ",
         
         {
           "type": "table",
           "caption": "Spirit Types Table",
           "colLabels": [
             "Spirit Type",
+            "Subclass specific",
             "Effect per Spirit",
             "Lvl1",
             "Lvl2",
@@ -307,7 +310,8 @@
           ],
           "colStyles": [
           "col-1.5",
-          "col-7.5",
+          "col-1",
+          "col-6.5",
           "col-0.5 text-center",
           "col-0.5 text-center",
           "col-0.5 text-center",
@@ -317,6 +321,7 @@
           "rows": [
         [
           "Abjuration - Protective Spirit",
+          "No",
           "This spirit shields you from harm; Once per round reduce the amount of nonmagical physical damage taken by:",
             "1",
             "2",
@@ -326,6 +331,7 @@
         ],
         [
           "Conjuration - Wayfarer Spirit",
+          "No",
           "This spirit allows you to move with them; Once per combat as a Bonus Action you benefit from the effects of the Etherealness spell while moving:",
             "10ft",
             "15ft",
@@ -335,6 +341,7 @@
         ],
         [
           "Divination - Prescient Spirit",
+          "No",
           "This spirit gives you glimpses of the future; When you roll Initiative, you gain a bonus to the roll equal to:",
             "+1",
             "+2",
@@ -344,6 +351,7 @@
         ],
         [
           "Enchantment - Beguiling Spirit",
+          "Yes",
           "This spirit influences the minds of others; Once per combat, when you deal damage to a creature, it has Disadvantage on the next attack roll it makes before the end of its next turn unless it succeeds on a Wisdom saving throw with the following modifier:",
             "-1",
             "-2",
@@ -353,6 +361,7 @@
         ],
         [
           "Evocation - Empowering Spirit",
+          "No",
           "This spirit empowers your magical attacks; Once per combat, when you deal damage with a spell, you can deal extra damage to one target of the spell equal to:",
             "d4",
             "d6",
@@ -362,7 +371,8 @@
         ],
         [
           "Illusion - Veiling Spirit",
-          "This spirit helps you confuse your opponents; At the start of each combat you gain an illusory duplicate. When a creature hits you with an attack roll, a d6. The attack misses and the illusion dissappears if the roll is equal to or lower than:",
+          "Yes",
+          "This spirit helps you confuse your opponents; At the start of each combat you gain an illusory duplicate. When a creature hits you with an attack, roll a d6. The attack misses and the illusion dissappears if the roll is equal to or lower than:",
             "1",
             "2",
             "3",
@@ -371,6 +381,7 @@
         ],
         [
           "Necromancy - Withering Spirit",
+          "Yes",
           "This spirit drains the vitality of your adversaries; Once per combat, when a creature within 5 feet of you takes damage from you, its AC is reduced until the start of your next turn by:",
             "-1",
             "-2",
@@ -380,6 +391,7 @@
         ],
         [
           "Transmutation - Altering Spirit",
+          "No",
           "This spirit alters your body; you gain resistance to the damage types corresponding to your Spirit's level and all lower levels:",
             "Necrotic",
             "Poison",
@@ -398,15 +410,22 @@
       "classSource": "SpiritcallerHB",
       "level": 1,
       "entries": [
-        "You have learned to channel spiritual binding energy into spells.",
+        "You have learned to channel the magical energy that is released upon severing the spirit bond into spells.",
         "Certain spirits embody particular types of magical energy, and the process to learn how to attract a specific type of spirit and cast a spell from its energy requires considerable knowledge and practice.",
         "As you gain experience, you can attract increasingly more potent spirits which can be used to cast more powerful spells.",
         {
           "type": "entries",
           "name": "Bond Spells",
           "entries": [
-            "Rather than preparing spells normally, you select your Spirit bonds after every Long Rest. Each bond is associated with a type of magic, and severing the bond allows you to cast it a spell of that school of magic from the Spiritcaller spell list.",
-            "The amount and type of spirit bonds you can form is shown in the Spiritcaller Spirit magic table."
+            "Rather than preparing spells normally, you select your Spirit bonds after every Long Rest. Each bond is associated with a type of magic and severing the bond allows you to cast a spell of that school of magic from the Spiritcaller spell list if the spell is of a level equal to or lower than the level of the spirit.",
+            "The amount of spirit bonds you can form is shown in the Spiritcaller Spirit magic table."
+          ]
+        },
+         {
+          "type": "entries",
+          "name": "Types of Spirits known",
+          "entries": [
+            "As a Spiritcaller you start by knowing how to attract 1 type of spirit from among the types listed in the Spirit Types Table. You learn additional types of spirits at level 5, 9, 13 and 17 but you cannot select subclass specific spirits."
           ]
         },
         {
@@ -468,8 +487,8 @@
       "classSource": "SpiritcallerHB",
       "level": 2,
       "entries": [
-        "Your connection to the spirits allows you to mark the souls of those you harm.",
-        "When you deal damage to a creature with an attack that exceeds its Intelligence score, you mark that creature's soul at the end of your turn.",
+        "Your understanding of the spiritual energy inside the living allows you to mark the souls of those you harm.",
+        "When you deal damage to a creature with an attack that exceeds 8 + their Charisma modifier, you mark that creature's soul at the end of your turn.",
         "The mark remains until it is removed by this feature or the target has taken a long rest.",
         "Each time you deal damage to a creature whose soul is marked, the mark's intensity increases by 1.",
         {
@@ -1249,7 +1268,7 @@
   "level": 3,
   "entries": [
     "Your magic can now reach beyond the body, leaving its mark upon the soul of those you harm.",
-    "When you deal more damage then the INT score of a creature with a Necromancy or Enchantment cantrip or spell, you can mark that creature's soul as if you had dealt damage with an attack at the end of your turn.", 
+    "When you deal more damage then 8 + the target's Charisma modifier with a Necromancy or Enchantment cantrip or spell, you can mark that creature's soul as if you had dealt damage with an attack at the end of your turn.", 
     "If the cantrip or spell deals enough damage to multiple creatures, choose one of those creatures to mark."
 
   ]
@@ -1281,7 +1300,7 @@
         "you have learned to use some of the spiritual energy from tethered spirits for your own uses.",
         "When a creature you can see enters the space of one of the tethered spirits from your Binding Presence Feature, you can use your reaction to release the tether and choose one of the following effects:",
         "Mending Magic: That creature regains hit points equal to 1d8 + your Intelligence modifier.",
-        "Harmful Magic: That creature gets Soul Marked.",
+        "Harmful Magic: That creature gets a Soul Mark at the end of its turn.",
         "You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
       ]
     },
@@ -1324,10 +1343,12 @@
       "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
       "level": 14,
-      "entries":              {
+      "entries":   [        
+        {
       "type": "refSubclassFeature",
       "subclassFeature": "Soulweaving|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|14"
-    }
+        }
+    ]
     },
         {
       "name": "Soulweaving",
