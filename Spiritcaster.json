@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 37"
+          "Lukas 38"
         ]
       }
     ]
@@ -77,7 +77,7 @@
           "classFeature": "Spiritcaller Subclass|Spiritcaller|SpiritcallerHB|6",
           "gainSubclassFeature": true
         },
-        "Resonant Rend|Spiritcaller|SpiritcallerHB|7",
+        "Resonating Rend|Spiritcaller|SpiritcallerHB|7",
         "Ability Score Improvement|Spiritcaller|SpiritcallerHB|8",
         "Lingering Bond|Spiritcaller|SpiritcallerHB|9",
         {
@@ -100,7 +100,6 @@
       
       "classTableGroups": [
           {
-    "title": "Soulrend Damage",
     "colLabels": [
       "Soulrend Damage"
     ],
@@ -526,19 +525,19 @@
       "classSource": "SpiritcallerHB",
       "level": 5,
       "entries": [
-        "When a life ends in your presence, you're able to keep the spirit tethered to its body.",
+        "When a creature dies within 30 feet of you, you're able to keep the spirit tethered to its body.",
         "You can can ask the spirit associated with the body one question. It's under no obligation to be truthful, and it answers as concisely as possible, eager to leave its body behind.",
         "The spirit knows only what it knew in life, as determined by the DM. Each additional question asked while the spirit remains tethered has a 30% chance of causing the Spirit to transform into a Wraith; roll on the Wraith's Revenge table when this transformation occurs."
       ]
     },
     {
-  "name": "Resonant Rend",
+  "name": "Resonating Rend",
   "source": "SpiritcallerHB",
   "className": "Spiritcaller",
   "classSource": "SpiritcallerHB",
   "level": 7,
   "entries": [
-    "When you use Soulrend; the spiritual wounds you inflict resonate between those you rend. You roll one additional Soulrend damage die for each creature you rend beyond the first."
+    "When you use Soulrend, the spiritual wounds you inflict resonate between those you rend. You roll one additional Soulrend damage die for each creature you rend beyond the first."
   ]
 },
         
@@ -595,8 +594,7 @@
       "level": 13,
       "entries": [
         "Your bonds with the spirit world have become more flexible.",
-        "You can now assign multiple bonds to yourself or to a willing member of your adventuring party. Each of the bonds must be with a different type of spirit.",
-        "In addition, while you are within 15 feet of a creature carrying one of your active Spirit bonds, you have Advantage on Constitution saving throws you make to maintain Concentration."
+        "You can now assign multiple bonds to yourself or to a willing member of your adventuring party. Each of the bonds must be with a different type of spirit."
       ]
     },
         {
@@ -767,34 +765,34 @@
         "Fear",
         "Phantasmal Killer",
         "Dream",
-        "Dissonant Whispers",
-        "Tasha's Mind Whip|TCE",
+        "Command",
+        "Crown of Madness",
         "Antagonize|BMT",
-        "Raulothim's Psychic Lance|FTD",
-        "Modify Memory"
+        "Compulsion",
+        "Dominate Person"
       ],
       "additionalSpells": [
         {
           "prepared": {
             "3": [
-              "Dissonant Whispers",
+              "Command",
               "Illusory Script"
             ],
             "5": [
-              "Tasha's Mind Whip|TCE",
-              "phantasmal force"
+              
+              "Phantasmal Force"
             ],
             "9": [
               "Antagonize|BMT",
               "Fear"
             ],
             "13": [
-              "phantasmal killer",
-              "Raulothim's Psychic Lance|FTD"
+              "Compulsion",
+              "Phantasmal Killer"
             ],
             "17": [
-              "Dream",
-              "Modify Memory"
+              "Dominate Person",
+              "Dream"
             ]
           }
         }
@@ -864,11 +862,11 @@
         "The Soulmender Subclass|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|14"
       ],
       "subclassSpells": [
-        "Command",
-        "Crown of Madness",
+        "Dissonant Whispers",
+        "Tasha's Mind Whip|TCE",
         "Catnap|AU",
-        "Compulsion",
-        "Dominate Person",
+        "Raulothim's Psychic Lance|FTD",
+        "Modify Memory",
         "Inflict Wounds",
         "Wither and Bloom|AU",
         "Speak with Dead",
@@ -879,11 +877,11 @@
         {
           "prepared": {
             "3": [
-              "Command",
+              "Dissonant Whispers",
               "Inflict Wounds"
             ],
             "5": [
-              "Crown of Madness",
+              "Tasha's Mind Whip|TCE",
               "Wither and Bloom|AU"
             ],
             "9": [
@@ -891,11 +889,11 @@
               "Speak with Dead"
             ],
             "13": [
-              "Compulsion",
+              "Raulothim's Psychic Lance|FTD",
               "Spirit of the Death|BMT"
             ],
             "17": [
-              "Dominate Person",
+              "Modify Memory",
               "Reincarnate"
             ]
           }
@@ -929,7 +927,7 @@
 
       {
       "type": "refSubclassFeature",
-      "subclassFeature": "Haunting Whispers|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
+      "subclassFeature": "Haunted Marks|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
     }
 
   ]
@@ -950,7 +948,7 @@
   ]
 },
 {
-  "name": "Haunting Whispers",
+  "name": "Haunted Marks",
   "source": "SpiritcallerHB",
   "className": "Spiritcaller",
   "classSource": "SpiritcallerHB",
@@ -958,18 +956,12 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-
-"As a Bonus Action, you can torment a creature marked by your Soul Mark. Choose one of the following effects:",
-{
-          "type": "list",
-          "items": [
-            "<b>Dread:</b> The target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or have the Frightened condition for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-            "<b>Delusion:</b> The target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or it must use its next action on its turn to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if no creature is within its reach."
-          ]
-   },
-  "You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    "Your haunting magic that influences the minds of your foes also leaves a mark upon their souls.",
+    "When a creature fails a saving throw against an Enchantment or Illusion spell or cantrip you cast, you can mark its soul at the end of your turn.",
+    "If the spell or cantrip causes multiple creatures to fail their saving throws, choose one of those creatures to mark."
   ]
 },
+
 
     {
       "name": "The Haunt Subclass",
@@ -980,9 +972,33 @@
       "subclassSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your Haunt Subclass grants you a feature at this level."
+              {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Haunting Whispers|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|6"
+    }
       ]
     },
+    {
+  "name": "Haunting Whispers",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "subclassShortName": "The Haunt",
+  "subclassSource": "SpiritcallerHB",
+  "level": 6,
+  "entries": [
+
+  "As a Bonus Action, you can torment a creature marked by your Soul Mark, consuming the mark in the process. Choose one of the following effects and remove the Soul Mark on the target:",
+  {
+          "type": "list",
+          "items": [
+            "<b>Dread:</b> The target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or have the Frightened condition for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+            "<b>Delusion:</b> The target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or it must use its next action on its turn to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if no creature is within its reach."
+          ]
+   },
+  "You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  ]
+},
     {
       "name": "The Haunt Subclass",
       "source": "SpiritcallerHB",
@@ -1019,7 +1035,25 @@
       "subclassSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
-        "Your Haunt Subclass grants you a feature at this level."
+             {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Twisted Reality|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|14"
+    }
+      ]
+    },
+        {
+      "name": "Twisted Reality",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "subclassShortName": "The Haunt",
+      "subclassSource": "SpiritcallerHB",
+      "level": 14,
+      "entries": [
+        "Your mastery of the mind allows you to blur the boundary between reality and illusion, making your hauntings almost impossible to escape.",
+        "When a creature bearing your Soul Mark makes a saving throw against your Haunting Whispers feature, or against an Illusion or Enchantment spell or Cantrip you cast, it has Disadvantage on the saving throw.",
+        "While you are within 30 feet of a creature bearing your Soul Mark, you have Advantage on Constitution saving throws you make to maintain Concentration.",
+        "In addition your Haunting Whispers feature no longer consumes the Soul Mark when used."
       ]
     },
     {
@@ -1101,8 +1135,8 @@
       "subclassSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your spirit can reinforce your body against harm.",
-        "When you take damage from an attack or other damaging effect, you can take a Reaction to reduce the damage by an amount equal to your Intelligence modifier + your Proficiency Bonus.",
+        "Your bonded spirit can reinforce your body against harm.",
+        "While you are bonded to a Spirit, if you take damage from an attack or other damaging effect, you can take a Reaction to reduce the damage by an amount equal to your Intelligence modifier + your Proficiency Bonus.",
         "You can use this Reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
       ]
     },
@@ -1130,8 +1164,8 @@
   "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "You have learned to briefly slip between the Material Plane and the spirit world.",
-        "As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see.",
+        "Your bonded spirit can briefly bring you from the Material Plane to the spirit world.",
+        "While you are bonded to a Spirit, as a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see.",
         "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
       ]
     },
@@ -1159,7 +1193,7 @@
   "subclassSource": "SpiritcallerHB",
   "level": 14,
   "entries": [
-    "You have learned to fully shed your physical form and become a spirit.",
+    "You have learned to fully shed your physical form and become a spirit for a short time.",
     "As a Bonus Action, you enter your Spectral Form for 1 minute. While in this form, you gain a Fly Speed equal to your Speed and have Resistance to nonmagical Bludgeoning, Piercing, and Slashing damage.",
     "While in Spectral Form, you can move through creatures and objects as if they were Difficult Terrain. When you move through a creature, that creature takes Force damage equal to your Intelligence modifier. A creature can take this damage only once per turn.",
     "If you end your turn inside a creature or an object, you take 5 Force damage and are moved to the nearest unoccupied space.",
@@ -1175,8 +1209,11 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-    "A Soulmender understands the delicate bond between body and soul.",
-    "Through strange rituals and communion with spirits, they can mend what is broken, ward off death, and draw upon the powers of the dead to restore the living.",
+    "A Soulmender understands the delicate bond between body and spirit. ",
+    "Through strange rituals, forbidden medicine, and communion with spirits, they can mend what is broken, ward off death, and draw upon the powers of the dead to restore the living.",
+    "Many become doctors of last hope, called upon when doctors have failed and prayers have gone unanswered. A Soulmender's greatest gift is the ability to reconnect a wandering spirit with its body, defying a boundary that every other healer accepts as absolute.",
+    "While these practices may have made them an outcast in society nobles, who publicly condemn their methods, may secretly still send for a Soulmender when their beloved has died.",
+    "Still, a soul returned to its body may not always return unchanged, and most Soulmenders keep moving from place to place to avoid the consequences of their work.",
     {
       "type": "refSubclassFeature",
       "subclassFeature": "The Soulmender Cantrips|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3"
@@ -1185,6 +1222,10 @@
     {
       "type": "refSubclassFeature",
       "subclassFeature": "The Soulmender Spells|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3"
+    },
+        {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Soulbreaking Magic|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3"
     }
   ]
     },
@@ -1202,6 +1243,21 @@
 "You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
   ]
     },
+{
+  "name": "Soulbreaking Magic",
+  "source": "SpiritcallerHB",
+  "className": "Spiritcaller",
+  "classSource": "SpiritcallerHB",
+  "subclassShortName": "The Soulmender",
+  "subclassSource": "SpiritcallerHB",
+  "level": 3,
+  "entries": [
+    "Your magic can now reach beyond the body, leaving its mark upon the soul of those you harm.",
+    "When you deal more damage then the INT score of a creature with a Necromancy or Enchantment cantrip or spell, you can mark that creature's soul as if you had dealt damage with an attack at the end of your turn.", 
+    "If the cantrip or spell deals enough damage to multiple creatures, choose one of those creatures to mark."
+
+  ]
+},
     {
       "name": "The Soulmender Subclass",
       "source": "SpiritcallerHB",
@@ -1211,7 +1267,26 @@
       "subclassSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your Soulmender Subclass grants you a feature at this level."
+              {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Soulkindling|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|6"
+    }
+      ]
+    },
+    {
+      "name": "Soulkindling",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "subclassShortName": "The Soulmender",
+      "subclassSource": "SpiritcallerHB",
+      "level": 6,
+      "entries": [
+        "you have learned to use some of the spiritual energy from tethered spirits for your own uses.",
+        "When a creature you can see enters the space of one of the tethered spirits from your Binding Presence Feature, you can use your reaction to release the tether and choose one of the following effects:",
+        "Mending Magic: That creature regains hit points equal to 1d8 + your Intelligence modifier.",
+        "Harmful Magic: That creature gets Soul Marked.",
+        "You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
       ]
     },
     {
@@ -1223,7 +1298,26 @@
       "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your Soulmender Subclass grants you a feature at this level."
+                {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Soulburst|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|10"
+    }
+      ]
+    },
+        {
+      "name": "Soulburst",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "subclassShortName": "The Soulmender",
+      "subclassSource": "SpiritcallerHB",
+      "level": 10,
+      "entries": [
+        "At 10th level, you can unleash the spiritual energy flowing through you in a devastating wave. As an action, you release a spirit energy explosion centered on yourself, extending in a 20-foot radius.",
+        "Each creature within the radius is affected according to its spiritual connection to you:",
+        "Bonded Spirits: A creature that is bonded to one of your spirits is flooded with restorative energy and regains 3d8 + your Spiritcaller level in hit points.",
+        "Soul Marked: A creature bearing your Soul Mark is struck by the explosion taking 6d8 necrotic damage. A creature can make a Constitution saving throw against your Spiritcaller spell save DC, taking half damage on a successful save and removing its Soul Mark",
+        "The explosion does not affect creatures that are neither bonded to one of your spirits nor marked by your Soul Mark. Once you use this feature, you cannot use it again until you finish a long rest."
       ]
     },
     {
@@ -1234,10 +1328,26 @@
       "subclassShortName": "The Soulmender",
       "subclassSource": "SpiritcallerHB",
       "level": 14,
+      "entries":              {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Soulweaving|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|14"
+    }
+    },
+        {
+      "name": "Soulweaving",
+      "source": "SpiritcallerHB",
+      "className": "Spiritcaller",
+      "classSource": "SpiritcallerHB",
+      "subclassShortName": "The Soulmender",
+      "subclassSource": "SpiritcallerHB",
+      "level": 14,
       "entries": [
-        "Your Soulmender Subclass grants you a feature at this level."
+        "You have learned to turn the spiritual energy of your Soulrend toward healing rather than destruction.", 
+        "When you use your Soulrend feature, you can forgo its damage and instead restore Hit Points to one creature that is within 30 feet of you. The creature regains a number of Hit Points equal to the damage the Soulrend would have dealt.",
+        "You can use this benefit a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
       ]
     },
+    
     {
       "name": "The Haunt Spells",
       "source": "SpiritcallerHB",
@@ -1258,11 +1368,11 @@
           "rows": [
             [
               "3rd",
-              "{@spell Dissonant Whispers}, {@spell Illusory Script}"
+              "{@spell Command}, {@spell Illusory Script}"
             ],
             [
               "5th",
-              "{@spell Phantasmal Force}, {@spell Tasha's Mind Whip|TCE}"
+              "{@spell Crown of Madness}, {@spell Phantasmal Force}"
             ],
             [
               "9th",
@@ -1270,11 +1380,11 @@
             ],
             [
               "13th",
-              "{@spell Distorted Distance|AU}, {@spell Raulothim's Psychic Lance|FTD}"
+              "{@spell Compulsion}, {@spell Distorted Distance|AU}"
             ],
             [
               "17th",
-              "{@spell Dream}, {@spell Modify Memory}"
+              "{@spell Dominate Person}, {@spell Dream}"
             ]
           ]
         }
@@ -1342,11 +1452,11 @@
           "rows": [
             [
               "3rd",
-              "{@spell Command}, {@spell Inflict Wounds}"
+              "{@spell Dissonant Whispers}, {@spell Inflict Wounds}"
             ],
             [
               "5th",
-              "{@spell Crown of Madness} , {@spell Wither and Bloom|AU}"
+              "{@spell Tasha's Mind Whip|TCE}, {@spell Wither and Bloom|AU}"
             ],
             [
               "9th",
@@ -1354,11 +1464,11 @@
             ],
             [
               "13th",
-              "{@spell Compulsion}, {@spell Spirit of the Death|BMT}"
+              "{@spell Raulothim's Psychic Lance|FTD}, {@spell Spirit of Death|BMT}"
             ],
             [
               "17th",
-              "{@spell Dominate Person}, {@spell Reincarnate}"
+              "{@spell Modify Memory}, {@spell Reincarnate}"
             ]
           ]
         }
