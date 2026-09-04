@@ -9,7 +9,7 @@
           "Homebrew"
         ],
         "convertedBy": [
-          "Lukas 40"
+          "Lukas 41"
         ]
       }
     ]
@@ -487,15 +487,13 @@
       "classSource": "SpiritcallerHB",
       "level": 2,
       "entries": [
-        "Your understanding of the spiritual energy inside the living allows you to mark the souls of those you harm.",
-        "When you deal damage to a creature with an attack that exceeds 8 + their Charisma modifier, you mark that creature's soul at the end of your turn.",
-        "The mark remains until it is removed by this feature or the target has taken a long rest.",
-        "Each time you deal damage to a creature whose soul is marked, the mark's intensity increases by 1.",
+        "Your understanding of the spiritual energy inside the living allows you to mark the souls of those you harm. When you deal damage to a creature with an attack that exceeds 8 + their Charisma modifier, you mark that creature's soul at the end of your turn.",
+        "The mark remains until it is removed by this feature or the target has taken a long rest. Each time you deal damage to a creature whose soul is marked, the mark's intensity increases by 1.",
         {
           "type": "list",
           "items": [
             "<b>Soulrend:</b>  As a Bonus Action, you can rend the soul of a creature within 30 ft that you have marked. The mark ends, and the creature takes 2d6 Psychic damage for each point of the mark's intensity. The creature can't take Reactions until the end of its next turn.",
-            "At Higher Levels. Your Soulrend damage die changes when you reach certain Spiritcaller levels, as shown in the Souldrend Die column of the Spiritcaller Features table. The die becomes a d8 at level 6, a d10 at level 11, and a d12 at level 16."
+            "<b>At Higher Levels</b>. Your Soulrend damage die changes when you reach certain Spiritcaller levels, as shown in the Souldrend Die column of the Spiritcaller Features table. The die becomes a d8 at level 6, a d10 at level 11, and a d12 at level 16."
           ]
    }
   ]
@@ -508,7 +506,7 @@
       "classSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-       "You gain a Spiritcaller Subclass of your choice. A subclass is a specialization that grants you features at certain Spiritcaller levels.",
+       "You gain a Spiritcaller Subclass of your choice. A subclass is a specialization that grants you features at certain Spiritcaller levels and access to subclass specific spirits.",
        "For the rest of your career, you gain each of your subclass's features that are of your Spiritcaller level or lower."
       ]
     },
@@ -587,7 +585,7 @@
       "level": 11,
       "entries": [
         "Your connection to the spirit world allows you to see the true spiritual energy of all living things.",
-        "As a Magic action, you gain Truesight with a range of 120 feet for 1 hour. Once you use this feature, you can’t use it again until you finish a Long Rest."
+        "As a Magic action, you gain Truesight with a range of 120 feet for 1 hour. Once you use this feature, you can't use it again until you finish a Long Rest."
       ]
     },
         {
@@ -609,7 +607,7 @@
       "level": 13,
       "entries": [
         "Your bonds with the spirit world have become more flexible.",
-        "You can now assign multiple bonds to yourself or to a willing member of your adventuring party. Each of the bonds must be with a different type of spirit."
+        "You can now assign multiple bonds to yourself or to a willing member of your adventuring party. Each of the bonds, assigned to the same person, must be with a different type of spirit."
       ]
     },
         {
@@ -631,7 +629,7 @@
       "entries": [
       "Your ability to rend a creature's spirit can disrupt its connection to the source of their magic.",
       "When you use your Soulrend ability, the target must succeed on a Wisdom saving throw against your Spiritcaller spell save DC or be unable to cast spells until the end of your next turn.",
-      "If you use Soulrend on the same target again, it gains a cumulative +2 bonus to the saving throw for each time this effect has affected it this combat."
+      "If you use Soulrend on the same target again during the same combat, it gains a cumulative +2 bonus to its saving throw."
       ]
     },
 
@@ -659,66 +657,7 @@
         "In addition, while you have at least one active Spirit bond, you gain a <b>+2 bonus to your Intelligence score</b>, to a maximum of 22."
       ]
     },
-    {
-      "name": "Bond Types Known",
-      "source": "SpiritcallerHB",
-      "className": "Spiritcaller",
-      "classSource": "SpiritcallerHB",
-      "level": 1,
-      "entries": [
-        "Your Bonds are manifestations of the spirits you have learned to commune with.",
-        "A Spiritcaller does not automatically know every Gift. Your Spiritcaller level determines how many Gift types you know.",
-        "At the end of a Long Rest, you choose which known Gifts to assign.",
-        "Each Gift has exactly one associated spell.",
-        "<b>Severing a Gift casts that Gift's associated spell at the highest Gift Spell Level you can use.</b>",
-        {
-          "type": "table",
-          "caption": "Bond Types Known",
-          "colLabels": [
-            "Spiritcaller Level",
-            "Bond Types Known"
-          ],
-          "rows": [
-            [
-              1,
-              2
-            ],
-            [
-              3,
-              3
-            ],
-            [
-              5,
-              4
-            ],
-            [
-              7,
-              5
-            ],
-            [
-              9,
-              6
-            ],
-            [
-              11,
-              7
-            ],
-            [
-              13,
-              8
-            ],
-            [
-              15,
-              9
-            ],
-            [
-              17,
-              10
-            ]
-          ]
-        }
-      ]
-    },
+  
     {
       "name": "Spiritcaller Subclass",
       "source": "SpiritcallerHB",
@@ -794,7 +733,7 @@
               "Illusory Script"
             ],
             "5": [
-              
+              "Crown of Madness",
               "Phantasmal Force"
             ],
             "9": [
@@ -927,9 +866,8 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-    "A Haunt turns the fear and unease people have towards the spirits of the dead into a weapon, calling upon them to cause nightmares and illusions that prey upon the minds of their targets.",
-    "Some are hired to torment those who refuse the demands of the powerful, while others take justice into their own hands, haunting those who escaped judgment.",
-    "Whatever their cause, a Haunt knows that sometimes the fear of their victims in the afterlife is enough to make the guilty face what they have done.",
+    "A Haunt turns the fear and unease people have towards the spirits of the dead into a weapon, using magical energy from the spirits to cause nightmares and illusions that prey upon the minds of their targets.",
+    "Some are hired to torment those who stand in the way of the powerful and corrupt, while others take justice into their own hands, haunting those who escaped judgment. Whatever their cause, a Haunt knows that every target has a fear buried somewhere within them, and they have a knack for uncovering it.",
     {
       "type": "refSubclassFeature",
       "subclassFeature": "The Haunt Spells|Spiritcaller|SpiritcallerHB|The Haunt|SpiritcallerHB|3"
@@ -957,8 +895,7 @@
   "level": 3,
   "entries": [
 
-"When you choose this Subclass, choose one Enchantment cantrip and one Illusion cantrip from the Spiritcaller spell list.",
-"While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
+"When you choose this Subclass, choose one Enchantment cantrip and one Illusion cantrip from the Spiritcaller spell list. While you or another person within 30 feet has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
 "You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be an Enchantment or Illusion cantrip."
   ]
 },
@@ -971,12 +908,10 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-    "Your haunting magic that influences the minds of your foes also leaves a mark upon their souls.",
-    "When a creature fails a saving throw against an Enchantment or Illusion spell or cantrip you cast, you can mark its soul at the end of your turn.",
-    "If the spell or cantrip causes multiple creatures to fail their saving throws, choose one of those creatures to mark."
+    "Your haunting magic, influencing the minds of your foes, also leaves a mark upon their souls.",
+    "When a creature fails a saving throw against an Enchantment or Illusion spell or cantrip you cast, you can mark its soul at the end of your turn. If the spell or cantrip causes multiple creatures to fail their saving throws, choose one of those creatures to mark."
   ]
 },
-
 
     {
       "name": "The Haunt Subclass",
@@ -1038,7 +973,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-      "Your connection to a creature's soul allows you to sense its presence even when it is beyond your sight. While a creature bears your Soul Mark, you know the direction and distance of the creature from you, provided you are on the same plane of existence."
+      "Your connection to your Soul Mark allows you to sense its presence even when it is beyond your sight. While a creature bears your Soul Mark, you know the direction and distance of the creature from you, provided you are on the same plane of existence."
       ]
     },
     {
@@ -1065,10 +1000,8 @@
       "subclassSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
-        "Your mastery of the mind allows you to blur the boundary between reality and illusion, making your hauntings almost impossible to escape.",
-        "When a creature bearing your Soul Mark makes a saving throw against your Haunting Whispers feature, or against an Illusion or Enchantment spell or Cantrip you cast, it has Disadvantage on the saving throw.",
-        "While you are within 30 feet of a creature bearing your Soul Mark, you have Advantage on Constitution saving throws you make to maintain Concentration.",
-        "In addition your Haunting Whispers feature no longer consumes the Soul Mark when used."
+        "Your mastery of the mind allows you to blur the boundary between reality and illusion, making your hauntings almost impossible to escape. When a creature bearing your Soul Mark makes a saving throw against your Haunting Whispers feature, or against an Illusion or Enchantment spell or Cantrip you cast, it has Disadvantage on the saving throw.",
+        "While you are within 30 feet of a creature bearing your Soul Mark, you have Advantage on Constitution saving throws you make to maintain Concentration. In addition your Haunting Whispers feature no longer consumes the Soul Mark when used."
       ]
     },
     {
@@ -1080,10 +1013,8 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-    "A Spectre has learned to blur the boundary between the living and the dead.",
-    "Their connection to the spirit world allows them to bypass barriers and obstacles that would stop the living. Many Spectres are therefore hired as assassins, thieves, and spies, using their unnatural abilities to slip past guards and penetrate even the most secure locations.",
-    "Others turn their gifts toward less sinister pursuits, exploring forgotten ruins and places too dangerous for ordinary adventurers.",
-    "Whether they seek fortune, knowledge, or danger, a Spectre is never truly bound by the barriers of the mortal world.",
+    "A Spectre has learned to blur the boundary between the living and the dead. Their connection to the spirit world allows them to bypass barriers and obstacles that would stop the living. Many Spectres are therefore hired as assassins, thieves, and spies, using their unnatural abilities to slip past guards and penetrate even the most secure locations.",
+    "Others turn their gifts toward less sinister pursuits, exploring forgotten ruins and places too dangerous for ordinary adventurers. Whether they seek fortune, knowledge, or danger, a Spectre is never truly bound by the barriers of the mortal world.",
     {
       "type": "refSubclassFeature",
       "subclassFeature": "The Spectre Spells|Spiritcaller|SpiritcallerHB|The Spectre|SpiritcallerHB|3"
@@ -1121,8 +1052,7 @@
   "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your bonded spirit strikes alongside you.",
-        "While you are bonded to a Spirit, once per turn when you hit with a Melee attack, you can deal extra damage equal to your Intelligence modifier."
+        "Your bonded spirit strikes alongside you. While you are bonded to a Spirit, once per turn when you hit with a Melee attack, you can deal extra damage equal to your Intelligence modifier."
       ]
     },
 {
@@ -1150,8 +1080,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "Your bonded spirit can reinforce your body against harm.",
-        "While you are bonded to a Spirit, if you take damage from an attack or other damaging effect, you can take a Reaction to reduce the damage by an amount equal to your Intelligence modifier + your Proficiency Bonus.",
+        "Your bonded spirit can reinforce your body against harm. While you are bonded to a Spirit, if you take damage from an attack or other damaging effect, you can take a Reaction to reduce the damage by an amount equal to your Intelligence modifier + your Proficiency Bonus.",
         "You can use this Reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
       ]
     },
@@ -1179,8 +1108,7 @@
   "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "Your bonded spirit can briefly bring you from the Material Plane to the spirit world.",
-        "While you are bonded to a Spirit, as a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see.",
+        "Your bonded spirit can briefly bring you from the Material Plane to the spirit world. While you are bonded to a Spirit, as a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see.",
         "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
       ]
     },
@@ -1208,11 +1136,9 @@
   "subclassSource": "SpiritcallerHB",
   "level": 14,
   "entries": [
-    "You have learned to fully shed your physical form and become a spirit for a short time.",
-    "As a Bonus Action, you enter your Spectral Form for 1 minute. While in this form, you gain a Fly Speed equal to your Speed and have Resistance to nonmagical Bludgeoning, Piercing, and Slashing damage.",
+    "You have learned to fully shed your physical form and become a spirit for a short time. As a Bonus Action, you enter your Spectral Form for 1 minute. While in this form, you gain a Fly Speed equal to your Speed and have Resistance to nonmagical Bludgeoning, Piercing, and Slashing damage.",
     "While in Spectral Form, you can move through creatures and objects as if they were Difficult Terrain. When you move through a creature, that creature takes Force damage equal to your Intelligence modifier. A creature can take this damage only once per turn.",
-    "If you end your turn inside a creature or an object, you take 5 Force damage and are moved to the nearest unoccupied space.",
-    "Once you use this feature, you can't use it again until you finish a Long Rest."
+    "If you end your turn inside a creature or an object, you take 5 Force damage and are moved to the nearest unoccupied space. Once you use this feature, you can't use it again until you finish a Long Rest."
   ]
 },
     {
@@ -1224,11 +1150,9 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-    "A Soulmender understands the delicate bond between body and spirit. ",
-    "Through strange rituals, forbidden medicine, and communion with spirits, they can mend what is broken, ward off death, and draw upon the powers of the dead to restore the living.",
-    "Many become doctors of last hope, called upon when doctors have failed and prayers have gone unanswered. A Soulmender's greatest gift is the ability to reconnect a wandering spirit with its body, defying a boundary that every other healer accepts as absolute.",
-    "While these practices may have made them an outcast in society nobles, who publicly condemn their methods, may secretly still send for a Soulmender when their beloved has died.",
-    "Still, a soul returned to its body may not always return unchanged, and most Soulmenders keep moving from place to place to avoid the consequences of their work.",
+    "A Soulmender understands the delicate bond between body and spirit. Through strange rituals, forbidden medicines, and communion with spirits, they can mend what is broken, ward off death, and draw upon the powers of the dead to restore the living.",
+    "Many become doctors of last hope, called upon when others have failed and prayers have gone unanswered. A Soulmender's greatest gift is the ability to reconnect a wandering spirit with its body, defying a boundary that every other healer accepts as absolute.",
+    "While these practices may have made them an outcast in society, many of the elite secretly send for a Soulmender when their beloved has died. Still, a soul returned to its body may not always return unchanged, and most Soulmenders keep moving from place to place to avoid the consequences of their work.",
     {
       "type": "refSubclassFeature",
       "subclassFeature": "The Soulmender Cantrips|Spiritcaller|SpiritcallerHB|The Soulmender|SpiritcallerHB|3"
@@ -1253,8 +1177,7 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-"When you choose this Subclass, choose one Enchantment cantrip and one Necromancy cantrip from the Spiritcaller spell list.",
-"While you or another creature within 30 feet of you has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
+"When you choose this Subclass, choose one Enchantment cantrip and one Necromancy cantrip from the Spiritcaller spell list. While you or another person within 30 feet has a Spirit bond, you can cast those cantrips without severing a Spirit bond.",
 "You can choose one additional cantrip from the Spiritcaller spell list at 8th, 12th, and 16th level. Each cantrip you choose with this feature must be a Necromancy or Enchantment cantrip."
   ]
     },
@@ -1267,10 +1190,8 @@
   "subclassSource": "SpiritcallerHB",
   "level": 3,
   "entries": [
-    "Your magic can now reach beyond the body, leaving its mark upon the soul of those you harm.",
-    "When you deal more damage then 8 + the target's Charisma modifier with a Necromancy or Enchantment cantrip or spell, you can mark that creature's soul as if you had dealt damage with an attack at the end of your turn.", 
-    "If the cantrip or spell deals enough damage to multiple creatures, choose one of those creatures to mark."
-
+    "Your magic can now reach beyond the body, leaving its mark upon the soul of those you harm. When you deal more damage then 8 + the target's Charisma modifier with a Necromancy or Enchantment spell or cantrip, you can mark their soul at the end of your turn as if you had dealt damage with a weapon attack.", 
+    "If the spell or cantrip deals enough damage to multiple creatures, choose one of those creatures to mark."
   ]
 },
     {
@@ -1297,8 +1218,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 6,
       "entries": [
-        "you have learned to use some of the spiritual energy from tethered spirits for your own uses.",
-        "When a creature you can see enters the space of one of the tethered spirits from your Binding Presence Feature, you can use your reaction to release the tether and choose one of the following effects:",
+        "you have learned to use some of the spiritual energy from tethered spirits for your own uses. When a creature you can see enters the space of one of the tethered spirits from your Binding Presence Feature, you can use your reaction to release the tether and choose one of the following effects:",
         "Mending Magic: That creature regains hit points equal to 1d8 + your Intelligence modifier.",
         "Harmful Magic: That creature gets a Soul Mark at the end of its turn.",
         "You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
@@ -1328,8 +1248,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 10,
       "entries": [
-        "At 10th level, you can unleash the spiritual energy flowing through you in a devastating wave. As an action, you release a spirit energy explosion centered on yourself, extending in a 20-foot radius.",
-        "Each creature within the radius is affected according to its spiritual connection to you:",
+        "At 10th level, you can unleash spiritual energy in a devastating wave. As an action you release a burst of spiritual energy in a 20-foot radius centered on you. Each creature within the radius is affected according to its spiritual connection to you:",
         "Bonded Spirits: A creature that is bonded to one of your spirits is flooded with restorative energy and regains 3d8 + your Spiritcaller level in hit points.",
         "Soul Marked: A creature bearing your Soul Mark is struck by the explosion taking 6d8 necrotic damage. A creature can make a Constitution saving throw against your Spiritcaller spell save DC, taking half damage on a successful save and removing its Soul Mark",
         "The explosion does not affect creatures that are neither bonded to one of your spirits nor marked by your Soul Mark. Once you use this feature, you cannot use it again until you finish a long rest."
@@ -1359,8 +1278,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 14,
       "entries": [
-        "You have learned to turn the spiritual energy of your Soulrend toward healing rather than destruction.", 
-        "When you use your Soulrend feature, you can forgo its damage and instead restore Hit Points to one creature that is within 30 feet of you. The creature regains a number of Hit Points equal to the damage the Soulrend would have dealt.",
+        "You have learned to turn the spiritual energy of your Soulrend toward healing rather than destruction. When you use your Soulrend feature, you can forgo its damage and instead restore Hit Points to one creature that is within 30 feet of you. The creature regains a number of Hit Points equal to the damage the Soulrend would have dealt.",
         "You can use this benefit a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
       ]
     },
@@ -1374,7 +1292,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your spiritual discipline grants you additional spells. When you reach a Spiritcaller level specified in the The Haunt Spells table, you add the listed spells to your Spiritcaller spell list.",
+        "Your spiritual discipline grants you additional spells and access to Enchantment and Illusion spirits. When you reach a Spiritcaller level specified in the The Haunt Spells table, you add the listed spells to your Spiritcaller spell list.",
         {
           "type": "table",
           "caption": "The Haunt Spells",
@@ -1416,7 +1334,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your connection to spirits grants you additional spells. When you reach a Spiritcaller level specified in the The Spectre Spells table, you add the listed spells to your Spiritcaller spell list.",
+        "Your connection to spirits grants you additional spells and access to Illusion and Necromancy spirits. When you reach a Spiritcaller level specified in the The Spectre Spells table, you add the listed spells to your Spiritcaller spell list.",
         {
           "type": "table",
           "caption": "The Spectre Spells",
@@ -1458,7 +1376,7 @@
       "subclassSource": "SpiritcallerHB",
       "level": 3,
       "entries": [
-        "Your spiritual bonds grant you additional spells. When you reach a Spiritcaller level specified in the The Soulmender Spells table, you add the listed spells to your Spiritcaller spell list.",
+        "Your spiritual bonds grant you additional spells and access to Enchantment and Necromancy spirits. When you reach a Spiritcaller level specified in the The Soulmender Spells table, you add the listed spells to your Spiritcaller spell list.",
         {
           "type": "table",
           "caption": "The Soulmender Spells",
